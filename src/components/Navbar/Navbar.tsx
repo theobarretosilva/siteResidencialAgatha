@@ -5,7 +5,10 @@ export const Navbar = () => {
         <S.Header>
             <S.DivLogo>
                 <S.ImgLogo src='../../src/assets/svg/logo_residencial_agatha_preto.svg' alt='Logo do residencial ágatha' />
-                <S.TituloLogo>Residencial <p style={{color:'red'}}>Ágatha</p></S.TituloLogo>
+                <S.DivTituloLogo>
+                    <S.TituloLogo>Residencial</S.TituloLogo>
+                    <S.TituloLogo style={{color:'#825810'}}>Ágatha</S.TituloLogo>
+                </S.DivTituloLogo>
             </S.DivLogo>
             <S.Navegacao>
                 <S.LinkNav to={'/inicio'}>Início</S.LinkNav>

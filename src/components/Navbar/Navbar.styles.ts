@@ -4,13 +4,15 @@ import { Link } from "react-router-dom"
 export const Header = styled.header`
     width: full;
     height: 5rem;
-    background-color: white;
+    background: rgba(255, 255, 255, 0.77);
+    backdrop-filter: blur(5px);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding-left: 5rem;
     padding-right: 5rem;
+    position: absolute;
 `
 
 export const DivLogo = styled.div`
@@ -25,9 +27,15 @@ export const ImgLogo = styled.img`
     width: 4.3rem;
 `
 
+export const DivTituloLogo = styled.div`
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+`
+
 export const TituloLogo = styled.h1`
     font-family: 'Inter', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.42rem;
     font-style: normal;
     font-weight: 600;
 `
