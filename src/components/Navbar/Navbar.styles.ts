@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { Link } from "react-router-dom"
 
 export const Header = styled.header`
     width: full;
@@ -7,9 +8,9 @@ export const Header = styled.header`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    /* padding-left: 2rem;
-    padding-right: 2rem; */
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
 `
 
 export const DivLogo = styled.div`
@@ -29,4 +30,18 @@ export const TituloLogo = styled.h1`
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
+`
+
+export const Navegacao = styled.nav`
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+`
+
+export const LinkNav = styled(Link)`
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.23rem;
+    font-style: normal;
+    font-weight: 500;
 `
