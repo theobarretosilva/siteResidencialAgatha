@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 import { Link } from "react-router-dom"
 
 export const Header = styled.header`
-    width: full;
+    width: 100%;
     height: 5rem;
     background: rgba(255, 255, 255, 0.77);
     backdrop-filter: blur(5px);
@@ -11,8 +11,8 @@ export const Header = styled.header`
     align-items: center;
     justify-content: space-between;
     padding-left: 5rem;
-    padding-right: 5rem;
-    position: absolute;
+    position: fixed;
+    z-index: 1;
 `
 
 export const DivLogo = styled.div`

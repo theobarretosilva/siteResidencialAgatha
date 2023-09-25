@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const ImgCasaInicial = styled.img`
     width: 100vw;
-    height: 27.75rem;
+    height: 25rem;
     z-index: 0;
-    position: absolute;
     top: 0;
-    mask-repeat: no-repeat;
+    object-fit: cover;
 `
