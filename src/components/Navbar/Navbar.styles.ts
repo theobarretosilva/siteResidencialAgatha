@@ -2,17 +2,17 @@ import { styled } from "styled-components";
 import { Link } from "react-router-dom"
 
 export const Header = styled.header`
-    width: 100%;
-    height: 5rem;
+    width: 100vw;
+    height: 4.5rem;
     background: rgba(255, 255, 255, 0.77);
     backdrop-filter: blur(5px);
+    padding-left: 3rem;
+    position: fixed;
+    z-index: 1;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 5rem;
-    position: fixed;
-    z-index: 1;
+    gap: 20.5rem;
 `
 
 export const DivLogo = styled.div`
