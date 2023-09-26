@@ -41,7 +41,7 @@ export function Inicio() {
                             Entre em contato conosco!
                         </S.BtnEntreContato>
                     </S.DivSectionEntreContato>
-                    <Slider {...settings}>
+                    {/* <Slider {...settings}>
                         <div style={{width:'500px', height:'500px'}}>
                             <img style={{width:'500px', height:'500px'}} src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="" />
                         </div>
@@ -57,7 +57,8 @@ export function Inicio() {
                         <div style={{width:'500px', height:'500px'}}>
                             <img style={{width:'500px', height:'500px'}} src="https://images.unsplash.com/photo-1489769002049-ccd828976a6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1661&q=80" alt="" />
                         </div>
-                    </Slider>
+                    </Slider> */}
+                    <img style={{width:'36rem', height:'18rem', borderRadius:'0.6rem'}} src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80" alt="" />
                 </S.SectionEntreContato>
                 <Separador style={{rotate:'180deg'}} />
             </DivMargem>

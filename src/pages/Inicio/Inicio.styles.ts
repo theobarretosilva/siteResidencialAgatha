@@ -53,6 +53,7 @@ export const TituloSectionEntreContato = styled.h1`
     font-weight: 600;
     text-align: start;
     margin-bottom: 0;
+    margin-top: 0;
 `
 
 export const SubtituloSectionEntreContato = styled.h2`
@@ -76,6 +77,6 @@ export const BtnEntreContato = styled.button`
     font-size: 1.1rem;
     font-style: normal;
     font-weight: 200;
-    margin-top: 1rem;
+    margin-top: 2.8rem;
     cursor: pointer;
 `
