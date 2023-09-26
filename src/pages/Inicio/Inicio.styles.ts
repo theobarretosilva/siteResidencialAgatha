@@ -48,7 +48,7 @@ export const DivSectionEntreContato = styled.div`
 export const TituloSectionEntreContato = styled.h1`
     color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-style: normal;
     font-weight: 600;
     text-align: start;
@@ -61,7 +61,7 @@ export const SubtituloSectionEntreContato = styled.h2`
     font-family: 'Inter', sans-serif;
     font-size: 1.15rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 100;
     text-align: start;
     width: 36rem;
 `
@@ -79,4 +79,34 @@ export const BtnEntreContato = styled.button`
     font-weight: 200;
     margin-top: 2.8rem;
     cursor: pointer;
+`
+
+export const SectionMVV = styled.section`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+`
+
+export const BoxMVV = styled.article`
+    width: 10vw;
+    height: 25vh;
+    border-radius: 0.625rem;
+    background-color: #F1F1F1;
+`
+
+export const TituloBoxMVV = styled.h1`
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+`
+
+export const SubtituloBoxMVV = styled.h2`
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 200;
 `

@@ -1,19 +1,20 @@
 import * as S from './Inicio.styles'
 import { DivMargem } from '../../components/Margem/DivMargem'
 import { Separador } from '../../components/Separador/Separador'
-import Slider from 'react-slick';
+// import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+// import ScrollAnimation from 'react-animate-on-scroll'
 
 export function Inicio() {
-    const settings = {
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000, // Tempo em milissegundos
-    };
+    // const settings = {
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 2000, // Tempo em milissegundos
+    // };
 
     return(
         <>
@@ -30,17 +31,19 @@ export function Inicio() {
                 </section>
                 <Separador />
                 <S.SectionEntreContato>
-                    <S.DivSectionEntreContato>
-                        <S.TituloSectionEntreContato>
-                            Garanta um futuro tranquilo e<br />confortável! 
-                        </S.TituloSectionEntreContato>
-                        <S.SubtituloSectionEntreContato>
-                            No nosso Residencial Geriátrico, você encontrará mais do que cuidados de saúde excepcionais - encontrará uma família comprometida em enriquecer sua vida e tornar cada dia significativo.
-                        </S.SubtituloSectionEntreContato>
-                        <S.BtnEntreContato>
-                            Entre em contato conosco!
-                        </S.BtnEntreContato>
-                    </S.DivSectionEntreContato>
+                    {/* <ScrollAnimation animateIn="fadeIn" duration={5}> */}
+                        <S.DivSectionEntreContato>
+                            <S.TituloSectionEntreContato>
+                                Garanta um futuro tranquilo e<br />confortável! 
+                            </S.TituloSectionEntreContato>
+                            <S.SubtituloSectionEntreContato>
+                                No nosso Residencial Geriátrico, você encontrará mais do que cuidados de saúde excepcionais - encontrará uma família comprometida em enriquecer sua vida e tornar cada dia significativo.
+                            </S.SubtituloSectionEntreContato>
+                            <S.BtnEntreContato>
+                                Entre em contato conosco!
+                            </S.BtnEntreContato>
+                        </S.DivSectionEntreContato>
+                    {/* </ScrollAnimation> */}
                     {/* <Slider {...settings}>
                         <div style={{width:'500px', height:'500px'}}>
                             <img style={{width:'500px', height:'500px'}} src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="" />
@@ -61,6 +64,26 @@ export function Inicio() {
                     <img style={{width:'36rem', height:'18rem', borderRadius:'0.6rem'}} src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80" alt="" />
                 </S.SectionEntreContato>
                 <Separador style={{rotate:'180deg'}} />
+                <S.SectionMVV>
+                    <S.BoxMVV>
+                        <S.TituloBoxMVV>Missão</S.TituloBoxMVV>
+                        <S.SubtituloBoxMVV>
+                            Promover o bem-estar e a qualidade de vida dos idosos, oferecendo cuidados de alta qualidade e um ambiente acolhedor que respeita a individualidade.
+                        </S.SubtituloBoxMVV>
+                    </S.BoxMVV>
+                    <S.BoxMVV>
+                        <S.TituloBoxMVV>Visão</S.TituloBoxMVV>
+                        <S.SubtituloBoxMVV>
+                            Ser um modelo de excelência em cuidados geriátricos, onde o envelhecimento é vivido com dignidade e alegria.
+                        </S.SubtituloBoxMVV>
+                    </S.BoxMVV>
+                    <S.BoxMVV>
+                        <S.TituloBoxMVV>Valores</S.TituloBoxMVV>
+                        <S.SubtituloBoxMVV>
+                            Respeito, compaixão, qualidade, integridade, colaboração
+                        </S.SubtituloBoxMVV>
+                    </S.BoxMVV>
+                </S.SectionMVV>
             </DivMargem>
         </>
     )
