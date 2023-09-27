@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const DivMargem = styled.div`
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     display: flex;
     flex-direction: column;
     text-align: center;

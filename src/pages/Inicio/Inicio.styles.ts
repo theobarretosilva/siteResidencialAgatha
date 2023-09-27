@@ -6,6 +6,8 @@ export const ImgCasaInicial = styled.img`
     z-index: 0;
     top: 0;
     object-fit: cover;
+
+    -webkit-mask-image: linear-gradient(to top, transparent 1%, black 55%);
 `
 
 export const TituloSectionInicial = styled.h1`
@@ -79,6 +81,7 @@ export const BtnEntreContato = styled.button`
     font-weight: 200;
     margin-top: 2.8rem;
     cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 `
 
 export const SectionMVV = styled.section`
@@ -89,24 +92,35 @@ export const SectionMVV = styled.section`
 `
 
 export const BoxMVV = styled.article`
-    width: 10vw;
-    height: 25vh;
+    width: 27vw;
+    height: 38vh;
     border-radius: 0.625rem;
     background-color: #F1F1F1;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+`
+
+export const ImgIconesMVV = styled.img`
+    width: 8vw;
+    height: 10vh;
+    margin-top: 2vh;
 `
 
 export const TituloBoxMVV = styled.h1`
     color: #000;
     font-family: 'Inter', sans-serif;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 500;
+    margin-top: 1vh;
+    margin-bottom: 0;
 `
 
 export const SubtituloBoxMVV = styled.h2`
     color: #000;
     font-family: 'Inter', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 `
