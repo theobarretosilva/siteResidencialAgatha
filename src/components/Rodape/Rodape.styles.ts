@@ -5,6 +5,8 @@ export const Footer = styled.footer`
     background-color: #FFF;
     padding-left: 4rem;
     padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 `
 
 export const DivInicial = styled.div`
@@ -12,9 +14,10 @@ export const DivInicial = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1vh;
 `
 
-export const DivLogoDescricao = styled.div`
+export const SectionLogoDescricao = styled.div`
 
 `
 
@@ -27,6 +30,10 @@ export const PDescricaoLogo = styled.p`
     width: 22vw;
 `
 
+export const SectionTopicos = styled.div`
+    width: 18vw;
+`
+
 export const Linha = styled.div`
     width: 100%;
     height: 0.2vh;
@@ -37,4 +44,20 @@ export const DivCopyright = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+`
+
+export const TituloSection = styled.h1`
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+`
+
+export const PSection = styled.p`
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.98rem;
+    font-style: normal;
+    font-weight: 400;
 `
