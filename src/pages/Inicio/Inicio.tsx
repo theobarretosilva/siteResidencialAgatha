@@ -4,7 +4,6 @@ import { Separador } from '../../components/Separador/Separador'
 // import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import ScrollAnimation from 'react-animate-on-scroll'
 
 export function Inicio() {
     // const settings = {
