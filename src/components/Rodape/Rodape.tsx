@@ -10,6 +10,17 @@ export const Rodape = () => {
                     <S.PDescricaoLogo>
                         No nosso Residencial Geriátrico, você encontrará mais do que cuidados de saúde excepcionais - encontrará uma família comprometida em enriquecer sua vida e tornar cada dia significativo.
                     </S.PDescricaoLogo>
+                    <S.DivRedesSociais>
+                        <S.CircleRedesSociais>
+                            <S.ImgRedesSociais src='../../src/assets/svg/instagram.svg' />
+                        </S.CircleRedesSociais>
+                        <S.CircleRedesSociais>
+                            <S.ImgRedesSociais src='../../src/assets/svg/whatsapp.svg' />
+                        </S.CircleRedesSociais>
+                        <S.CircleRedesSociais>
+                            <S.ImgRedesSociais src='../../src/assets/svg/facebook.svg' />
+                        </S.CircleRedesSociais>
+                    </S.DivRedesSociais>
                 </S.SectionLogoDescricao>
                 <S.SectionTopicos>
                     <S.TituloSection>Endereço</S.TituloSection>

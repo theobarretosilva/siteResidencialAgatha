@@ -5,8 +5,8 @@ export const Footer = styled.footer`
     background-color: #FFF;
     padding-left: 4rem;
     padding-right: 4rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 `
 
 export const DivInicial = styled.div`
@@ -28,6 +28,28 @@ export const PDescricaoLogo = styled.p`
     font-style: normal;
     font-weight: 300;
     width: 22vw;
+`
+
+export const DivRedesSociais = styled.div`
+    display: flex;
+    flex-direction: row;
+    gap: 0.7vw;
+`
+
+export const CircleRedesSociais = styled.div`
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    width: 2.6rem;
+    height: 2.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`
+
+export const ImgRedesSociais = styled.img`
+    width: 1.7rem;
+    height: 1.7rem;
 `
 
 export const SectionTopicos = styled.div`
