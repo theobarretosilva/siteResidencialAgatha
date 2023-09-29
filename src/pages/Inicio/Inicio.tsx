@@ -17,7 +17,7 @@ export function Inicio() {
 
     return(
         <>
-            <S.ImgCasaInicial src='../../src/assets/img/casa_inicial_tela_inicial.jpg' />
+            <S.ImgCasaInicial src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/casa_inicial_tela_inicial.jpg?raw=true' />
             <DivMargem>
                 <section>
                     <S.TituloSectionInicial>
