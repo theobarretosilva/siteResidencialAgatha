@@ -12,13 +12,13 @@ export const Rodape = () => {
                     </S.PDescricaoLogo>
                     <S.DivRedesSociais>
                         <S.CircleRedesSociais>
-                            <S.ImgRedesSociais src='../../src/assets/svg/instagram.svg' />
+                            <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/instagram.svg' />
                         </S.CircleRedesSociais>
                         <S.CircleRedesSociais>
-                            <S.ImgRedesSociais src='../../src/assets/svg/whatsapp.svg' />
+                            <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/whatsapp.svg' />
                         </S.CircleRedesSociais>
                         <S.CircleRedesSociais>
-                            <S.ImgRedesSociais src='../../src/assets/svg/facebook.svg' />
+                            <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/facebook.svg' />
                         </S.CircleRedesSociais>
                     </S.DivRedesSociais>
                 </section>
@@ -38,15 +38,15 @@ export const Rodape = () => {
                 <S.SectionTopicos>
                     <S.TituloSection>Informações de contato</S.TituloSection>
                     <S.DivDentroInformacoes>
-                        <S.ImgRedesSociais src='../../src/assets/svg/map-pin.svg' />
+                        <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/map-pin.svg' />
                         <S.PSection>Rua Fernando Ferreira de Melo, 261 - Bom Abrigo</S.PSection>
                     </S.DivDentroInformacoes>
                     <S.DivDentroInformacoes>
-                        <S.ImgRedesSociais src='../../src/assets/svg/mail.svg' />
+                        <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/mail.svg' />
                         <S.PSection>residencialagatha@gmail.com</S.PSection>
                     </S.DivDentroInformacoes>
                     <S.DivDentroInformacoes>
-                        <S.ImgRedesSociais src='../../src/assets/svg/phone.svg' />
+                        <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/phone.svg' />
                         <S.PSection>(48) 93287-4470</S.PSection>
                     </S.DivDentroInformacoes>
                 </S.SectionTopicos>
