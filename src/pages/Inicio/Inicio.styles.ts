@@ -7,7 +7,7 @@ export const ImgCasaInicial = styled.img`
     top: 0;
     object-fit: cover;
 
-    -webkit-mask-image: linear-gradient(to top, transparent 1%, black 55%);
+    -webkit-mask-image: linear-gradient(to top, transparent 1%, black 35%);
 `
 
 export const TituloSectionInicial = styled.h1`
@@ -81,7 +81,8 @@ export const BtnEntreContato = styled.button`
     font-weight: 200;
     margin-top: 2.8rem;
     cursor: pointer;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
 `
 
 export const SectionMVV = styled.section`

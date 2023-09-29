@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root{
-  /* background: linear-gradient(180deg, #6A6A6A 23.54%, rgba(255, 255, 255, 0.80) 84.77%); */
-  background-color: #5A5A5A;
+  background: linear-gradient(180deg, #6A6A6A 23.54%, rgba(255, 255, 255, 0.80) 84.77%);
+  /* background-color: #5A5A5A; */
   font-family: 'Inter', sans-serif;
   scrollbar-width: thin;
   scrollbar-color: black transparent;

@@ -1,24 +1,18 @@
 import styled from "styled-components";
 
 export const Footer = styled.footer`
-    width: 100%;
+    width: auto;
     background-color: #FFF;
     padding-left: 4rem;
     padding-right: 4rem;
     padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
 `
 
 export const DivInicial = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 1vh;
-`
-
-export const SectionLogoDescricao = styled.div`
-
 `
 
 export const PDescricaoLogo = styled.p`
@@ -34,6 +28,10 @@ export const DivRedesSociais = styled.div`
     display: flex;
     flex-direction: row;
     gap: 0.7vw;
+
+    :hover{
+        background-color: #A4A4A4;
+    }
 `
 
 export const CircleRedesSociais = styled.div`
@@ -45,6 +43,7 @@ export const CircleRedesSociais = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 `
 
 export const ImgRedesSociais = styled.img`
@@ -53,7 +52,7 @@ export const ImgRedesSociais = styled.img`
 `
 
 export const SectionTopicos = styled.div`
-    width: 18vw;
+    max-width: 24vw;
 `
 
 export const Linha = styled.div`
@@ -68,12 +67,21 @@ export const DivCopyright = styled.div`
     justify-content: space-between;
 `
 
+export const PCopyright = styled.p`
+    color: #825810;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+`
+
 export const TituloSection = styled.h1`
     color: #000;
     font-family: 'Inter', sans-serif;
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 600;
+    width: fit-content;
 `
 
 export const PSection = styled.p`
@@ -82,4 +90,12 @@ export const PSection = styled.p`
     font-size: 0.98rem;
     font-style: normal;
     font-weight: 400;
+    width: fit-content;
+`
+
+export const DivDentroInformacoes = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8vw;
 `
