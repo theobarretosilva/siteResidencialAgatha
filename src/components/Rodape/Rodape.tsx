@@ -43,7 +43,7 @@ export const Rodape = () => {
                     </S.DivDentroInformacoes>
                     <S.DivDentroInformacoes>
                         <S.ImgRedesSociais src='../../src/assets/svg/mail.svg' />
-                        <S.PSection>casageriatricaagatha@gmail.com</S.PSection>
+                        <S.PSection>residencialagatha@gmail.com</S.PSection>
                     </S.DivDentroInformacoes>
                     <S.DivDentroInformacoes>
                         <S.ImgRedesSociais src='../../src/assets/svg/phone.svg' />

@@ -63,7 +63,7 @@ export const SubtituloSectionEntreContato = styled.h2`
     font-family: 'Inter', sans-serif;
     font-size: 1.15rem;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 300;
     text-align: start;
     width: 36rem;
 `

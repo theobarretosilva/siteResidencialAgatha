@@ -26,7 +26,7 @@ export function Inicio() {
                         <S.PTituloSectionInicial>Especialistas</S.PTituloSectionInicial>
                     </S.TituloSectionInicial>
                     <S.PSubtituloInicial>
-                        No nosso Residencial Geriátrico, você encontrará mais do que cuidados de saúde excepcionais - encontrará uma família comprometida em enriquecer sua vida e tornar cada dia significativo. Sua jornada conosco será guiada pelos melhores especialistas, proporcionando-lhe a tranquilidade de saber que está recebendo a atenção e o cuidado que merece.
+                        No nosso Residencial, você encontrará mais do que cuidados de saúde excepcionais - encontrará uma família comprometida em enriquecer sua vida e tornar cada dia significativo. Sua jornada conosco será guiada pelos melhores especialistas, proporcionando-lhe a tranquilidade de saber que está recebendo a atenção e o cuidado que merece.
                     </S.PSubtituloInicial>
                 </section>
                 <Separador />
@@ -37,7 +37,7 @@ export function Inicio() {
                                 Garanta um futuro tranquilo e<br />confortável! 
                             </S.TituloSectionEntreContato>
                             <S.SubtituloSectionEntreContato>
-                                No nosso Residencial Geriátrico, você encontrará mais do que cuidados de saúde excepcionais - encontrará uma família comprometida em enriquecer sua vida e tornar cada dia significativo.
+                                Se você busca um ambiente que promova o equilíbrio e a renovação, o Residencial Ágatha é a escolha perfeita. Aqui, você encontrará um espaço para relaxar, se revitalizar e encontrar a harmonia em sua jornada conosco.
                             </S.SubtituloSectionEntreContato>
                             <S.BtnEntreContato>
                                 Entre em contato conosco!

@@ -5,7 +5,9 @@ export const Footer = styled.footer`
     background-color: #FFF;
     padding-left: 4rem;
     padding-right: 4rem;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
+
+    -webkit-mask: linear-gradient(to bottom, transparent 1%, black 8%);
 `
 
 export const DivInicial = styled.div`
