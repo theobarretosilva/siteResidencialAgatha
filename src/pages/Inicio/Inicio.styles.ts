@@ -13,25 +13,26 @@ export const ImgCasaInicial = styled.img`
 export const TituloSectionInicial = styled.h1`
     color: #FFF;
     text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 2.5rem;
+    font-family: 'Arbutus Slab', sans-serif;
+    font-size: 2.9rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 `
 
 export const PTituloSectionInicial = styled.p`
     color: #E1CA58;
-    margin-top: 0.6rem;
+    margin-top: 0.5rem;
     text-decoration: underline;
 `
 
 export const PSubtituloInicial = styled.p`
-    color: #e6e6e6;
+    color: white;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 1.25rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
     margin-bottom: 0;
 `
 

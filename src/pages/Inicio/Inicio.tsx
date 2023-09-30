@@ -1,10 +1,10 @@
 import * as S from './Inicio.styles'
 import { DivMargem } from '../../components/Margem/DivMargem'
 import { Separador } from '../../components/Separador/Separador'
-// import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { SliderFotos } from '../../components/SliderFotos/SliderFotos';
+import 'animate.css';
 
 export function Inicio() {
     // const settings = {
@@ -21,7 +21,8 @@ export function Inicio() {
             <S.ImgCasaInicial src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/casa_inicial_tela_inicial.jpg?raw=true' />
             <DivMargem>
                 <section>
-                    <S.TituloSectionInicial>
+                    <S.TituloSectionInicial className='animate__animated animate__backInLeft'>
+                    {/* <S.TituloSectionInicial> */}
                         O cuidado que você merece, com os nossos melhores
                         <S.PTituloSectionInicial>Especialistas</S.PTituloSectionInicial>
                     </S.TituloSectionInicial>
