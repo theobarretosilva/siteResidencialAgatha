@@ -4,6 +4,7 @@ import { Separador } from '../../components/Separador/Separador'
 // import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { SliderFotos } from '../../components/SliderFotos/SliderFotos';
 
 export function Inicio() {
     // const settings = {
@@ -43,24 +44,7 @@ export function Inicio() {
                             </S.BtnEntreContato>
                         </S.DivSectionEntreContato>
                     {/* </ScrollAnimation> */}
-                    {/* <Slider {...settings}>
-                        <div style={{width:'500px', height:'500px'}}>
-                            <img style={{width:'500px', height:'500px'}} src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="" />
-                        </div>
-                        <div style={{width:'500px', height:'500px'}}>
-                            <img style={{width:'500px', height:'500px'}} src="https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1631&q=80" alt="" />
-                        </div>
-                        <div style={{width:'500px', height:'500px'}}>
-                            <img style={{width:'500px', height:'500px'}} src="https://images.unsplash.com/photo-1519643381401-22c77e60520e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80" alt="" />
-                        </div>
-                        <div style={{width:'500px', height:'500px'}}>
-                            <img style={{width:'500px', height:'500px'}} src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80" alt="" />
-                        </div>
-                        <div style={{width:'500px', height:'500px'}}>
-                            <img style={{width:'500px', height:'500px'}} src="https://images.unsplash.com/photo-1489769002049-ccd828976a6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1661&q=80" alt="" />
-                        </div>
-                    </Slider> */}
-                    <img style={{width:'36rem', height:'18rem', borderRadius:'0.6rem'}} src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80" alt="" />
+                    <SliderFotos />
                 </S.SectionEntreContato>
                 <Separador style={{rotate:'180deg'}} />
                 <S.SectionMVV>

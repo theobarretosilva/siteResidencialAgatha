@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ImgCasaInicial = styled.img`
     width: 99.67vw;
-    height: 22rem;
+    height: 60vh;
     z-index: 0;
     top: 0;
     object-fit: cover;
