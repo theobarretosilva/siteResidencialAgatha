@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 export const Header = styled.header`
     width: 100vw;
@@ -21,10 +21,14 @@ export const Navegacao = styled.nav`
     gap: 2rem;
 `
 
-export const LinkNav = styled(Link)`
+export const LinkNav = styled(NavLink)`
     color: black;
     font-family: 'Inter', sans-serif;
     font-size: 1.23rem;
     font-style: normal;
     font-weight: 500;
+    text-decoration: none;
+    &.active{
+        text-decoration: underline;
+    }
 `

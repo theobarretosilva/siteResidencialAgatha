@@ -24,12 +24,12 @@ export const Rodape = () => {
                 </section>
                 <S.SectionTopicos>
                     <S.TituloSection>O residencial</S.TituloSection>
-                    <S.PSection style={{cursor:'pointer'}}>Início</S.PSection>
-                    <S.PSection style={{cursor:'pointer'}}>Espaço</S.PSection>
-                    <S.PSection style={{cursor:'pointer'}}>Serviços</S.PSection>
-                    <S.PSection style={{cursor:'pointer'}}>Atividades</S.PSection>
-                    <S.PSection style={{cursor:'pointer'}}>Vantagens</S.PSection>
-                    <S.PSection style={{cursor:'pointer'}}>Contato</S.PSection>
+                    <S.NavlinkSection to={'inicio'} style={{marginTop: '1em'}}>Início</S.NavlinkSection>
+                    <S.NavlinkSection to={'espaco'}>Espaço</S.NavlinkSection>
+                    <S.NavlinkSection to={'servicos'}>Serviços</S.NavlinkSection>
+                    <S.NavlinkSection to={'atividades'}>Atividades</S.NavlinkSection>
+                    <S.NavlinkSection to={'vantagens'}>Vantagens</S.NavlinkSection>
+                    <S.NavlinkSection to={'contato'}>Contato</S.NavlinkSection>
                 </S.SectionTopicos>
                 <S.SectionTopicos>
                     <S.TituloSection>Nossos serviços</S.TituloSection>

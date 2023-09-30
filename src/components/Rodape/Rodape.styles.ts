@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const Footer = styled.footer`
@@ -22,7 +23,7 @@ export const PDescricaoLogo = styled.p`
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     width: 22vw;
 `
 
@@ -55,12 +56,15 @@ export const ImgRedesSociais = styled.img`
 
 export const SectionTopicos = styled.div`
     max-width: 24vw;
+    display: flex;
+    flex-direction: column;
 `
 
 export const Linha = styled.div`
     width: 100%;
     height: 0.2vh;
     background-color: black;
+    margin-top: 1em;
 `
 
 export const DivCopyright = styled.div`
@@ -93,6 +97,21 @@ export const PSection = styled.p`
     font-style: normal;
     font-weight: 400;
     width: fit-content;
+`
+
+export const NavlinkSection = styled(NavLink)`
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.98rem;
+    font-style: normal;
+    font-weight: 400;
+    width: fit-content;
+    text-decoration: none;
+    margin-top: 1.3vh;
+
+    &.active{
+        text-decoration: underline;
+    }
 `
 
 export const DivDentroInformacoes = styled.div`
