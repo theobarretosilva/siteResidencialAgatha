@@ -1,4 +1,4 @@
-$speed: 16s;
+$speed: 10s;
 $wordCount: 7;
 
 .morphing {
@@ -11,18 +11,25 @@ $wordCount: 7;
 
 .word {
   position: absolute;
-  top: 50%; left: 50%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   animation: word $speed infinite ease-in-out;
 
-  @for $i from 0 to $wordCount {
-    &:nth-child(#{$i + 1}) {
-      animation-delay: ($speed / ($wordCount + 1) * $i) - $speed;
-    }
-  }
-
   @keyframes word {
     0%, 5%, 100% { filter: blur(0px); opacity: 1; }        
-    20%, 80% { filter: blur(1em); opacity: 0; }        
+    20%, 80% { filter: blur(14px); opacity: 0; }        
   }
+}
+
+.word:nth-child(1) {
+  animation-delay: -10s;
+}
+
+.word:nth-child(2) {
+  animation-delay: -7s;
+}
+
+.word:nth-child(3) {
+  animation-delay: -3s;
 }
