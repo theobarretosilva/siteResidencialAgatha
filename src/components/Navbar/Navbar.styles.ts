@@ -7,7 +7,7 @@ export const Header = styled.header`
     background: rgba(255, 255, 255, 0.77);
     backdrop-filter: blur(5px);
     padding-left: 4rem;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     display: flex;
     flex-direction: row;
