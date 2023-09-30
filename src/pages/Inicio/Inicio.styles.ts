@@ -18,6 +18,7 @@ export const TituloSectionInicial = styled.h1`
     font-style: normal;
     font-weight: 500;
     text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 3vh;
 `
 
 export const PTituloSectionInicial = styled.p`
@@ -70,8 +71,8 @@ export const SubtituloSectionEntreContato = styled.h2`
 `
 
 export const BtnEntreContato = styled.button`
-    width: 17rem;
-    height: 3rem;
+    width: 19vw;
+    height: 7vh;
     background-color: black;
     border-radius: 0.9375rem;
     color: #FFF;

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { SliderFotos } from '../../components/SliderFotos/SliderFotos';
 import 'animate.css';
+import { AutoMorphingText } from '../../components/AutoMorphingText/AutoMorphingText';
 
 export function Inicio() {
     // const settings = {
@@ -23,8 +24,11 @@ export function Inicio() {
                 <section>
                     <S.TituloSectionInicial className='animate__animated animate__backInLeft'>
                     {/* <S.TituloSectionInicial> */}
-                        O cuidado que você merece, com os nossos melhores
-                        <S.PTituloSectionInicial>Especialistas</S.PTituloSectionInicial>
+                        {/* O cuidado que você merece, com os nossos melhores */}
+                        Com os nossos especialistas, você tem o cuidado que
+                        {/* merece */}
+                        <AutoMorphingText />
+                        {/* <S.PTituloSectionInicial>Especialistas</S.PTituloSectionInicial> */}
                     </S.TituloSectionInicial>
                     <S.PSubtituloInicial>
                         No nosso Residencial, você encontrará mais do que cuidados de saúde excepcionais - encontrará uma família comprometida em enriquecer sua vida e tornar cada dia significativo. Sua jornada conosco será guiada pelos melhores especialistas, proporcionando-lhe a tranquilidade de saber que está recebendo a atenção e o cuidado que merece.
