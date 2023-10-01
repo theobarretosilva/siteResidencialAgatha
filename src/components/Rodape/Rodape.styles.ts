@@ -7,7 +7,8 @@ export const Footer = styled.footer`
     padding-left: 4rem;
     padding-right: 4rem;
     padding-top: 2rem;
-
+    bottom: 0;
+    
     -webkit-mask: linear-gradient(to bottom, transparent 1%, black 8%);
 `
 

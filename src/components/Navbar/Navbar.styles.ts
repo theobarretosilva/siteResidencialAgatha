@@ -8,6 +8,7 @@ export const Header = styled.header`
     backdrop-filter: blur(5px);
     padding-left: 4rem;
     position: fixed;
+    top: 0;
     z-index: 1;
     display: flex;
     flex-direction: row;

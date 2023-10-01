@@ -8,7 +8,7 @@ export const Rodape = () => {
                 <section>
                     <LogoTexto />
                     <S.PDescricaoLogo>
-                        No nosso Residencial Geriátrico, você encontrará mais do que cuidados de saúde excepcionais - encontrará uma família comprometida em enriquecer sua vida e tornar cada dia significativo.
+                        No Residencial Ágatha, além de cuidados de saúde, você encontrará uma família comprometida em enriquecer sua vida e tornar cada dia mais significativo.
                     </S.PDescricaoLogo>
                     <S.DivRedesSociais>
                         <S.CircleRedesSociais>

@@ -1,5 +1,5 @@
 import * as S from './Inicio.styles'
-import { DivMargem } from '../../components/Margem/DivMargem'
+import { DivMargem } from '../../components/DivMargem/DivMargem'
 import { Separador } from '../../components/Separador/Separador'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -8,27 +8,14 @@ import 'animate.css';
 import { AutoMorphingText } from '../../components/AutoMorphingText/AutoMorphingText';
 
 export function Inicio() {
-    // const settings = {
-    //     infinite: true,
-    //     speed: 500,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     autoplaySpeed: 2000, // Tempo em milissegundos
-    // };
-
     return(
         <>
             <S.ImgCasaInicial src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/casa_inicial_tela_inicial.jpg?raw=true' />
             <DivMargem>
                 <section>
                     <S.TituloSectionInicial className='animate__animated animate__backInLeft'>
-                    {/* <S.TituloSectionInicial> */}
-                        {/* O cuidado que você merece, com os nossos melhores */}
                         Com os nossos especialistas, você tem o cuidado que
-                        {/* merece */}
                         <AutoMorphingText />
-                        {/* <S.PTituloSectionInicial>Especialistas</S.PTituloSectionInicial> */}
                     </S.TituloSectionInicial>
                     <S.PSubtituloInicial>
                         No nosso Residencial, você encontrará mais do que cuidados de saúde excepcionais - encontrará uma família comprometida em enriquecer sua vida e tornar cada dia significativo. Sua jornada conosco será guiada pelos melhores especialistas, proporcionando-lhe a tranquilidade de saber que está recebendo a atenção e o cuidado que merece.
@@ -36,19 +23,17 @@ export function Inicio() {
                 </section>
                 <Separador />
                 <S.SectionEntreContato>
-                    {/* <ScrollAnimation animateIn="fadeIn" duration={5}> */}
-                        <S.DivSectionEntreContato>
-                            <S.TituloSectionEntreContato>
-                                Garanta um futuro tranquilo e<br />confortável! 
-                            </S.TituloSectionEntreContato>
-                            <S.SubtituloSectionEntreContato>
-                                Se você busca um ambiente que promova o equilíbrio e a renovação, o Residencial Ágatha é a escolha perfeita. Aqui, você encontrará um espaço para relaxar, se revitalizar e encontrar a harmonia em sua jornada conosco.
-                            </S.SubtituloSectionEntreContato>
-                            <S.BtnEntreContato>
-                                Entre em contato conosco!
-                            </S.BtnEntreContato>
-                        </S.DivSectionEntreContato>
-                    {/* </ScrollAnimation> */}
+                    <S.DivSectionEntreContato>
+                        <S.TituloSectionEntreContato>
+                            Garanta um futuro tranquilo e<br />confortável! 
+                        </S.TituloSectionEntreContato>
+                        <S.SubtituloSectionEntreContato>
+                            Se você busca um ambiente que promova o equilíbrio e a renovação, o Residencial Ágatha é a escolha perfeita. Aqui, você encontrará um espaço para relaxar, se revitalizar e encontrar a harmonia em sua jornada conosco.
+                        </S.SubtituloSectionEntreContato>
+                        <S.BtnEntreContato>
+                            Entre em contato conosco!
+                        </S.BtnEntreContato>
+                    </S.DivSectionEntreContato>
                     <SliderFotos />
                 </S.SectionEntreContato>
                 <Separador style={{rotate:'180deg'}} />
