@@ -34,7 +34,10 @@ export const BoxVantagem = styled.section`
     width: 18vw;
     height: 26vh;
     border: 2px solid #FFF;
-    align-self: center;
-    justify-self: center;
-    
+`
+
+export const ImgDentroBoxVantagem = styled.img`
+    width: 18vw;
+    height: 26vh;
+    opacity: 26%;
 `
