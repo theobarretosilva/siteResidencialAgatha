@@ -34,10 +34,31 @@ export const BoxVantagem = styled.section`
     width: 18vw;
     height: 26vh;
     border: 2px solid #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `
 
 export const ImgDentroBoxVantagem = styled.img`
     width: 18vw;
     height: 26vh;
-    opacity: 26%;
+    opacity: 16%;
+`
+
+export const IconBoxVantagem = styled.img`
+    width: 7vw;
+    height: 12vh;
+    position: absolute;
+    margin-top: 1vh;
+`
+
+export const TxtBoxVantagem = styled.h1`
+    color: #FFF;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    max-width: 17vw;
+    margin-top: 13vh;
 `
