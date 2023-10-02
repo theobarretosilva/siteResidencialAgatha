@@ -37,6 +37,7 @@ export const BoxVantagem = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-size: cover;
 `
 
 export const ImgDentroBoxVantagem = styled.img`
@@ -46,9 +47,8 @@ export const ImgDentroBoxVantagem = styled.img`
 `
 
 export const IconBoxVantagem = styled.img`
-    width: 7vw;
-    height: 12vh;
-    position: absolute;
+    width: 6vw;
+    height: 11vh;
     margin-top: 1vh;
 `
 
@@ -58,7 +58,6 @@ export const TxtBoxVantagem = styled.h1`
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
-    position: absolute;
     max-width: 17vw;
-    margin-top: 13vh;
+    margin-top: 1vh;
 `

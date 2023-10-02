@@ -1,7 +1,54 @@
+import { useState } from 'react'
 import { DivMargem } from '../../components/DivMargem/DivMargem'
 import * as S from './Vantagens.styles'
 
 export function Vantagens() {
+    const advantagesData = [
+        {
+            backgroundImage: '../../src/assets/img/acompanhamento_nutricional.png',
+            iconSrc: '../../src/assets/svg/icon_nutricionista.svg',
+            text: 'Acompanhamento nutricional',
+        },
+        {
+            backgroundImage: '../../src/assets/img/servicos_inclusos_na_mensalidade.png',
+            iconSrc: '../../src/assets/svg/icon_servicos_inclusos.svg',
+            text: 'Serviços inclusos na mensalidade',
+        },
+        {
+            backgroundImage: '../../src/assets/img/servicos_garantidos_por_nossa_equipe_multiprofissional.png',
+            iconSrc: '../../src/assets/svg/icon_servicos_garantidos.svg',
+            text: 'Serviços garantidos por nossa equipe multiprofissional',
+        },
+        {
+            backgroundImage: '../../src/assets/img/equipe_especializada.png',
+            iconSrc: '../../src/assets/svg/icon_equipe_especializada.svg',
+            text: 'Equipe especializada',
+        },
+        {
+            backgroundImage: '../../src/assets/img/cuidados_com_medicacao.png',
+            iconSrc: '../../src/assets/svg/icon_cuidados_medicacao.svg',
+            text: 'Cuidados com medicação',
+        },
+        {
+            backgroundImage: '../../src/assets/img/esforcos_fisicos_e_emocionais_para_ajudar.png',
+            iconSrc: '../../src/assets/svg/icon_esforcos_fisicos.svg',
+            text: 'Esforços físicos e emocionais para ajudar',
+        }
+    ];
+
+    const [alignItems, setAlignItems] = useState(Array(6).fill('center'));
+    const hoverAdvantage = (index: number) => {
+        const newAlignItems = [...alignItems];
+        newAlignItems[index] = 'start';
+        setAlignItems(newAlignItems);
+      }
+    
+      const outAdvantage = (index: number) => {
+        const newAlignItems = [...alignItems];
+        newAlignItems[index] = 'center';
+        setAlignItems(newAlignItems);
+      }
+
     return(
         <>
             <S.DivFaixaDegrade>
@@ -10,36 +57,22 @@ export function Vantagens() {
             {/* ------------------------------------------------------------------------------------------------ */}
             <DivMargem>
                 <S.MainBoxVantagens>
-                    <S.BoxVantagem>
-                        <S.ImgDentroBoxVantagem src='../../src/assets/img/acompanhamento_nutricional.jpg' />
-                        <S.IconBoxVantagem src='../../src/assets/svg/icon_nutricionista.svg' />
-                        <S.TxtBoxVantagem>Acompanhamento nutricional</S.TxtBoxVantagem>
-                    </S.BoxVantagem>
-                    <S.BoxVantagem>
-                        <S.ImgDentroBoxVantagem src='../../src/assets/img/servicos_inclusos_na_mensalidade.jpg' />
-                        <S.IconBoxVantagem src='../../src/assets/svg/icon_nutricionista.svg' />
-                        <S.TxtBoxVantagem>Serviços inclusos na mensalidade</S.TxtBoxVantagem>
-                    </S.BoxVantagem>
-                    <S.BoxVantagem>
-                        <S.ImgDentroBoxVantagem src='../../src/assets/img/servicos_garantidos_por_nossa_equipe_multiprofissional.jpg' />
-                        <S.IconBoxVantagem src='../../src/assets/svg/icon_nutricionista.svg' />
-                        <S.TxtBoxVantagem>Serviços garantidos por nossa equipe multiprofissional</S.TxtBoxVantagem>
-                    </S.BoxVantagem>
-                    <S.BoxVantagem>
-                        <S.ImgDentroBoxVantagem src='../../src/assets/img/equipe_especializada.jpg' />
-                        <S.IconBoxVantagem src='../../src/assets/svg/icon_nutricionista.svg' />
-                        <S.TxtBoxVantagem>Equipe especializada</S.TxtBoxVantagem>
-                    </S.BoxVantagem>
-                    <S.BoxVantagem>
-                        <S.ImgDentroBoxVantagem src='../../src/assets/img/cuidados_com_medicacao.jpg' />
-                        <S.IconBoxVantagem src='../../src/assets/svg/icon_nutricionista.svg' />
-                        <S.TxtBoxVantagem>Cuidados com medicação</S.TxtBoxVantagem> 
-                    </S.BoxVantagem>
-                    <S.BoxVantagem>
-                        <S.ImgDentroBoxVantagem src='../../src/assets/img/esforcos_fisicos_e_emocionais_para_ajudar.jpg' />
-                        <S.IconBoxVantagem src='../../src/assets/svg/icon_nutricionista.svg' />
-                        <S.TxtBoxVantagem>Esforços físicos e emocionais para ajudar</S.TxtBoxVantagem>
-                    </S.BoxVantagem>
+                    {advantagesData.map((advantage, index) => (
+                        <S.BoxVantagem
+                            key={index}
+                            style={{ alignItems: alignItems[index], backgroundImage: `url('${advantage.backgroundImage}')` }}
+                            onMouseEnter={() => hoverAdvantage(index)}
+                            onMouseOut={() => outAdvantage(index)}
+                        >
+                            <S.IconBoxVantagem src={advantage.iconSrc} />
+                            <S.TxtBoxVantagem
+                            onMouseEnter={() => hoverAdvantage(index)}
+                            onMouseOut={() => outAdvantage(index)}
+                            >
+                            {advantage.text}
+                            </S.TxtBoxVantagem>
+                        </S.BoxVantagem>
+                    ))}
                 </S.MainBoxVantagens>
             </DivMargem>
             
