@@ -8,6 +8,10 @@ export const ImgCasaInicial = styled.img`
     object-fit: cover;
 
     -webkit-mask-image: linear-gradient(to top, transparent 1%, black 35%);
+
+    @media (max-width: 450px) {
+        height: 30vh;
+    }
 `
 
 export const TituloSectionInicial = styled.h1`
@@ -19,6 +23,11 @@ export const TituloSectionInicial = styled.h1`
     font-weight: 500;
     text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 3vh;
+
+    @media (max-width: 450px) {
+        margin-top: 0;
+        font-size: 1.6rem;
+    }
 `
 
 export const PTituloSectionInicial = styled.p`
@@ -35,6 +44,11 @@ export const PSubtituloInicial = styled.p`
     font-style: normal;
     font-weight: 300;
     margin-bottom: 0;
+
+    @media (max-width: 450px) {
+        font-size: 1rem;
+        margin-top: 0;
+    }
 `
 
 export const SectionEntreContato = styled.section`

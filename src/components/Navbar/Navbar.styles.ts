@@ -18,7 +18,8 @@ export const Header = styled.header`
     @media (max-width: 450px) {
         padding-left: 4vw;
         height: 9vh;
-        gap: 17vw;
+        gap: 16vw;
+        width: 100%;
     }
 `
 

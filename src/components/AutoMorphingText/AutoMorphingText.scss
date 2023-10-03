@@ -7,6 +7,12 @@ $wordCount: 7;
   color: #E1CA58;
   margin-top: 5vh;
   margin-bottom: 16vh;
+
+  @media (max-width: 450px) {
+    font-size: 2.4rem;
+    margin-top: 2.1vh;
+    margin-bottom: 7vh;
+  }
 }
 
 .word {
