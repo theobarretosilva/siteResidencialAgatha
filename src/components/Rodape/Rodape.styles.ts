@@ -4,8 +4,8 @@ import styled from "styled-components";
 export const Footer = styled.footer`
     width: auto;
     background-color: #FFF;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 4.5vw;
+    padding-right: 4.5vw;
     padding-top: 2rem;
     bottom: 0;
     

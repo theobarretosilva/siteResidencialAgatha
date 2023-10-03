@@ -6,7 +6,7 @@ export const Header = styled.header`
     height: 11.5vh;
     background: rgba(255, 255, 255, 0.77);
     backdrop-filter: blur(5px);
-    padding-left: 4rem;
+    padding-left: 4.5vw;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -14,12 +14,21 @@ export const Header = styled.header`
     flex-direction: row;
     align-items: center;
     gap: 19.23rem;
+
+    @media (max-width: 450px) {
+        padding-left: 4vw;
+        height: 9vh;
+    }
 `
 
 export const Navegacao = styled.nav`
     display: flex;
     flex-direction: row;
     gap: 2rem;
+
+    @media (max-width: 450px) {
+        display: none;
+    }
 `
 
 export const LinkNav = styled(NavLink)`
