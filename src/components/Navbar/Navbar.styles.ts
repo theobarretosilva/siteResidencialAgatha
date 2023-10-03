@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 
 export const Header = styled.header`
     width: 100vw;
-    height: 4.5rem;
+    height: 11.5vh;
     background: rgba(255, 255, 255, 0.77);
     backdrop-filter: blur(5px);
     padding-left: 4rem;
