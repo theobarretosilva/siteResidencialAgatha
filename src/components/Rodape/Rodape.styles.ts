@@ -17,6 +17,10 @@ export const DivInicial = styled.div`
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 1vh;
+
+    @media (max-width: 450px) {
+        flex-direction: column;
+    }
 `
 
 export const PDescricaoLogo = styled.p`
@@ -26,6 +30,11 @@ export const PDescricaoLogo = styled.p`
     font-style: normal;
     font-weight: 400;
     width: 22vw;
+
+    @media (max-width: 450px) {
+        max-width: 90vw;
+        width: 90vw;
+    }
 `
 
 export const DivRedesSociais = styled.div`
@@ -59,6 +68,11 @@ export const SectionTopicos = styled.div`
     max-width: 24vw;
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 450px) {
+        max-width: 90vw;
+        width: 90vw;
+    }
 `
 
 export const Linha = styled.div`
