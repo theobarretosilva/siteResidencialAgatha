@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { DivMargem } from '../../components/DivMargem/DivMargem'
 import * as S from './Vantagens.styles'
 
@@ -42,28 +41,28 @@ export function Vantagens() {
         }
     ];
 
-    const [alignItems, setAlignItems] = useState(Array(6).fill('center'));
-    const [showSecondText, setShowSecondText] = useState(Array(6).fill(false));
+    // const [alignSelf, setalignSelf] = useState(Array(6).fill('center'));
+    // const [showSecondText, setShowSecondText] = useState(Array(6).fill(false));
 
-    const hoverAdvantage = (index: number) => {
-        const newAlignItems = [...alignItems];
-        newAlignItems[index] = 'start';
-        setAlignItems(newAlignItems);
+    // const hoverAdvantage = (index: number) => {
+    //     const newalignSelf = [...alignSelf];
+    //     newalignSelf[index] = 'start';
+    //     setalignSelf(newalignSelf);
 
-        const newShowSecondText = [...showSecondText];
-        newShowSecondText[index] = true;
-        setShowSecondText(newShowSecondText);
-    }
+    //     const newShowSecondText = [...showSecondText];
+    //     newShowSecondText[index] = true;
+    //     setShowSecondText(newShowSecondText);
+    // }
 
-    const outAdvantage = (index: number) => {
-        const newAlignItems = [...alignItems];
-        newAlignItems[index] = 'center';
-        setAlignItems(newAlignItems);
+    // const outAdvantage = (index: number) => {
+    //     const newalignSelf = [...alignSelf];
+    //     newalignSelf[index] = 'center';
+    //     setalignSelf(newalignSelf);
 
-        const newShowSecondText = [...showSecondText];
-        newShowSecondText[index] = false;
-        setShowSecondText(newShowSecondText);
-    }
+    //     const newShowSecondText = [...showSecondText];
+    //     newShowSecondText[index] = false;
+    //     setShowSecondText(newShowSecondText);
+    // }
 
     return(
         <>
@@ -76,16 +75,11 @@ export function Vantagens() {
                     {advantagesData.map((advantage, index) => (
                         <S.BoxVantagem
                             key={index}
-                            style={{ alignItems: alignItems[index], backgroundImage: `url('${advantage.backgroundImage}')` }}
-                            onMouseEnter={() => hoverAdvantage(index)}
-                            onMouseOut={() => outAdvantage(index)}
+                            style={{ backgroundImage: `url('${advantage.backgroundImage}')` }}
                         >
                             <S.IconBoxVantagem src={advantage.iconSrc} />
-                            <S.TxtBoxVantagem
-                                onMouseEnter={() => hoverAdvantage(index)}
-                                onMouseOut={() => outAdvantage(index)}
-                            >
-                                {showSecondText[index] ? advantage.secondText : advantage.text}
+                            <S.TxtBoxVantagem>
+                                {advantage.secondText}
                             </S.TxtBoxVantagem>
                         </S.BoxVantagem>
                     ))}
