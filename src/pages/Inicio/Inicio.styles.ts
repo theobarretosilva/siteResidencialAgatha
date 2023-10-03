@@ -152,8 +152,8 @@ export const BoxMVV = styled.article`
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
     @media (max-width: 450px) {
-        width: 90vw;
-        height: 32vh;
+        width: 89vw;
+        height: 33vh;
     }
 `
 
