@@ -135,6 +135,11 @@ export const SectionMVV = styled.section`
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 2rem;
+
+    @media (max-width: 450px) {
+        flex-direction: column;
+        gap: 3vh;
+    }
 `
 
 export const BoxMVV = styled.article`
@@ -145,12 +150,22 @@ export const BoxMVV = styled.article`
     padding-left: 1vw;
     padding-right: 1vw;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    @media (max-width: 450px) {
+        width: 90vw;
+        height: 32vh;
+    }
 `
 
 export const ImgIconesMVV = styled.img`
     width: 8vw;
     height: 10vh;
     margin-top: 2vh;
+
+    @media (max-width: 450px) {
+        width: 20vw;
+        height: 10vh;
+    }
 `
 
 export const TituloBoxMVV = styled.h1`
@@ -161,6 +176,10 @@ export const TituloBoxMVV = styled.h1`
     font-weight: 500;
     margin-top: 1vh;
     margin-bottom: 0;
+
+    @media (max-width: 450px) {
+        font-size: 2.1rem;
+    }
 `
 
 export const SubtituloBoxMVV = styled.h2`
