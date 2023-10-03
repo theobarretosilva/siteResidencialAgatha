@@ -8,19 +8,29 @@ export const DivLogo = styled.div`
 `
 
 export const ImgLogo = styled.img`
-    height: 4.3rem;
-    width: 4.3rem;
+    height: 10vh;
+    width: 5vw;
+
+    @media (max-width: 450px) {
+        width: 14vw;
+        height: 28vh;
+    }
 `
 
-export const DivTituloLogo = styled.div`
-    display: flex;
-    flex-direction: row;
-    gap: 0.4rem;
-`
+// export const DivTituloLogo = styled.div`
+//     display: flex;
+//     flex-direction: row;
+//     gap: 0.4rem;
+// `
 
 export const TituloLogo = styled.h1`
     font-family: 'Inter', sans-serif;
     font-size: 1.42rem;
     font-style: normal;
     font-weight: 600;
+    margin: 0;
+
+    @media (max-width: 450px) {
+        font-size: 1.2rem;
+    }
 `

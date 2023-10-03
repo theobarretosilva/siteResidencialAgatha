@@ -13,11 +13,12 @@ export const Header = styled.header`
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 19.23rem;
+    gap: 21vw;
 
     @media (max-width: 450px) {
         padding-left: 4vw;
         height: 9vh;
+        gap: 17vw;
     }
 `
 
@@ -40,5 +41,15 @@ export const LinkNav = styled(NavLink)`
     text-decoration: none;
     &.active{
         text-decoration: underline;
+    }
+`
+
+export const ImgIconMenu = styled.img`
+    display: grid;
+    width: 9vw;
+    height: 18vh;
+
+    @media (min-width: 450px) {
+        display: none;
     }
 `
