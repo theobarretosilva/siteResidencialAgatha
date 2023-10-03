@@ -103,6 +103,10 @@ export const TituloSection = styled.h1`
     font-style: normal;
     font-weight: 600;
     width: fit-content;
+
+    @media (max-width: 450px) {
+        marging-bottom: 0;
+    }
 `
 
 export const PSection = styled.p`
@@ -112,6 +116,10 @@ export const PSection = styled.p`
     font-style: normal;
     font-weight: 400;
     width: fit-content;
+
+    @media (max-width: 450px) {
+        margin-top: 0;
+    }
 `
 
 export const NavlinkSection = styled(NavLink)`
