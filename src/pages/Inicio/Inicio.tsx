@@ -25,7 +25,7 @@ export function Inicio() {
                 <S.SectionEntreContato>
                     <S.DivSectionEntreContato>
                         <S.TituloSectionEntreContato>
-                            Garanta um futuro tranquilo e<br />confortável! 
+                            Garanta um futuro tranquilo e confortável! 
                         </S.TituloSectionEntreContato>
                         <S.SubtituloSectionEntreContato>
                             Se você busca um ambiente que promova o equilíbrio e a renovação, o Residencial Ágatha é a escolha perfeita. Aqui, você encontrará um espaço para relaxar, se revitalizar e encontrar a harmonia em sua jornada conosco.
@@ -35,6 +35,7 @@ export function Inicio() {
                         </S.BtnEntreContato>
                     </S.DivSectionEntreContato>
                     <SliderFotos />
+                    <S.BtnEntreContatoMobile>Entre em contato conosco!</S.BtnEntreContatoMobile>
                 </S.SectionEntreContato>
                 <Separador style={{rotate:'180deg'}} />
                 <S.SectionMVV>

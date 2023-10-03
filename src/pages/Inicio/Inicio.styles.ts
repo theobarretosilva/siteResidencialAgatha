@@ -55,6 +55,7 @@ export const SectionEntreContato = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 `
 
 export const DivSectionEntreContato = styled.div`
@@ -72,6 +73,13 @@ export const TituloSectionEntreContato = styled.h1`
     text-align: start;
     margin-bottom: 0;
     margin-top: 0;
+    max-width: 35vw;
+
+    @media (max-width: 450px) {
+        font-size: 1.5rem;
+        max-width: 90vw;
+        text-align: center;
+    }
 `
 
 export const SubtituloSectionEntreContato = styled.h2`
@@ -82,6 +90,12 @@ export const SubtituloSectionEntreContato = styled.h2`
     font-weight: 300;
     text-align: start;
     width: 36rem;
+
+    @media (max-width: 450px) {
+        font-size: 1rem;
+        max-width: 90vw;
+        text-align: center;
+    }
 `
 
 export const BtnEntreContato = styled.button`
@@ -95,10 +109,25 @@ export const BtnEntreContato = styled.button`
     font-size: 1.1rem;
     font-style: normal;
     font-weight: 200;
-    margin-top: 2.8rem;
+    margin-top: 7vh;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: none;
+
+    @media (max-width: 450px) {
+        display: none;
+    }
+`
+
+export const BtnEntreContatoMobile = styled(BtnEntreContato)`
+    width: 90vw;
+    height: 5vh;
+    margin-top: 2vh;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `
 
 export const SectionMVV = styled.section`
