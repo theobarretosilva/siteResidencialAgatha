@@ -188,4 +188,8 @@ export const SubtituloBoxMVV = styled.h2`
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 300;
+
+    @media (max-width: 450px) {
+        margin-top: 0;
+    }
 `
