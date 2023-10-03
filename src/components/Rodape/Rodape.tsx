@@ -33,7 +33,7 @@ export const Rodape = () => {
                 </S.SectionTopicos>
                 <S.SectionTopicos>
                     <S.TituloSection>Nossos serviços</S.TituloSection>
-                    <S.PSection>Nossa missão é proporcionar um ambiente acolhedor e amoroso para idosos semi-dependentes ou dependentes, bem como aqueles que enfrentam desafios de saúde crônicos, como a doença de Alzheimer, derrame, doença de Parkinson e outras condições relacionadas.</S.PSection>
+                    <S.PSection>Nosso serviço é proporcionar um ambiente acolhedor e amoroso para idosos semi-dependentes ou dependentes, bem como aqueles que enfrentam desafios de saúde crônicos, como a doença de Alzheimer, derrame, doença de Parkinson e outras condições relacionadas.</S.PSection>
                 </S.SectionTopicos>
                 <S.SectionTopicos>
                     <S.TituloSection>Informações de contato</S.TituloSection>
@@ -47,7 +47,7 @@ export const Rodape = () => {
                     </S.DivDentroInformacoes>
                     <S.DivDentroInformacoes>
                         <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/phone.svg' />
-                        <S.PSection>(48) 93287-4470</S.PSection>
+                        <S.PSection>(48) 3307-7295</S.PSection>
                     </S.DivDentroInformacoes>
                 </S.SectionTopicos>
             </S.DivInicial>
