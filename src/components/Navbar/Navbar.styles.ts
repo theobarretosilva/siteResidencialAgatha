@@ -60,6 +60,7 @@ export const DivInicialMenu = styled.div`
     display: flex;
     flex-direction: row;
     gap: 15vw;
+    margin-bottom: 1vh;
 
     @media (min-width: 450px) {
         display: none;
@@ -83,7 +84,8 @@ export const LinkNavMobile = styled(NavLink)`
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
-    margin-bottom: 1vh;
+    margin-bottom: 1.5vh;
+    margin-left: 5vw;
     text-decoration: none;
 
     &.active{
