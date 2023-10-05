@@ -19,7 +19,7 @@ export const Header = styled.header`
         padding-left: 4vw;
         height: 9vh;
         gap: 15vw;
-        width: 100%;
+        width: 100vw;
     }
 `
 
@@ -49,6 +49,17 @@ export const ImgIconMenu = styled.img`
     display: grid;
     width: 9vw;
     height: 18vh;
+
+    @media (min-width: 450px) {
+        display: none;
+    }
+`
+
+export const InnerIconMenu = styled.img`
+    display: grid;
+    width: 9vw;
+    height: 9vh;
+    margin-right: 6.5vw;
 
     @media (min-width: 450px) {
         display: none;
