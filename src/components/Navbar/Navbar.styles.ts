@@ -60,6 +60,7 @@ export const DivInicialMenu = styled.div`
     display: flex;
     flex-direction: row;
     gap: 15vw;
+    padding-left: 4vw;
     margin-bottom: 1vh;
 
     @media (min-width: 450px) {
