@@ -163,8 +163,8 @@ export const ImgIconesMVV = styled.img`
     margin-top: 2vh;
 
     @media (max-width: 450px) {
-        width: 20vw;
-        height: 10vh;
+        width: 16vw;
+        height: 8vh;
     }
 `
 
@@ -178,7 +178,7 @@ export const TituloBoxMVV = styled.h1`
     margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 2.1rem;
+        font-size: 2rem;
     }
 `
 
