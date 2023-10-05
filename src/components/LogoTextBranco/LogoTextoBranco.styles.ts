@@ -8,7 +8,6 @@ export const DivLogo = styled.div`
         flex-direction: row;
         align-items: center;
         gap: 0.6rem;
-        margin-left: 4.5vw;
     }
 `
 
