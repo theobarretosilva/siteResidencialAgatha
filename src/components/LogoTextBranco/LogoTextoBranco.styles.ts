@@ -37,7 +37,7 @@ export const TituloLogo = styled.h1`
     display: none;
 
     @media (max-width: 450px) {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         display: grid;
     }
 `
