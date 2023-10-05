@@ -40,6 +40,7 @@ export const LinkNav = styled(NavLink)`
     font-style: normal;
     font-weight: 500;
     text-decoration: none;
+
     &.active{
         text-decoration: underline;
     }
@@ -58,7 +59,11 @@ export const ImgIconMenu = styled.img`
 export const DivInicialMenu = styled.div`
     display: flex;
     flex-direction: row;
-    gap: 16vw;
+    gap: 15vw;
+
+    @media (min-width: 450px) {
+        display: none;
+    }
 `
 
 export const InnerIconMenu = styled.img`
@@ -66,6 +71,24 @@ export const InnerIconMenu = styled.img`
     width: 9vw;
     height: 9vh;
     margin-right: 6.5vw;
+
+    @media (min-width: 450px) {
+        display: none;
+    }
+`
+
+export const LinkNavMobile = styled(NavLink)`
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 1vh;
+    text-decoration: none;
+
+    &.active{
+        text-decoration: underline;
+    }
 
     @media (min-width: 450px) {
         display: none;
