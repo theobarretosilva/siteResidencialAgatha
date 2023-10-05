@@ -83,7 +83,7 @@ export const LinkNavMobile = styled(NavLink)`
     font-family: 'Inter', sans-serif;
     font-size: 1.4rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 1.5vh;
     margin-left: 5vw;
     text-decoration: none;
