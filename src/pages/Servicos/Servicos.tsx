@@ -1,4 +1,5 @@
 import { DivMargem } from '../../components/DivMargem/DivMargem'
+import { Separador } from '../../components/Separador/Separador'
 import * as S from './Servicos.styles'
 
 export function Servicos() {
@@ -52,6 +53,7 @@ export function Servicos() {
                         No nosso residencial, abraçamos uma abordagem holística para o cuidado dos idosos. Nossa missão é proporcionar um ambiente acolhedor e amoroso para idosos semi-dependentes ou dependentes, bem como aqueles que enfrentam desafios de saúde crônicos, como a doença de Alzheimer, derrame, doença de Parkinson e outras condições relacionadas.
                     </S.TextoInicial>
                 </S.DivTextoInicial>
+                <Separador />
                 <S.SectionBoxs>
                     {servicosData.map((servico, index) => (
                         <S.DivBox key={index}>

@@ -2,13 +2,14 @@ import styled from "styled-components";
 
 export const DivImgInicial = styled.div`
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     background-image: url('../../src/assets/img/img_pagina_servicos.png');
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     object-fit: cover;
+    margin-top: 11.5vh;
 `
 
 export const TituloDivImgInicial = styled.h1`
@@ -18,21 +19,21 @@ export const TituloDivImgInicial = styled.h1`
     font-size: 4rem;
     font-style: normal;
     font-weight: 600;
-    margin-top: 16vh;
+    margin-top: 7vh;
 `
 
 export const DivTextoInicial = styled.div`
     width: 100%;
     height: 23vh;
     border-radius: 1.25rem;
-    background: linear-gradient(193deg, #6A6A6A 9.58%, rgba(192, 192, 192, 0.50) 90.42%);
+    /* background: linear-gradient(193deg, #6A6A6A 9.58%, rgba(192, 192, 192, 0.50) 90.42%); */
+    background-color: rgba(192, 192, 192, 0.50);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 7vh;
-    margin-bottom: 7vh;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
 `
 
 export const TextoInicial = styled.p`
@@ -57,8 +58,8 @@ export const SectionBoxs = styled.section`
 export const DivBox = styled.div`
     background-color: white;
     border-radius: 0.625rem;
-    width: 24vw;
-    height: 50vh;
+    width: 26vw;
+    height: 48vh;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 5vh;
 `
