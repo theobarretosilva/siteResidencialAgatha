@@ -72,7 +72,6 @@ export const InnerIconMenu = styled.img`
     display: grid;
     width: 9vw;
     height: 9vh;
-    margin-right: 6.5vw;
 
     @media (min-width: 450px) {
         display: none;
