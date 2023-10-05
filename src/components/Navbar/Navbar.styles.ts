@@ -55,6 +55,12 @@ export const ImgIconMenu = styled.img`
     }
 `
 
+export const DivInicialMenu = styled.div`
+    display: flex;
+    flex-direction: row;
+    gap: 16vw;
+`
+
 export const InnerIconMenu = styled.img`
     display: grid;
     width: 9vw;
