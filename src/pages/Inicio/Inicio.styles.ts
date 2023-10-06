@@ -123,11 +123,14 @@ export const BtnEntreContatoMobile = styled(BtnEntreContato)`
     width: 90vw;
     height: 5vh;
     margin-top: 2vh;
-    display: grid;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media (min-width: 450px) {
+        display: none;
+    }
 `
 
 export const SectionMVV = styled.section`

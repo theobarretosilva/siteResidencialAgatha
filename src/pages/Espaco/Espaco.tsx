@@ -1,3 +1,11 @@
+import * as S from './Espaco.styles'
+
 export function Espaco() {
-    return <h1>TELA DE ESPAÇO</h1>
+    return(
+        <>
+            <S.DivImgInicial>
+                <S.TituloDivImgInicial>Nossa Estrutura Cuidadosamente Planejada</S.TituloDivImgInicial>
+            </S.DivImgInicial>
+        </>
+    )
 }
