@@ -35,25 +35,51 @@ export const TextoInicial = styled.p`
 
 export const TextoSection = styled.h1`
     color: black;
-    font-size: 3.1rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 0;
 `
 
-export const FaixaAcomodacoes = styled.div`
+export const DivAcomodacao = styled.div`
+    display: inline-block;
+    position: relative;
+    margin-top: 5vh;
+`
+
+export const FaixaAcomodacoes = styled.img`
     width: 99.7vw;
-    height: 50vh;
-    background-image: url('../../src/assets/img/faixa_torta.png');
-    object-fit: cover;
+    height: 60vh;
 `
 
 export const TituloAcomodacao = styled.h1`
     color: #FFF;
-    font-size: 2.18rem;
+    font-size: 1.9rem;
     font-style: normal;
     font-weight: 500;
+    position: absolute;
+    top: 80px;
+    right: 19.2vw;
+`
 
+export const SubtituloAcomodacao = styled.h2`
+    color: #FFF;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 200;
+    max-width: 34vw;
+    position: absolute;
+    top: 140px;
+    right: 5vw;
+`
+
+export const ImgAcomodacao = styled.img`
+    width: 43vw;
+    height: 50vh;
+    position: absolute;
+    top: 38px;
+    left: 5vw;
 `
