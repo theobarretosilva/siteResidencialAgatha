@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const DivImgInicial = styled.div`
@@ -82,4 +83,74 @@ export const ImgAcomodacao = styled.img`
     position: absolute;
     top: 38px;
     left: 5vw;
+`
+
+export const SectionEstrutura = styled.section`
+
+`
+
+export const TituloEstrutura = styled.h1`
+    color: black;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+`
+
+export const DivSlider = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+`
+
+export const ButtonNext = styled.button`
+    border-radius: 0.625rem 0rem 0rem 0.625rem;
+    background: rgba(217, 217, 217, 0.60);
+    height: 35vh;
+    width: 3vw;
+    padding: 0;
+    z-index: 1;
+    cursor: pointer;
+`
+
+export const ButtonPrevious = styled.button`
+    border-radius: 0rem 0.625rem 0.625rem 0rem;
+    background: rgba(217, 217, 217, 0.40);
+    height: 35vh;
+    width: 3vw;
+    padding: 0;
+    z-index: 1;
+    cursor: pointer;
+`
+
+export const ImgDentroButton = styled.img`
+    width: 3vw;
+    height: 7vh;
+    margin: 0;
+    padding: 0;
+`
+
+export const DivImages = styled(motion.div)`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    border-radius: 0.625rem;
+    padding: 0;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+`
+
+export const ImgSlider = styled.img`
+    height: 100%;
+    width: 40vw;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
 `

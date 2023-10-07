@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import { DivMargem } from '../../components/DivMargem/DivMargem'
 import { Separador } from '../../components/Separador/Separador'
 import * as S from './Espaco.styles'
@@ -34,6 +35,18 @@ export function Espaco() {
         }
     ]
 
+    const carousel = useRef(null);
+
+    const handleLeftClick = (e) => {
+        e.preventDefault();
+        carousel.current.scrollLeft -= carousel.current?.offsetWidth
+    }
+
+    const handleRightClick = (e) => {
+        e.preventDefault();
+        carousel.current.scrollLeft += carousel.current.offsetWidth;
+    }
+
     return(
         <>
             <S.DivImgInicial>
@@ -57,6 +70,23 @@ export function Espaco() {
             <DivMargem>
                 <Separador />
                 <S.TextoSection>Nossa estrutura</S.TextoSection>
+                <S.SectionEstrutura>
+                    <S.TituloEstrutura>Sala de televisão</S.TituloEstrutura>
+                    <S.DivSlider>
+                        <S.ButtonNext onClick={handleLeftClick}>
+                            <S.ImgDentroButton src='../../src/assets/img/seta_slider.png' />
+                        </S.ButtonNext>
+                        <S.DivImages ref={carousel}>
+                            <S.ImgSlider src="../../src/assets/img/img_quarto_azul.png" alt="" />
+                            <S.ImgSlider src="../../src/assets/img/img_quarto_verde.png" alt="" />
+                            <S.ImgSlider src="../../src/assets/img/img_quarto_rosa.png" alt="" />
+                            <S.ImgSlider src="../../src/assets/img/img_quarto_vermelho.png" alt="" />
+                        </S.DivImages>
+                        <S.ButtonPrevious onClick={handleRightClick}>
+                            <S.ImgDentroButton style={{rotate: '180deg'}} src='../../src/assets/img/seta_slider.png' />
+                        </S.ButtonPrevious>
+                    </S.DivSlider>
+                </S.SectionEstrutura>
             </DivMargem>
         </>
     )
