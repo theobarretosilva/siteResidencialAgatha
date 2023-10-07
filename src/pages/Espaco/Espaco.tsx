@@ -35,16 +35,24 @@ export function Espaco() {
         }
     ]
 
-    const carousel = useRef(null);
+    const carousel = useRef<HTMLDivElement | null>(null);
 
-    const handleLeftClick = (e) => {
+    const handleLeftClick = (e: React.MouseEvent) => {
         e.preventDefault();
-        carousel.current.scrollLeft -= carousel.current?.offsetWidth
+        if (carousel.current) {
+            if (typeof carousel.current.scrollLeft === 'number') {
+                carousel.current.scrollLeft -= carousel.current.offsetWidth;
+            }
+        }
     }
 
-    const handleRightClick = (e) => {
+    const handleRightClick = (e: React.MouseEvent) => {
         e.preventDefault();
-        carousel.current.scrollLeft += carousel.current.offsetWidth;
+        if (carousel.current) {
+            if (typeof carousel.current.scrollLeft === 'number') {
+                carousel.current.scrollLeft += carousel.current.offsetWidth;
+            }
+        }
     }
 
     return(
