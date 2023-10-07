@@ -3,7 +3,7 @@ import * as S from './Contato.styles'
 export function Contato() {
     return(
         <S.DivFlex>
-            <S.ImagemAside src='../../src/assets/img/idoso_aside.jpg' />
+            <S.ImagemAside src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/idoso_aside.jpg?raw=true' />
             <S.MainForm>
                 <S.FaixaDegrade>
                     <S.TituloFaixa>Entre em contato conosco!</S.TituloFaixa>

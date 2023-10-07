@@ -4,38 +4,38 @@ import * as S from './Vantagens.styles'
 export function Vantagens() {
     const advantagesData = [
         {
-            backgroundImage: '../../src/assets/img/acompanhamento_nutricional.png',
-            iconSrc: '../../src/assets/svg/icon_nutricionista.svg',
+            backgroundImage: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/acompanhamento_nutricional.png?raw=true',
+            iconSrc: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/1a559a11daa5cf6031ddbb843b27d9563622006e/src/assets/svg/icon_nutricionista.svg',
             text: 'Acompanhamento nutricional',
             secondText: 'Refeições inclusas e preparadas com carinho e acompanhamento nutricional',
         },
         {
-            backgroundImage: '../../src/assets/img/servicos_inclusos_na_mensalidade.png',
-            iconSrc: '../../src/assets/svg/icon_servicos_inclusos.svg',
+            backgroundImage: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/servicos_inclusos_na_mensalidade.png?raw=true',
+            iconSrc: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/1a559a11daa5cf6031ddbb843b27d9563622006e/src/assets/svg/icon_servicos_inclusos.svg',
             text: 'Serviços inclusos na mensalidade',
             secondText: 'Despesas fixas, como luz, água, gás, TV por assinatura, internet e telefone',
         },
         {
-            backgroundImage: '../../src/assets/img/servicos_garantidos_por_nossa_equipe_multiprofissional.png',
-            iconSrc: '../../src/assets/svg/icon_servicos_garantidos.svg',
+            backgroundImage: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/servicos_garantidos_por_nossa_equipe_multiprofissional.png?raw=true',
+            iconSrc: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/1a559a11daa5cf6031ddbb843b27d9563622006e/src/assets/svg/icon_servicos_garantidos.svg',
             text: 'Serviços garantidos por nossa equipe multiprofissional',
             secondText: 'Limpeza da casa, lavanderia e serviços de segurança para a residência',
         },
         {
-            backgroundImage: '../../src/assets/img/equipe_especializada.png',
-            iconSrc: '../../src/assets/svg/icon_equipe_especializada.svg',
+            backgroundImage: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/equipe_especializada.png?raw=true',
+            iconSrc: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/1a559a11daa5cf6031ddbb843b27d9563622006e/src/assets/svg/icon_equipe_especializada.svg',
             text: 'Equipe especializada',
             secondText: 'Equipe especializada e preparada para cuidados com idosos',
         },
         {
-            backgroundImage: '../../src/assets/img/cuidados_com_medicacao.png',
-            iconSrc: '../../src/assets/svg/icon_cuidados_medicacao.svg',
+            backgroundImage: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/cuidados_com_medicacao.png?raw=true',
+            iconSrc: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/1a559a11daa5cf6031ddbb843b27d9563622006e/src/assets/svg/icon_cuidados_medicacao.svg',
             text: 'Cuidados com medicação',
             secondText: 'Cuidados com medicação e segurança vitalícia de idosos',
         },
         {
-            backgroundImage: '../../src/assets/img/esforcos_fisicos_e_emocionais_para_ajudar.png',
-            iconSrc: '../../src/assets/svg/icon_esforcos_fisicos.svg',
+            backgroundImage: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/esforcos_fisicos_e_emocionais_para_ajudar.png?raw=true',
+            iconSrc: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/1a559a11daa5cf6031ddbb843b27d9563622006e/src/assets/svg/icon_esforcos_fisicos.svg',
             text: 'Esforços físicos e emocionais para ajudar',
             secondText: 'Esforços físicos e emocionais para ajudar nos cuidados diários',
         }
