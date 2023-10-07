@@ -37,23 +37,23 @@ export function Espaco() {
 
     const carousel = useRef<HTMLDivElement | null>(null);
 
-    const handleLeftClick = (e: React.MouseEvent) => {
-        e.preventDefault();
-        if (carousel.current) {
-            if (typeof carousel.current.scrollLeft === 'number') {
-                carousel.current.scrollLeft -= carousel.current.offsetWidth;
-            }
-        }
-    }
+    // const handleLeftClick = (e: React.MouseEvent) => {
+    //     e.preventDefault();
+    //     if (carousel.current) {
+    //         if (typeof carousel.current.scrollLeft === 'number') {
+    //             carousel.current.scrollLeft -= carousel.current.offsetWidth;
+    //         }
+    //     }
+    // }
 
-    const handleRightClick = (e: React.MouseEvent) => {
-        e.preventDefault();
-        if (carousel.current) {
-            if (typeof carousel.current.scrollLeft === 'number') {
-                carousel.current.scrollLeft += carousel.current.offsetWidth;
-            }
-        }
-    }
+    // const handleRightClick = (e: React.MouseEvent) => {
+    //     e.preventDefault();
+    //     if (carousel.current) {
+    //         if (typeof carousel.current.scrollLeft === 'number') {
+    //             carousel.current.scrollLeft += carousel.current.offsetWidth;
+    //         }
+    //     }
+    // }
 
     return(
         <>
@@ -81,7 +81,8 @@ export function Espaco() {
                 <S.SectionEstrutura>
                     <S.TituloEstrutura>Sala de televisão</S.TituloEstrutura>
                     <S.DivSlider>
-                        <S.ButtonNext onClick={handleLeftClick}>
+                        {/* <S.ButtonNext onClick={handleLeftClick}> */}
+                        <S.ButtonNext>
                             <S.ImgDentroButton src='../../src/assets/img/seta_slider.png' />
                         </S.ButtonNext>
                         <S.DivImages ref={carousel}>
@@ -90,7 +91,8 @@ export function Espaco() {
                             <S.ImgSlider src="../../src/assets/img/img_quarto_rosa.png" alt="" />
                             <S.ImgSlider src="../../src/assets/img/img_quarto_vermelho.png" alt="" />
                         </S.DivImages>
-                        <S.ButtonPrevious onClick={handleRightClick}>
+                        {/* <S.ButtonPrevious onClick={handleRightClick}> */}
+                        <S.ButtonPrevious>
                             <S.ImgDentroButton style={{rotate: '180deg'}} src='../../src/assets/img/seta_slider.png' />
                         </S.ButtonPrevious>
                     </S.DivSlider>
