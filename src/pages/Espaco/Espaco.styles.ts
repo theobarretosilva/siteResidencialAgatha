@@ -95,11 +95,11 @@ export const TituloEstrutura = styled.h1`
     font-style: normal;
     font-weight: 500;
     text-align: start;
+    margin-bottom: 0;
 `
 
 export const DivSlider = styled.div`
     display: flex;
-    flex-direction: row;
     align-items: center;
 `
 
@@ -111,6 +111,7 @@ export const ButtonNext = styled.button`
     padding: 0;
     z-index: 1;
     cursor: pointer;
+    border: none;
 `
 
 export const ButtonPrevious = styled.button`
@@ -121,6 +122,7 @@ export const ButtonPrevious = styled.button`
     padding: 0;
     z-index: 1;
     cursor: pointer;
+    border: none;
 `
 
 export const ImgDentroButton = styled.img`
@@ -140,6 +142,7 @@ export const DivImages = styled(motion.div)`
     scroll-behavior: smooth;
     border-radius: 0.625rem;
     padding: 0;
+    margin: 0;
 
     ::-webkit-scrollbar {
         display: none;
