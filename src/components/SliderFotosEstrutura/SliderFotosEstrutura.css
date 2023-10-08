@@ -1,0 +1,23 @@
+.swiper {
+    width: 100%;
+    height: 35vh;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo{
+    color: black;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    margin-bottom: 0;
+}

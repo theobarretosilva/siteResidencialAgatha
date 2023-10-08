@@ -1,7 +1,8 @@
-import { useRef } from 'react';
+// import { useRef } from 'react';
 import { DivMargem } from '../../components/DivMargem/DivMargem'
 import { Separador } from '../../components/Separador/Separador'
 import * as S from './Espaco.styles'
+import { SliderFotosEstrutura } from '../../components/SliderFotosEstrutura/SliderFotosEstrutura';
 
 export function Espaco() {
     const acomodacoesData = [
@@ -35,25 +36,25 @@ export function Espaco() {
         }
     ]
 
-    const carousel = useRef<HTMLDivElement | null>(null);
+    // const carousel = useRef<HTMLDivElement | null>(null);
 
-    const handleLeftClick = (e: React.MouseEvent) => {
-        e.preventDefault();
-        if (carousel.current) {
-            if (typeof carousel.current.scrollLeft === 'number') {
-                carousel.current.scrollLeft -= carousel.current.offsetWidth;
-            }
-        }
-    }
+    // const handleLeftClick = (e: React.MouseEvent) => {
+    //     e.preventDefault();
+    //     if (carousel.current) {
+    //         if (typeof carousel.current.scrollLeft === 'number') {
+    //             carousel.current.scrollLeft -= carousel.current.offsetWidth;
+    //         }
+    //     }
+    // }
 
-    const handleRightClick = (e: React.MouseEvent) => {
-        e.preventDefault();
-        if (carousel.current) {
-            if (typeof carousel.current.scrollLeft === 'number') {
-                carousel.current.scrollLeft += carousel.current.offsetWidth;
-            }
-        }
-    }
+    // const handleRightClick = (e: React.MouseEvent) => {
+    //     e.preventDefault();
+    //     if (carousel.current) {
+    //         if (typeof carousel.current.scrollLeft === 'number') {
+    //             carousel.current.scrollLeft += carousel.current.offsetWidth;
+    //         }
+    //     }
+    // }
 
     return(
         <>
@@ -78,7 +79,7 @@ export function Espaco() {
             <DivMargem>
                 <Separador />
                 <S.TextoSection>Nossa estrutura</S.TextoSection>
-                <S.SectionEstrutura>
+                {/* <S.SectionEstrutura>
                     <S.TituloEstrutura>Sala de televisão</S.TituloEstrutura>
                     <S.DivSlider>
                         <S.ButtonNext onClick={handleLeftClick}>
@@ -94,7 +95,8 @@ export function Espaco() {
                             <S.ImgDentroButton style={{rotate: '180deg'}} src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/seta_slider.png?raw=true' />
                         </S.ButtonPrevious>
                     </S.DivSlider>
-                </S.SectionEstrutura>
+                </S.SectionEstrutura> */}
+                <SliderFotosEstrutura />
             </DivMargem>
         </>
     )
