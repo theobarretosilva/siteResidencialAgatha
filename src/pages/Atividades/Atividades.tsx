@@ -1,5 +1,11 @@
+import * as S from './Atividades.styles'
+
 export function Atividades() {
     return(
-        <h1>TELA DE ATIVIDADES</h1>
+        <>
+            <S.DivImgInicial>
+                <S.TituloDivImgInicial>Atividades para o Bem-Estar</S.TituloDivImgInicial>
+            </S.DivImgInicial>
+        </>
     )
 }
