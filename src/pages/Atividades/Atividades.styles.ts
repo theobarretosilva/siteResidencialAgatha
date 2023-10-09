@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const DivImgInicial = styled.div`
     width: 100%;
     height: 40vh;
-    background-image: url('https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_pagina_espaco.png?raw=true');
+    background-image: url('https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_pagina_atividades.png?raw=true');
     display: flex;
     flex-direction: column;
     justify-content: center;
