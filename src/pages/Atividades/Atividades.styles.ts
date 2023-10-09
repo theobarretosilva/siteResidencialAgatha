@@ -21,3 +21,14 @@ export const TituloDivImgInicial = styled.h1`
     font-weight: 600;
     margin-top: 7vh;
 `
+
+export const TextoInicial = styled.p`
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 6vh;
+    margin-bottom: 0;
+`

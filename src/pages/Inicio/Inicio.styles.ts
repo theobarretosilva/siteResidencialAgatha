@@ -55,7 +55,10 @@ export const SectionEntreContato = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+
+    @media (max-width: 450px) {
+        flex-wrap: wrap;
+    }
 `
 
 export const DivSectionEntreContato = styled.div`
