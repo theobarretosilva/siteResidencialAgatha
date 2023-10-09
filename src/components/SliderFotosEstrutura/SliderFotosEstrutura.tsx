@@ -6,11 +6,12 @@ import 'swiper/css/navigation';
 import './SliderFotosEstrutura.css'
 
 interface SliderFotosEstruturaProps {
+    index: number,
     titulo: string,
     srcImages: string[]
 }
 
-export const SliderFotosEstrutura = ({titulo, srcImages}: SliderFotosEstruturaProps) => {
+export const SliderFotosEstrutura = ({index, titulo, srcImages}: SliderFotosEstruturaProps) => {
     return(
         <>
             <h1 className="titulo">{titulo}</h1>
@@ -22,6 +23,7 @@ export const SliderFotosEstrutura = ({titulo, srcImages}: SliderFotosEstruturaPr
                     delay: 2500,
                     disableOnInteraction: false,
                 }}
+                key={index}
             >
                 {srcImages.map((src, index) => (
                     <SwiperSlide key={index}>
