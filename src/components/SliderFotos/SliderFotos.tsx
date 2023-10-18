@@ -6,7 +6,7 @@ import './SliderFotos.css';
 
 export const SliderFotos = () => {
     const { innerWidth: width } = window;
-    const styleMobile = {width: '100%', height: '18vh', zIndex: '0'};
+    const styleMobile = {width: '90vw', height: '18vh', zIndex: '0'};
     const styleDesktop = {width: '38vw', height: '43vh', zIndex: '0'};
 
     return(
