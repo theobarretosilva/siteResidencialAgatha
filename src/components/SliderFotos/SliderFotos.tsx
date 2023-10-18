@@ -5,6 +5,11 @@ import 'swiper/css/effect-cards';
 import './SliderFotos.css';
 
 export const SliderFotos = () => {
+    const { innerWidth: width } = window;
+    const styleMobile = {width: '100%', height: '23vh', zIndex: '0'};
+    const styleDesktop = {width: '38vw', height: '43vh', zIndex: '0'};
+    console.log(width);
+
     return(
         <>
             <Swiper
@@ -16,7 +21,7 @@ export const SliderFotos = () => {
                     disableOnInteraction: false,
                 }}
                 loop={true}
-                style={{width: '38vw', height: '43vh', zIndex: '0'}}
+                style={width < 450 ? styleMobile : styleDesktop}
             >
                 <SwiperSlide><img src='https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80' /></SwiperSlide>
                 <SwiperSlide><img src='https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1631&q=80' /></SwiperSlide>
