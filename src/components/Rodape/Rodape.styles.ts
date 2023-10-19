@@ -45,6 +45,10 @@ export const DivRedesSociais = styled.div`
     :hover{
         background-color: #A4A4A4;
     }
+
+    @media (max-width: 450px) {
+        gap: 0.9vw;
+    }
 `
 
 export const CircleRedesSociais = styled.div`
@@ -142,4 +146,8 @@ export const DivDentroInformacoes = styled.div`
     flex-direction: row;
     align-items: center;
     gap: 0.8vw;
+
+    @media (max-width: 450px) {
+        gap: 1vw;
+    }
 `
