@@ -61,6 +61,7 @@ export const TextoSection = styled.h1`
 
     @media (max-width: 450px) {
         font-size: 2rem;
+        margin-bottom: 2vh;
     }
 `
 
@@ -68,6 +69,10 @@ export const DivAcomodacao = styled.div`
     display: inline-block;
     position: relative;
     margin-top: 5vh;
+
+    @media (max-width: 450px) {
+        margin-top: 1vh;
+    }
 `
 
 export const FaixaAcomodacoes = styled.img`
