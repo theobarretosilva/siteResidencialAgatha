@@ -13,7 +13,7 @@ export const ImgLogo = styled.img`
 
     @media (max-width: 450px) {
         width: 14vw;
-        height: 28vh;
+        height: 10vh;
     }
 `
 
