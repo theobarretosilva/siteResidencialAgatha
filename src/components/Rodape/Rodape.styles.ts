@@ -121,9 +121,9 @@ export const PSection = styled.p`
     font-weight: 400;
     width: fit-content;
 
-    @media (max-width: 450px) {
+    /* @media (max-width: 450px) {
         margin-top: 0;
-    }
+    } */
 `
 
 export const NavlinkSection = styled(NavLink)`
