@@ -115,7 +115,7 @@ export const SubtituloAcomodacao = styled.h2`
         top: 40px;
         font-size: 0.7rem;
         max-width: 44vw;
-        right: 5vw;
+        right: 4vw;
         font-weight: 100;
     }
 `
@@ -130,6 +130,7 @@ export const ImgAcomodacao = styled.img`
     @media (max-width: 450px) {
         height: 12vh;
         width: 40vw;
+        left: 4vw;
     }
 `
 
