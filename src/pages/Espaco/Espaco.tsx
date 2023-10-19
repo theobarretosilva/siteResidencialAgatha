@@ -11,7 +11,7 @@ export function Espaco() {
             titulo: 'Quarto Ágata Azul',
             subtitulo: 'Os Quartos de Ágata Azul são projetados para criar um refúgio de serenidade e comunicação. Inspirados na Ágata Azul, conhecida por suas propriedades de equilíbrio e harmonia, esses quartos são espaços onde a tranquilidade reina.',
             srcImg: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_quarto_azul.png?raw=true',
-            right: '12.5vw'
+            right: '50px'
         },
         {
             srcFaixa: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/faixa_torta_verde.png?raw=true',

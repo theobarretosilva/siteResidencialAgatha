@@ -112,7 +112,7 @@ export const SubtituloAcomodacao = styled.h2`
     right: 5vw;
 
     @media (max-width: 450px) {
-        top: 40px;
+        top: 38px;
         font-size: 0.7rem;
         max-width: 44vw;
         right: 4vw;
