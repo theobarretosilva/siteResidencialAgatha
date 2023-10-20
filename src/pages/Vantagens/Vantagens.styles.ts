@@ -21,7 +21,7 @@ export const PDentroFaixa = styled.p`
     font-family: 'Montserrat', sans-serif;
 
     @media (max-width: 450px) {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 `
 

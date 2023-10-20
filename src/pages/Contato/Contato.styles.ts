@@ -4,6 +4,10 @@ import InputMask from "react-input-mask";
 export const DivFlex = styled.div`
     display: flex;
     flex-direction: row-reverse;
+
+    @media (max-width: 450px) {
+        flex-direction: column-reverse;
+    }
 `
 
 export const ImagemAside = styled.img`
@@ -11,12 +15,20 @@ export const ImagemAside = styled.img`
     height: 88.5vh;
     margin-top: 11.5vh;
     object-fit: cover;
+
+    @media (max-width: 450px) {
+        display: none;
+    }
 `
 
 export const MainForm = styled.main`
     width: 40vw;
     height: 88.5vh;
     margin-top: 11.5vh;
+
+    @media (max-width: 450px) {
+        width: 100%;
+    }
 `
 
 export const FaixaDegrade = styled.div`
@@ -28,6 +40,12 @@ export const FaixaDegrade = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 450px) {
+        width: 100%;
+        height: 18vh;
+        margin-top: 0;
+    }
 `
 
 export const TituloFaixa = styled.h1`
@@ -37,6 +55,11 @@ export const TituloFaixa = styled.h1`
     font-weight: 600;
     text-align: center;
     margin-bottom: 0;
+
+    @media (max-width: 450px) {
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
 `
 
 export const SubtituloFaixa = styled.h2`
@@ -47,6 +70,11 @@ export const SubtituloFaixa = styled.h2`
     max-width: 30vw;
     text-align: center;
     margin-top: 1vh;
+
+    @media (max-width: 450px) {
+        max-width: 95%;
+        font-size: 1.5rem;
+    }
 `
 
 export const Form = styled.form`
@@ -73,6 +101,12 @@ export const InputMaskStyled = styled(InputMask)`
     ::placeholder {
         color: rgba(0, 0, 0, 0.75);
     }
+
+    @media (max-width: 450px) {
+        width: 90%;
+        height: 5vh;
+        padding-left: 2vw;
+    }
 `
 
 export const Input = styled.input`
@@ -89,6 +123,12 @@ export const Input = styled.input`
 
     ::placeholder {
         color: rgba(0, 0, 0, 0.75);
+    }
+
+    @media (max-width: 450px) {
+        width: 90%;
+        height: 5vh;
+        padding-left: 2vw;
     }
 `
 
@@ -107,6 +147,12 @@ export const TextArea = styled.textarea`
     font-family: 'Inter', sans-serif;
     outline: none;
     resize: none;
+
+    @media (max-width: 450px) {
+        width: 90%;
+        height: 25vh;
+        padding-left: 2vw;
+    }
 `
 
 export const BtnEnviar = styled.button`
@@ -120,4 +166,10 @@ export const BtnEnviar = styled.button`
     font-style: normal;
     font-weight: 500;
     border: none;
+
+    @media (max-width: 450px) {
+        width: 90%;
+        height: 5vh;
+        font-size: 1.3rem;
+    }
 `
