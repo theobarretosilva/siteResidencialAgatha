@@ -46,7 +46,7 @@ export const DivTextoInicial = styled.div`
 
     @media (max-width: 450px) {
         margin-top: 4vh;
-        height: 26vh;
+        height: 30vh;
     }
 `
 
@@ -88,7 +88,7 @@ export const DivBox = styled.div`
 
     @media (max-width: 450px) {
         width: 100%;
-        height: 40vh;
+        height: 44vh;
     }
 `
 
@@ -128,7 +128,7 @@ export const TituloDentroBoxCor = styled.h1`
     font-weight: 500;
 
     @media (max-width: 450px) {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         padding-left: 1.5vw;
     }
 `
@@ -144,7 +144,7 @@ export const PDescBox = styled.p`
     margin-right: 1vh;
 
     @media (max-width: 450px) {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin-top: 1vh;
     }
 `
