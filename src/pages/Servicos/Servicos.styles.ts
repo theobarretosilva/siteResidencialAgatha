@@ -10,6 +10,11 @@ export const DivImgInicial = styled.div`
     align-items: center;
     object-fit: cover;
     margin-top: 11.5vh;
+
+    @media (max-width: 450px) {
+        height: 25vh;
+        margin-top: 9vh;
+    }
 `
 
 export const TituloDivImgInicial = styled.h1`
@@ -20,13 +25,17 @@ export const TituloDivImgInicial = styled.h1`
     font-style: normal;
     font-weight: 600;
     margin-top: 7vh;
+
+    @media (max-width: 450px) {
+        font-size: 2.5rem;
+        margin-top: 3vh;
+    }
 `
 
 export const DivTextoInicial = styled.div`
     width: 100%;
     height: 23vh;
     border-radius: 1.25rem;
-    /* background: linear-gradient(193deg, #6A6A6A 9.58%, rgba(192, 192, 192, 0.50) 90.42%); */
     background-color: rgba(192, 192, 192, 0.50);
     display: flex;
     flex-direction: column;
@@ -34,6 +43,11 @@ export const DivTextoInicial = styled.div`
     align-items: center;
     margin-top: 7vh;
     box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+
+    @media (max-width: 450px) {
+        margin-top: 4vh;
+        height: 26vh;
+    }
 `
 
 export const TextoInicial = styled.p`
@@ -44,6 +58,10 @@ export const TextoInicial = styled.p`
     font-style: normal;
     font-weight: 500;
     max-width: 98%;
+
+    @media (max-width: 450px) {
+        font-size: 1.1rem;
+    }
 `
 
 export const SectionBoxs = styled.section`
@@ -52,7 +70,12 @@ export const SectionBoxs = styled.section`
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    max-width: 100vw;
     margin-bottom: 2vh;
+
+    @media (max-width: 450px) {
+        flex-direction: column;
+    }
 `
 
 export const DivBox = styled.div`
@@ -62,6 +85,11 @@ export const DivBox = styled.div`
     height: 48vh;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 5vh;
+
+    @media (max-width: 450px) {
+        width: 100%;
+        height: 40vh;
+    }
 `
 
 export const DivCorDentroBox = styled.div`
@@ -72,6 +100,10 @@ export const DivCorDentroBox = styled.div`
     height: 23vh;
     text-align: start;
     padding-left: 0.4vw;
+
+    @media (max-width: 450px) {
+        height: 18vh;
+    }
 `
 
 export const NumeroDentroBoxCor = styled.p`
@@ -81,6 +113,11 @@ export const NumeroDentroBoxCor = styled.p`
     font-style: normal;
     font-weight: 400;
     margin-top: 1vh;
+
+    @media (max-width: 450px) {
+        padding-top: 0.5vh;
+        padding-left: 1.5vw;
+    }
 `
 
 export const TituloDentroBoxCor = styled.h1`
@@ -89,6 +126,11 @@ export const TituloDentroBoxCor = styled.h1`
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 500;
+
+    @media (max-width: 450px) {
+        font-size: 1.6rem;
+        padding-left: 1.5vw;
+    }
 `
 
 export const PDescBox = styled.p`
@@ -100,4 +142,9 @@ export const PDescBox = styled.p`
     text-align: start;
     margin-left: 1vh;
     margin-right: 1vh;
+
+    @media (max-width: 450px) {
+        font-size: 1.2rem;
+        margin-top: 1vh;
+    }
 `

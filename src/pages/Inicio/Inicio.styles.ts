@@ -159,7 +159,7 @@ export const BoxMVV = styled.article`
 
     @media (max-width: 450px) {
         width: 89vw;
-        height: 30vh;
+        height: 31vh;
     }
 `
 
