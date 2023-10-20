@@ -51,6 +51,24 @@ export const MainBoxVantagens = styled.main`
 
     @media (max-width: 450px) {
         flex-direction: column;
+
+        :nth-child(2){
+            border-top: none;
+            border-bottom: none;
+            border-left: 2px solid #FFF;
+        }
+        :nth-child(3){
+            border-bottom: none;
+            border-left: 2px solid #FFF;
+            border-right: 2px solid #FFF;
+        }
+        :nth-child(5){
+            border-top: none;
+        }
+        :nth-child(6){
+            border-top: none;
+            border-left: 2px solid #FFF;
+        }
     }
 `
 
@@ -66,6 +84,10 @@ export const BoxVantagem = styled.section`
     @media (max-width: 450px) {
         width: 100%;
         height: fit-content;
+
+        :nth-child(2){
+            border: none;
+        }
     }
 `
 
@@ -82,8 +104,8 @@ export const IconBoxVantagem = styled.img`
     align-self: center;
 
     @media (max-width: 450px) {
-        width: 50vw;
-        height: 40vh;
+        width: 30vw;
+        height: 11vh;
     }
 `
 
@@ -94,4 +116,9 @@ export const TxtBoxVantagem = styled.h1`
     font-weight: 300;
     max-width: 17vw;
     margin-top: 2vh;
+
+    @media (max-width: 450px) {
+        max-width: 90%;
+        font-size: 1.55rem;
+    }
 `
