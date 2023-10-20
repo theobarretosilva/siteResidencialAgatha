@@ -61,6 +61,7 @@ export const TextoInicial = styled.p`
 
     @media (max-width: 450px) {
         font-size: 1.1rem;
+        color: white;
     }
 `
 
@@ -88,7 +89,7 @@ export const DivBox = styled.div`
 
     @media (max-width: 450px) {
         width: 100%;
-        height: 40vh;
+        height: 38vh;
     }
 `
 

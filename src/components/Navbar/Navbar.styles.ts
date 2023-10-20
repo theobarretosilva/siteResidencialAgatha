@@ -81,10 +81,10 @@ export const InnerIconMenu = styled.img`
 export const LinkNavMobile = styled(NavLink)`
     color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 500;
-    margin-bottom: 1.5vh;
+    margin-bottom: 1.6vh;
     margin-left: 5vw;
     text-decoration: none;
 
