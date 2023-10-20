@@ -88,7 +88,7 @@ export const DivBox = styled.div`
 
     @media (max-width: 450px) {
         width: 100%;
-        height: 44vh;
+        height: 40vh;
     }
 `
 
