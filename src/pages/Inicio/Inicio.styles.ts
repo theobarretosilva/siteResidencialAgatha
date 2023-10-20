@@ -159,7 +159,7 @@ export const BoxMVV = styled.article`
 
     @media (max-width: 450px) {
         width: 89vw;
-        height: 33vh;
+        height: 30vh;
     }
 `
 
@@ -184,7 +184,7 @@ export const TituloBoxMVV = styled.h1`
     margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 `
 
