@@ -105,7 +105,7 @@ export const IconBoxVantagem = styled.img`
 
     @media (max-width: 450px) {
         width: 30vw;
-        height: 11vh;
+        height: 10vh;
     }
 `
 
