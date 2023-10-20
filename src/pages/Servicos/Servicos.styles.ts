@@ -46,7 +46,7 @@ export const DivTextoInicial = styled.div`
 
     @media (max-width: 450px) {
         margin-top: 4vh;
-        height: 30vh;
+        height: 32vh;
     }
 `
 
