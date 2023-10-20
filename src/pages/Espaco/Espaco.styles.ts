@@ -44,7 +44,6 @@ export const TextoInicial = styled.p`
     margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 1.3rem;
         margin-top: 4vh;
     }
 `

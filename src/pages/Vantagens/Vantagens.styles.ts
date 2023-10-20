@@ -19,6 +19,10 @@ export const PDentroFaixa = styled.p`
     font-weight: 400;
     max-width: 87vw;
     font-family: 'Montserrat', sans-serif;
+
+    @media (max-width: 450px) {
+        font-size: 1.5rem;
+    }
 `
 
 export const MainBoxVantagens = styled.main`
@@ -44,6 +48,10 @@ export const MainBoxVantagens = styled.main`
         border-top: none;
         border-left: none;
     }
+
+    @media (max-width: 450px) {
+        flex-direction: column;
+    }
 `
 
 export const BoxVantagem = styled.section`
@@ -54,6 +62,11 @@ export const BoxVantagem = styled.section`
     flex-direction: column;
     background-size: cover;
     align-items: center;
+
+    @media (max-width: 450px) {
+        width: 100%;
+        height: fit-content;
+    }
 `
 
 export const ImgDentroBoxVantagem = styled.img`
@@ -67,7 +80,11 @@ export const IconBoxVantagem = styled.img`
     height: 10vh;
     margin-top: 2vh;
     align-self: center;
-    transition: align-self 0.6s;
+
+    @media (max-width: 450px) {
+        width: 50vw;
+        height: 40vh;
+    }
 `
 
 export const TxtBoxVantagem = styled.h1`
