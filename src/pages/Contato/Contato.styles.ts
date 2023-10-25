@@ -166,6 +166,7 @@ export const BtnEnviar = styled.button`
     font-style: normal;
     font-weight: 500;
     border: none;
+    cursor: pointer;
 
     @media (max-width: 450px) {
         width: 90%;
