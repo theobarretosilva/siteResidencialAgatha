@@ -3,12 +3,12 @@ import * as S from './Contato.styles'
 import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
 
-type formContato = {
-    nome: string;
-    email: string;
-    telefone: string;
-    mensagem: string;
-}
+// type formContato = {
+//     nome: string;
+//     email: string;
+//     telefone: string;
+//     mensagem: string;
+// }
 
 export function Contato() {
     const [nome, setNome] = useState("");
@@ -16,7 +16,7 @@ export function Contato() {
     const [telefone, setTelefone] = useState("");
     const [mensagem, setMensagem] = useState("");
 
-    function sendEmail(e: React.FormEvent<formContato>) {
+    function sendEmail(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
 
         if (nome == '' || email == '' || telefone == '' || mensagem == "") {
@@ -42,7 +42,7 @@ export function Contato() {
                 duration: 4000,
                 position: 'top-center',
             });
-        }, (err) => {
+        }, () => {
             toast.error('Não foi possivel enviar o email de contato! Tente novamente mais tarde!', {
                 duration: 4000,
                 position: 'top-center',
