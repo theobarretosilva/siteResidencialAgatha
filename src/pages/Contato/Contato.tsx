@@ -32,7 +32,7 @@ export function Contato() {
         };
     
         emailjs.send("service_um12wck", "template_pzimtm2", templateParams, "9Lu0En11dnW67-NrV")
-        .then(() => {
+        .then((response) => {
             setNome("");
             setEmail("");
             setTelefone("");
@@ -42,11 +42,15 @@ export function Contato() {
                 duration: 4000,
                 position: 'top-center',
             });
-        }, () => {
+
+            console.log(response)
+        }, (err) => {
             toast.error('Não foi possivel enviar o email de contato! Tente novamente mais tarde!', {
                 duration: 4000,
                 position: 'top-center',
             });
+
+            console.log(err)
         })
     }
 
