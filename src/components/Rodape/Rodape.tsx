@@ -43,11 +43,11 @@ export const Rodape = () => {
                     </S.DivDentroInformacoes>
                     <S.DivDentroInformacoes>
                         <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/mail.svg' />
-                        <S.PSection>residencialagatha@gmail.com</S.PSection>
+                        <S.PSection>contato@residencialagatha.com.br</S.PSection>
                     </S.DivDentroInformacoes>
                     <S.DivDentroInformacoes>
                         <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/phone.svg' />
-                        <S.PSection>(48) 3307-7295</S.PSection>
+                        <S.PSection>(48) 3307-7295 / (48) 99122-7701 / (48) 98806-4477</S.PSection>
                     </S.DivDentroInformacoes>
                 </S.SectionTopicos>
             </S.DivInicial>

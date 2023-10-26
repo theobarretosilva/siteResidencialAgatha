@@ -3,6 +3,7 @@ import { DivMargem } from '../../components/DivMargem/DivMargem'
 import { Separador } from '../../components/Separador/Separador'
 import * as S from './Espaco.styles'
 import { SliderFotosEstrutura } from '../../components/SliderFotosEstrutura/SliderFotosEstrutura';
+const { innerWidth: width } = window;
 
 export function Espaco() {
     const acomodacoesData = [
@@ -11,28 +12,28 @@ export function Espaco() {
             titulo: 'Quarto Ágata Azul',
             subtitulo: 'Os Quartos de Ágata Azul são projetados para criar um refúgio de serenidade e comunicação. Inspirados na Ágata Azul, conhecida por suas propriedades de equilíbrio e harmonia, esses quartos são espaços onde a tranquilidade reina.',
             srcImg: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_quarto_azul.png?raw=true',
-            right: '50px'
+            right: width <= 450 ? '50px' : '19.5vw'
         },
         {
             srcFaixa: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/faixa_torta_verde.png?raw=true',
             titulo: 'Quarto Ágata Verde',
             subtitulo: 'Os Quartos de Ágata Verde são santuários de harmonia e equilíbrio. Inspirados nas energias revigorantes e curativas da Ágata Verde, esses quartos foram projetados para oferecer um espaço que nutre sua vitalidade e bem-estar',
             srcImg: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_quarto_verde.png?raw=true',
-            right: '9.4vw'
+            right: width <= 450 ? '9.4vw' : '18.01vw'
         },
         {
             srcFaixa: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/faixa_torta_rosa.png?raw=true',
             titulo: 'Quarto Ágata Rosa',
             subtitulo: 'Os Quartos de Ágata Rosa são verdadeiras expressões de amor e carinho. Inspirados na suave e acolhedora energia da Ágata Rosa, esses quartos são projetados para oferecer um ambiente caloroso e afetuoso.',
             srcImg: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_quarto_rosa.png?raw=true',
-            right: '11.5vw'
+            right: width <= 450 ? '11.15vw' : '19vw'
         },
         {
             srcFaixa: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/faixa_torta_vermelha.png?raw=true',
             titulo: 'Quarto Ágata Vermelha',
             subtitulo: 'Os Quartos de Ágata Vermelha são projetados para serem um oásis de vitalidade e paixão. Inspirados na energia estimulante da Ágata Vermelha, esses quartos são um convite para um ambiente cheio de energia e calor.',
             srcImg: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_quarto_vermelho.png?raw=true',
-            right: '2.7vw'
+            right: width <= 450 ? '2.7vw' : '14.4vw'
         }
     ]
 
