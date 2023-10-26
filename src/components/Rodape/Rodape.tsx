@@ -2,6 +2,17 @@ import { LogoTexto } from '../LogoTexto/LogoTexto'
 import * as S from './Rodape.styles'
 
 export const Rodape = () => {
+    const goInstagram = () => {
+
+    }
+
+    const goWhatsapp = () => {
+
+    }
+
+    const goFacebook = () => {
+
+    }
     return(
         <S.Footer>
             <S.DivInicial>
@@ -11,13 +22,13 @@ export const Rodape = () => {
                         No Residencial Ágatha, além de cuidados de saúde, você encontrará uma família comprometida em enriquecer sua vida e tornar cada dia mais significativo.
                     </S.PDescricaoLogo>
                     <S.DivRedesSociais>
-                        <S.CircleRedesSociais>
+                        <S.CircleRedesSociais onClick={goInstagram}>
                             <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/instagram.svg' />
                         </S.CircleRedesSociais>
-                        <S.CircleRedesSociais>
+                        <S.CircleRedesSociais onClick={goWhatsapp}>
                             <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/whatsapp.svg' />
                         </S.CircleRedesSociais>
-                        <S.CircleRedesSociais>
+                        <S.CircleRedesSociais onClick={goFacebook}>
                             <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/facebook.svg' />
                         </S.CircleRedesSociais>
                     </S.DivRedesSociais>
