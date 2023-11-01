@@ -47,3 +47,49 @@ export const TextoInicial = styled.p`
         margin-top: 4vh;
     }
 `
+
+export const SectionAtividade = styled.section`
+    border-radius: 1.25rem;
+    background: #FFF;
+    width: 97%;
+    height: 44vh;
+    display: flex;
+    flex-direction: row;
+    padding: 3vh 1.5vw 3vh 1.5vw;
+`
+
+export const ImgAtividade = styled.img`
+    width: 38vw;
+    border-radius: 0.62rem;
+    margin: 0;
+    height: 100%;
+`
+
+export const DivDescricaoAtividade = styled.div`
+    margin-left: 10vw;
+`
+
+export const TituloAtividade = styled.h1`
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-align: start;
+`
+
+export const DescricaoAtividade = styled.p`
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: start;
+    max-width: 35vw;
+`
+
+export const SectionCor = styled.section`
+    border-radius: 0.62rem;
+    padding: 0;
+    background-color: #c4dcff;
+    width: 100%;
+    display: flex;
+`
