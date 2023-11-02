@@ -48,15 +48,15 @@ export const TextoInicial = styled.p`
     }
 `
 
-export const SectionAtividade = styled.section`
-    border-radius: 1.25rem;
-    background: #FFF;
-    width: 97%;
-    height: 44vh;
-    display: flex;
-    flex-direction: row;
-    padding: 3vh 1.5vw 3vh 1.5vw;
-`
+// export const SectionAtividade = styled.section`
+//     border-radius: 1.25rem;
+//     background: #FFF;
+//     width: 97%;
+//     height: 44vh;
+//     display: flex;
+//     flex-direction: row;
+//     padding: 3vh 1.5vw 3vh 1.5vw;
+// `
 
 export const ImgAtividade = styled.img`
     width: 38vw;
@@ -92,4 +92,15 @@ export const SectionCor = styled.section`
     background-color: #c4dcff;
     width: 100%;
     display: flex;
+`
+
+export const SectionAtividade = styled.section`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+`
+
+export const PointSeparador = styled.img`
+    height: 12vh;
+    width: 4vw;
 `

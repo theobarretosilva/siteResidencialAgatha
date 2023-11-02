@@ -13,7 +13,7 @@ export function Atividades() {
                     No nosso residencial, reconhecemos a importância de manter uma vida ativa e enriquecedora, independentemente da idade. É por isso que oferecemos uma ampla variedade de atividades cuidadosamente planejadas para promover o bem-estar físico, mental e emocional de nossos residentes.
                 </S.TextoInicial>
                 <Separador />
-                <S.SectionAtividade>
+                {/* <S.SectionAtividade>
                     <S.SectionCor>
                         <S.ImgAtividade src='../../src/assets/img/atividades_fisicas.png' />
                         <S.DivDescricaoAtividade>
@@ -23,6 +23,9 @@ export function Atividades() {
                             </S.DescricaoAtividade>
                         </S.DivDescricaoAtividade>
                     </S.SectionCor>
+                </S.SectionAtividade> */}
+                <S.SectionAtividade>
+                    <S.PointSeparador src='../../src/assets/svg/point-seta.svg' />
                 </S.SectionAtividade>
             </DivMargem>
         </>
