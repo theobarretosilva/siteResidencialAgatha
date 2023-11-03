@@ -62,7 +62,7 @@ export const ImgAtividade = styled.img`
     width: 38vw;
     border-radius: 0.62rem;
     margin: 0;
-    height: 100%;
+    height: 46vh;
 `
 
 export const DivDescricaoAtividade = styled.div`
@@ -103,4 +103,12 @@ export const SectionAtividade = styled.section`
 export const PointSeparador = styled.img`
     height: 12vh;
     width: 4vw;
+`
+
+export const SeparadorLinha = styled.div`
+    height: 0.1vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 `
