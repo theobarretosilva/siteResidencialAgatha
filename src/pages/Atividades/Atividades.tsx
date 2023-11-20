@@ -13,20 +13,9 @@ export function Atividades() {
                     No nosso residencial, reconhecemos a importância de manter uma vida ativa e enriquecedora, independentemente da idade. É por isso que oferecemos uma ampla variedade de atividades cuidadosamente planejadas para promover o bem-estar físico, mental e emocional de nossos residentes.
                 </S.TextoInicial>
                 <Separador />
-                {/* <S.SectionAtividade>
-                    <S.SectionCor>
-                        <S.ImgAtividade src='../../src/assets/img/atividades_fisicas.png' />
-                        <S.DivDescricaoAtividade>
-                            <S.TituloAtividade>Atividades Físicas</S.TituloAtividade>
-                            <S.DescricaoAtividade>
-                                Nossas atividades físicas são projetadas para atender a todos os níveis de mobilidade. Desde exercícios suaves de alongamento até programas de fortalecimento muscular, incentivamos a vitalidade e a saúde física em um ambiente seguro e supervisionado.
-                            </S.DescricaoAtividade>
-                        </S.DivDescricaoAtividade>
-                    </S.SectionCor>
-                </S.SectionAtividade> */}
                 <S.SectionAtividade>
-                    <S.PointSeparador src='../../src/assets/svg/point-seta.svg' />
-                    <S.ImgAtividade src='../../src/assets/img/atividades_fisicas.png' />
+                    <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/dc7f03b1990483d9ceda7ab64292759d9575926f/src/assets/svg/point-seta.svg' />
+                    <S.ImgAtividade src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/atividades_fisicas.png?raw=true' />
                     <S.DivDescricaoAtividade>
                         <S.TituloAtividade>Atividades Físicas</S.TituloAtividade>
                         <S.DescricaoAtividade>
@@ -36,7 +25,7 @@ export function Atividades() {
                 </S.SectionAtividade>
                 <S.SeparadorLinha />
                 <S.SectionAtividade>
-                    <S.PointSeparador src='../../src/assets/svg/point-seta.svg' />
+                    <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/dc7f03b1990483d9ceda7ab64292759d9575926f/src/assets/svg/point-seta.svg' />
                     <S.ImgAtividade src='https://images.unsplash.com/photo-1513159446162-54eb8bdaa79b?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
                     <S.DivDescricaoAtividade>
                         <S.TituloAtividade>Atividades Cognitivas</S.TituloAtividade>
@@ -47,8 +36,8 @@ export function Atividades() {
                 </S.SectionAtividade>
                 <S.SeparadorLinha />
                 <S.SectionAtividade>
-                    <S.PointSeparador src='../../src/assets/svg/point-seta.svg' />
-                    <S.ImgAtividade src='../../src/assets/img/img_arteterapia.png' />
+                    <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/dc7f03b1990483d9ceda7ab64292759d9575926f/src/assets/svg/point-seta.svg' />
+                    <S.ImgAtividade src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_arteterapia.png?raw=true' />
                     <S.DivDescricaoAtividade>
                         <S.TituloAtividade>Arteterapia</S.TituloAtividade>
                         <S.DescricaoAtividade>
@@ -58,8 +47,8 @@ export function Atividades() {
                 </S.SectionAtividade>
                 <S.SeparadorLinha />
                 <S.SectionAtividade style={{marginBottom: '5vh'}}>
-                    <S.PointSeparador src='../../src/assets/svg/point-seta.svg' />
-                    <S.ImgAtividade src='../../src/assets/img/terapia_ocupacional.png' />
+                    <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/dc7f03b1990483d9ceda7ab64292759d9575926f/src/assets/svg/point-seta.svg' />
+                    <S.ImgAtividade src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/terapia_ocupacional.png?raw=true' />
                     <S.DivDescricaoAtividade>
                         <S.TituloAtividade>Terapia Ocupacional</S.TituloAtividade>
                         <S.DescricaoAtividade>
