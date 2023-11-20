@@ -49,7 +49,7 @@ export const Rodape = () => {
                     <S.TituloSection>Informações de contato</S.TituloSection>
                     <S.DivDentroInformacoes>
                         <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/map-pin.svg' />
-                        <S.PSection>Rua Fernando Ferreira de Melo, 261 - Bom Abrigo</S.PSection>
+                        <S.PSection>Rua Fernando Ferreira de Melo, 261 - Bom Abrigo, Florianópolis</S.PSection>
                     </S.DivDentroInformacoes>
                     <S.DivDentroInformacoes>
                         <S.ImgRedesSociais src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/mail.svg' />
