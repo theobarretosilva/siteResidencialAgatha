@@ -38,7 +38,7 @@ export const SliderFotosEstrutura = () => {
                 <SwiperSlide><img src='https://images.unsplash.com/photo-1522211988038-6fcbb8c12c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80' /></SwiperSlide>
                 <SwiperSlide><img src='https://images.unsplash.com/photo-1585047402745-62c9c8cc3b89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80' /></SwiperSlide>
             </Swiper>
-            <h1 className="titulo">Jardim</h1>
+            <h1 className="titulo">Área Externa</h1>
             <Swiper
                 slidesPerView={3}
                 modules={[Autoplay]}
