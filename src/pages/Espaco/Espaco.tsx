@@ -40,7 +40,7 @@ export function Espaco() {
             titulo: 'Quarto Ágata Cinza',
             subtitulo: 'Os Quartos Ágata Cinza são um espaço cuidadosamente projetado para transmitir uma atmosfera de tranquilidade e equilíbrio. Inspirado nas qualidades da ágata cinza, estes quartos são uma expressão de serenidade e estabilidade.',
             srcImg: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataCinza.jpg?raw=true',
-            right: width <= 450 ? '2.7vw' : '14.4vw'
+            right: width <= 450 ? '3.43vw' : '18.3vw'
         }
     ]
 
