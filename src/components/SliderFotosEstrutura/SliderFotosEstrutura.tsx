@@ -21,7 +21,7 @@ export const SliderFotosEstrutura = () => {
                 <SwiperSlide><img src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/salaDeEstar/salaDeEstar1.jpg?raw=true' /></SwiperSlide>
                 <SwiperSlide><img src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/salaDeEstar/salaDeEstar2.jpg?raw=true' /></SwiperSlide>
                 <SwiperSlide><img src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/salaDeEstar/salaDeEstar3.jpg?raw=true' /></SwiperSlide>
-                <SwiperSlide><img src='https://images.unsplash.com/photo-1611094016919-36b65678f3d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80' /></SwiperSlide>
+                <SwiperSlide><img src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/salaDeEstar/salaDeEstar4.jpg?raw=true' /></SwiperSlide>
             </Swiper>
             <h1 className="titulo">Espaço de leitura</h1>
             <Swiper
@@ -35,8 +35,8 @@ export const SliderFotosEstrutura = () => {
             >
                 <SwiperSlide><img src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/espacoDeLeitura/espacoDeLeitura1.jpg?raw=true' /></SwiperSlide>
                 <SwiperSlide><img src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/espacoDeLeitura/espacoDeLeitura2.jpg?raw=true' /></SwiperSlide>
-                <SwiperSlide><img src='https://images.unsplash.com/photo-1522211988038-6fcbb8c12c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80' /></SwiperSlide>
-                <SwiperSlide><img src='https://images.unsplash.com/photo-1585047402745-62c9c8cc3b89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80' /></SwiperSlide>
+                <SwiperSlide><img src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/espacoDeLeitura/espacoDeLeitura3.jpg?raw=true' /></SwiperSlide>
+                <SwiperSlide><img src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/espacoDeLeitura/espacoDeLeitura4.jpg?raw=true' /></SwiperSlide>
             </Swiper>
             <h1 className="titulo">Jardim</h1>
             <Swiper
@@ -64,9 +64,9 @@ export const SliderFotosEstrutura = () => {
                 }}
             >
                 <SwiperSlide><img src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/refeitorio/refeitorio1.jpg?raw=true' /></SwiperSlide>
-                <SwiperSlide><img src='https://images.unsplash&w=1399&q=80' /></SwiperSlide>
-                <SwiperSlide><img src='https://images.unsplash.com/-1550948390-6eb7fa773072?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80' /></SwiperSlide>
-                <SwiperSlide><img src='https://images.unsplash.com/photo--db773e57b1d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80' /></SwiperSlide>
+                <SwiperSlide><img src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/refeitorio/refeitorio2.jpg?raw=true' /></SwiperSlide>
+                <SwiperSlide><img src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/refeitorio/refeitorio3.jpg?raw=true' /></SwiperSlide>
+                <SwiperSlide><img src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/refeitorio/refeitorio4.jpg?raw=true' /></SwiperSlide>
             </Swiper>
         </>
     )
