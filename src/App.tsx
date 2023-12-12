@@ -7,7 +7,7 @@ import { useEffect } from 'react'
 function App() {
   useEffect(() => {
     const tagManagerArgs = {
-      gtmId: 'GTM-TJ5VDSLC'
+      gtmId: 'G-ELRYDS2PPW'
     }
   
     TagManager.initialize(tagManagerArgs);
