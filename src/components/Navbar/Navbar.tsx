@@ -11,7 +11,7 @@ export const Navbar = () => {
 
     const toggleMode = () => {
         setMode(!active);
-        pageYPosition > 900
+        pageYPosition == 0;
     };
 
     function getPageYAfterScroll(){
