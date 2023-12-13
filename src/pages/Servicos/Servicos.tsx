@@ -50,7 +50,7 @@ export function Servicos() {
             <DivMargem>
                 <S.DivTextoInicial>
                     <S.TextoInicial>
-                        No nosso residencial, abraçamos uma abordagem holística para o cuidado dos idosos. Nossa missão é proporcionar um ambiente acolhedor e amoroso para idosos semi-dependentes ou dependentes, bem como aqueles que enfrentam desafios de saúde crônicos, como a doença de Alzheimer, derrame, doença de Parkinson e outras condições relacionadas.
+                        No nosso residencial, abraçamos com uma abordagem holística para o cuidado dos idosos. Nossa missão é proporcionar um ambiente acolhedor e amoroso para idosos semi-dependentes ou dependentes, bem como aqueles que enfrentam desafios de saúde crônicos, como a doença de Alzheimer, derrame, doença de Parkinson e outras condições relacionadas.
                     </S.TextoInicial>
                 </S.DivTextoInicial>
                 <Separador />

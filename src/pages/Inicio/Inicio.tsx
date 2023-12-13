@@ -6,8 +6,14 @@ import "slick-carousel/slick/slick-theme.css";
 import { SliderFotos } from '../../components/SliderFotos/SliderFotos';
 import 'animate.css';
 import { AutoMorphingText } from '../../components/AutoMorphingText/AutoMorphingText';
+import { useNavigate } from 'react-router-dom';
 
 export function Inicio() {
+    const navigate = useNavigate();
+
+    const goTelaContato = () => {
+        navigate('/contato');
+    }
     return(
         <>
             <S.ImgCasaInicial src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/casa_inicial_tela_inicial.jpg?raw=true' />
@@ -30,12 +36,12 @@ export function Inicio() {
                         <S.SubtituloSectionEntreContato>
                             Se você busca um ambiente que promova o equilíbrio e a renovação, o Residencial Ágatha é a escolha perfeita. Aqui, você encontrará um espaço para relaxar, se revitalizar e encontrar a harmonia em sua jornada conosco.
                         </S.SubtituloSectionEntreContato>
-                        <S.BtnEntreContato>
+                        <S.BtnEntreContato onClick={goTelaContato}>
                             Entre em contato conosco!
                         </S.BtnEntreContato>
                     </S.DivSectionEntreContato>
                     <SliderFotos />
-                    <S.BtnEntreContatoMobile>Entre em contato conosco!</S.BtnEntreContatoMobile>
+                    <S.BtnEntreContatoMobile onClick={goTelaContato}>Entre em contato conosco!</S.BtnEntreContatoMobile>
                 </S.SectionEntreContato>
                 <Separador style={{rotate:'180deg'}} />
                 <S.SectionMVV>

@@ -43,7 +43,7 @@ export const TextoInicial = styled.p`
     margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         margin-top: 4vh;
     }
 `
@@ -63,10 +63,21 @@ export const ImgAtividade = styled.img`
     border-radius: 0.62rem;
     margin: 0;
     height: 46vh;
+
+    @media (max-width: 450px) {
+        width: 100%;
+        border-radius: 0.62rem;
+        margin: 0;
+        height: 25vh;
+    }
 `
 
 export const DivDescricaoAtividade = styled.div`
     margin-left: 10vw;
+
+    @media (max-width: 450px) {
+        margin-left: 0;
+    }
 `
 
 export const TituloAtividade = styled.h1`
@@ -75,6 +86,11 @@ export const TituloAtividade = styled.h1`
     font-size: 1.9rem;
     font-weight: 600;
     text-align: start;
+
+    @media (max-width: 450px) {
+        text-align: center;
+        margin-bottom: 1vh;
+    }
 `
 
 export const DescricaoAtividade = styled.p`
@@ -84,6 +100,11 @@ export const DescricaoAtividade = styled.p`
     font-weight: 300;
     text-align: start;
     max-width: 35vw;
+
+    @media (max-width: 450px) {
+        text-align: center;
+        max-width: 100%;
+    }
 `
 
 export const SectionCor = styled.section`
@@ -98,11 +119,19 @@ export const SectionAtividade = styled.section`
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    @media (max-width: 450px) {
+        flex-direction: column;
+    }
 `
 
 export const PointSeparador = styled.img`
     height: 12vh;
     width: 4vw;
+
+    @media (max-width: 450px) {
+        display: none;
+    }
 `
 
 export const SeparadorLinha = styled.div`
