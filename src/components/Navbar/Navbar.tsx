@@ -5,18 +5,13 @@ import './Navbar.css'
 import { LogoTextoBranco } from '../LogoTextBranco/LogoTextoBranco'
 
 export const Navbar = () => {
-    const [pageYPosition, setPageYPosition] = useState(0);
     const [active, setMode] = useState(false);
-    window.addEventListener('scroll', getPageYAfterScroll);
 
     const toggleMode = () => {
         setMode(!active);
-        pageYPosition == 0;
+        window.scrollTo(0, 0);
     };
 
-    function getPageYAfterScroll(){
-        setPageYPosition(window.scrollY);
-    }
 
     return(
         <S.Header>
