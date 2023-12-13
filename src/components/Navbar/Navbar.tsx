@@ -19,12 +19,12 @@ export const Navbar = () => {
                     <LogoTextoBranco />
                     <S.InnerIconMenu onClick={toggleMode} src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/95bd29bb86dde2f79b85911da61d58cb6bd8e26f/src/assets/svg/icon_menu_branco.svg' />
                 </S.DivInicialMenu>
-                <S.LinkNavMobile to={'inicio'}>Início</S.LinkNavMobile>
-                <S.LinkNavMobile to={'espaco'}>Espaço</S.LinkNavMobile>
-                <S.LinkNavMobile to={'servicos'}>Serviços</S.LinkNavMobile>
-                <S.LinkNavMobile to={'atividades'}>Atividades</S.LinkNavMobile>
-                <S.LinkNavMobile to={'vantagens'}>Vantagens</S.LinkNavMobile>
-                <S.LinkNavMobile to={'contato'}>Contato</S.LinkNavMobile>
+                <S.LinkNavMobile onClick={toggleMode} to={'inicio'}>Início</S.LinkNavMobile>
+                <S.LinkNavMobile onClick={toggleMode} to={'espaco'}>Espaço</S.LinkNavMobile>
+                <S.LinkNavMobile onClick={toggleMode} to={'servicos'}>Serviços</S.LinkNavMobile>
+                <S.LinkNavMobile onClick={toggleMode} to={'atividades'}>Atividades</S.LinkNavMobile>
+                <S.LinkNavMobile onClick={toggleMode} to={'vantagens'}>Vantagens</S.LinkNavMobile>
+                <S.LinkNavMobile onClick={toggleMode} to={'contato'}>Contato</S.LinkNavMobile>
             </div>
             <S.Navegacao>
                 <S.LinkNav to={'inicio'}>Início</S.LinkNav>
