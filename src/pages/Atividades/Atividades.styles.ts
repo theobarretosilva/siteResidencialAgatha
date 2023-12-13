@@ -89,7 +89,8 @@ export const TituloAtividade = styled.h1`
 
     @media (max-width: 450px) {
         text-align: center;
-        margin-bottom: 1vh;
+        margin-bottom: 0;
+        margin-top: 1.5vh;
     }
 `
 
@@ -104,6 +105,8 @@ export const DescricaoAtividade = styled.p`
     @media (max-width: 450px) {
         text-align: center;
         max-width: 100%;
+        font-size: 1.3rem;
+        margin-top: 1vh;
     }
 `
 
