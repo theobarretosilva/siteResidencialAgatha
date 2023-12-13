@@ -8,6 +8,7 @@ export const Navbar = () => {
     const [active, setMode] = useState(false);
     const toggleMode = () => {
         setMode(!active);
+        window.scrollY;
     };
 
     return(
