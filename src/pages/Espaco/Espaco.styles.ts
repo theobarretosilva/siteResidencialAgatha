@@ -120,11 +120,12 @@ export const SubtituloAcomodacao = styled.h2`
 `
 
 export const VideoAcomodacao = styled.video`
-    width: 43vw;
+    width: 40vw;
     height: 50vh;
     position: absolute;
     top: 38px;
     left: 5vw;
+    border-radius: 8px;
 
     @media (max-width: 450px) {
         height: 12vh;

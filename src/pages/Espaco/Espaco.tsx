@@ -50,7 +50,7 @@ export function Espaco() {
             titulo: 'Quarto Ágata Roxa',
             subtitulo: 'Os Quartos Ágata Roxa são um santuário de tranquilidade, onde a energia suave e reconfortante da ágata roxa é celebrada. Este espaço convida à introspecção, à contemplação e à conexão espiritual.',
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_roxa.mp4?raw=true',
-            right: width <= 450 ? '3.43vw' : '18.3vw'
+            right: width <= 450 ? '3.43vw' : '19.1vw'
         }
         
     ]
@@ -85,7 +85,7 @@ export function Espaco() {
                         <S.FaixaAcomodacoes src={acomodacao.srcFaixa} />
                         <S.TituloAcomodacao style={{right: acomodacao.right}}>{acomodacao.titulo}</S.TituloAcomodacao>
                         <S.SubtituloAcomodacao>{acomodacao.subtitulo}</S.SubtituloAcomodacao>
-                        <S.VideoAcomodacao autoPlay loop onClick={() => openModal(acomodacao.srcVideo)} >
+                        <S.VideoAcomodacao controls autoPlay loop onClick={() => openModal(acomodacao.srcVideo)} >
                             <source src={acomodacao.srcVideo} />
                         </S.VideoAcomodacao>
                     </S.DivAcomodacao>
