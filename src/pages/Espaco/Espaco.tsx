@@ -46,9 +46,9 @@ export function Espaco() {
             right: width <= 450 ? '3.43vw' : '18.3vw'
         },
         {
-            srcFaixa: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/faixa_torta_cinza.png?raw=true',
+            srcFaixa: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/faixa_torta_roxa.png?raw=true',
             titulo: 'Quarto Ágata Roxa',
-            subtitulo: '',
+            subtitulo: 'Os Quartos Ágata Roxa são um santuário de tranquilidade, onde a energia suave e reconfortante da ágata roxa é celebrada. Este espaço convida à introspecção, à contemplação e à conexão espiritual.',
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_roxa.mp4?raw=true',
             right: width <= 450 ? '3.43vw' : '18.3vw'
         }
