@@ -19,8 +19,8 @@ export function Servicos() {
         {
             cor: '#009C82',
             numero: '03',
-            titulo: 'Supervisão médica geriátrica',
-            descricao: 'Contamos com uma equipe médica experiente e qualificada, especializada em geriatria, que compreende as complexidades do envelhecimento e das condições de saúde comuns nesta fase da vida.'
+            titulo: 'Supervisão médica',
+            descricao: 'Contamos com uma equipe médica experiente e qualificada, que compreende as complexidades do envelhecimento e das condições de saúde comuns nesta fase da vida.'
         },
         {
             cor: '#FF9C41',
