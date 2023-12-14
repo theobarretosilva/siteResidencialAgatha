@@ -3,6 +3,8 @@ import { DivMargem } from '../../components/DivMargem/DivMargem'
 import { Separador } from '../../components/Separador/Separador'
 import * as S from './Espaco.styles'
 import { SliderFotosEstrutura } from '../../components/SliderFotosEstrutura/SliderFotosEstrutura';
+import ImageModal from '../../components/ImageModal/ImageModal';
+import { useState } from 'react';
 const { innerWidth: width } = window;
 
 export function Espaco() {
@@ -44,6 +46,18 @@ export function Espaco() {
         }
     ]
 
+    const [isOpen, setIsOpen] = useState(false);
+    const [selectedImage, setSelectedImage] = useState('');
+
+    const openModal = (imageUrl: string) => {
+        setSelectedImage(imageUrl);
+        setIsOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsOpen(false);
+    };
+
     return(
         <>
             <S.DivImgInicial>
@@ -57,12 +71,22 @@ export function Espaco() {
             </DivMargem>
             <S.TextoSection>Nossas acomodações</S.TextoSection>
             {acomodacoesData.map((acomodacao, index) => (
-                <S.DivAcomodacao key={index}>
-                    <S.FaixaAcomodacoes src={acomodacao.srcFaixa} />
-                    <S.TituloAcomodacao style={{right: acomodacao.right}}>{acomodacao.titulo}</S.TituloAcomodacao>
-                    <S.SubtituloAcomodacao>{acomodacao.subtitulo}</S.SubtituloAcomodacao>
-                    <S.ImgAcomodacao src={acomodacao.srcImg} />
-                </S.DivAcomodacao>
+                <>
+                    <S.DivAcomodacao key={index}>
+                        <S.FaixaAcomodacoes src={acomodacao.srcFaixa} />
+                        <S.TituloAcomodacao style={{right: acomodacao.right}}>{acomodacao.titulo}</S.TituloAcomodacao>
+                        <S.SubtituloAcomodacao>{acomodacao.subtitulo}</S.SubtituloAcomodacao>
+                        <S.ImgAcomodacao src={acomodacao.srcImg} onClick={() => openModal(acomodacao.srcImg)} />
+                    </S.DivAcomodacao>
+                    {isOpen && selectedImage === acomodacao.srcImg && (
+                        <ImageModal
+                            imageUrl={acomodacao.srcImg}
+                            isOpen={isOpen}
+                            closeModal={closeModal}
+                            altText="Descrição da imagem"
+                        />
+                    )}
+                </>
             ))}
             <DivMargem>
                 <Separador />
