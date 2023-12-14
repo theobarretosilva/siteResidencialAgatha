@@ -9,6 +9,27 @@ import { AutoMorphingText } from '../../components/AutoMorphingText/AutoMorphing
 import { useNavigate } from 'react-router-dom';
 
 export function Inicio() {
+    const dataMVV = [
+        {
+            icon: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/missao_icone.svg',
+            alt: 'Icone do símbolo missão',
+            titulo: 'Missão',
+            descricao: 'Promover o bem-estar e a qualidade de vida dos idosos, oferecendo cuidados de alta qualidade e um ambiente acolhedor que respeita a individualidade.'
+        },
+        {
+            icon: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/visao_icone.svg',
+            alt: 'Icone do símbolo visão',
+            titulo: 'Visão',
+            descricao: 'Ser um modelo de excelência em cuidados geriátricos, onde o envelhecimento é vivido com dignidade e alegria.'
+        },
+        {
+            icon: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/valores_icone.svg',
+            alt: 'Icone do símbolo valores',
+            titulo: 'Valores',
+            descricao: 'Respeito, compaixão, qualidade, integridade, colaboração'
+        }
+    ]
+
     const navigate = useNavigate();
 
     const goTelaContato = () => {
@@ -46,27 +67,13 @@ export function Inicio() {
                 </S.SectionEntreContato>
                 <Separador style={{rotate:'180deg'}} />
                 <S.SectionMVV>
-                    <S.BoxMVV>
-                        <S.ImgIconesMVV src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/missao_icone.svg' alt='Icone do símbolo missão' />
-                        <S.TituloBoxMVV>Missão</S.TituloBoxMVV>
-                        <S.SubtituloBoxMVV>
-                            Promover o bem-estar e a qualidade de vida dos idosos, oferecendo cuidados de alta qualidade e um ambiente acolhedor que respeita a individualidade.
-                        </S.SubtituloBoxMVV>
-                    </S.BoxMVV>
-                    <S.BoxMVV>
-                        <S.ImgIconesMVV src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/visao_icone.svg' alt='Icone do símbolo visão' />
-                        <S.TituloBoxMVV>Visão</S.TituloBoxMVV>
-                        <S.SubtituloBoxMVV>
-                            Ser um modelo de excelência em cuidados geriátricos, onde o envelhecimento é vivido com dignidade e alegria.
-                        </S.SubtituloBoxMVV>
-                    </S.BoxMVV>
-                    <S.BoxMVV>
-                        <S.ImgIconesMVV src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/valores_icone.svg' alt='Icone do símbolo valores' />
-                        <S.TituloBoxMVV>Valores</S.TituloBoxMVV>
-                        <S.SubtituloBoxMVV>
-                            Respeito, compaixão, qualidade, integridade, colaboração
-                        </S.SubtituloBoxMVV>
-                    </S.BoxMVV>
+                    {dataMVV.map((mvv, index) => (
+                        <S.BoxMVV key={index}>
+                            <S.ImgIconesMVV src={mvv.icon} alt={mvv.alt} />
+                            <S.TituloBoxMVV>{mvv.titulo}</S.TituloBoxMVV>
+                            <S.SubtituloBoxMVV>{mvv.descricao}</S.SubtituloBoxMVV>
+                        </S.BoxMVV>
+                    ))}
                 </S.SectionMVV>
             </DivMargem>
         </>
