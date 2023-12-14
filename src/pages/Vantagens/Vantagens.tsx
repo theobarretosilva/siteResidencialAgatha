@@ -40,7 +40,7 @@ export function Vantagens() {
             secondText: 'Esforços físicos e emocionais para ajudar nos cuidados diários',
         },
         {
-            backgroudImage: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/atendimento_fundo.jpg?raw=true',
+            backgroundImage: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/atendimento_fundo.jpg?raw=true',
             iconSrc: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/3c8b668bafacb43b81b327d3ab98c6190155b15f/src/assets/svg/icon_atendimento.svg',
             text: 'Atendimento',
             secondText: 'Recebemos residentes para centro dia e residência'
