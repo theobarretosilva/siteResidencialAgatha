@@ -40,7 +40,7 @@ export function Vantagens() {
             secondText: 'Esforços físicos e emocionais para ajudar nos cuidados diários',
         },
         {
-            backgroudImage: 'https://blog.gesuas.com.br/wp-content/uploads/2017/09/pessoas-com-deficiencia.jpg',
+            backgroudImage: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/atendimento_fundo.jpg?raw=true',
             iconSrc: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/1a559a11daa5cf6031ddbb843b27d9563622006e/src/assets/svg/icon_atendimento.svg',
             text: 'Atendimento',
             secondText: 'Recebemos residentes para centro dia e residência'
