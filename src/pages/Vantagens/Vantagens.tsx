@@ -38,31 +38,14 @@ export function Vantagens() {
             iconSrc: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/1a559a11daa5cf6031ddbb843b27d9563622006e/src/assets/svg/icon_esforcos_fisicos.svg',
             text: 'Esforços físicos e emocionais para ajudar',
             secondText: 'Esforços físicos e emocionais para ajudar nos cuidados diários',
+        },
+        {
+            backgroudImage: 'https://blog.gesuas.com.br/wp-content/uploads/2017/09/pessoas-com-deficiencia.jpg',
+            iconSrc: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/1a559a11daa5cf6031ddbb843b27d9563622006e/src/assets/svg/icon_atendimento.svg',
+            text: 'Atendimento',
+            secondText: 'Recebemos residentes para centro dia e residência'
         }
     ];
-
-    // const [alignSelf, setalignSelf] = useState(Array(6).fill('center'));
-    // const [showSecondText, setShowSecondText] = useState(Array(6).fill(false));
-
-    // const hoverAdvantage = (index: number) => {
-    //     const newalignSelf = [...alignSelf];
-    //     newalignSelf[index] = 'start';
-    //     setalignSelf(newalignSelf);
-
-    //     const newShowSecondText = [...showSecondText];
-    //     newShowSecondText[index] = true;
-    //     setShowSecondText(newShowSecondText);
-    // }
-
-    // const outAdvantage = (index: number) => {
-    //     const newalignSelf = [...alignSelf];
-    //     newalignSelf[index] = 'center';
-    //     setalignSelf(newalignSelf);
-
-    //     const newShowSecondText = [...showSecondText];
-    //     newShowSecondText[index] = false;
-    //     setShowSecondText(newShowSecondText);
-    // }
 
     return(
         <>
