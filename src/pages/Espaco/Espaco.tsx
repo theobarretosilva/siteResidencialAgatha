@@ -5,45 +5,54 @@ import * as S from './Espaco.styles'
 import { SliderFotosEstrutura } from '../../components/SliderFotosEstrutura/SliderFotosEstrutura';
 import ImageModal from '../../components/ImageModal/ImageModal';
 import { useState } from 'react';
-const { innerWidth: width } = window;
 
 export function Espaco() {
+    const { innerWidth: width } = window;
+
     const acomodacoesData = [
         {
             srcFaixa: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/faixa_torta_azul.png?raw=true',
             titulo: 'Quarto Ágata Azul',
             subtitulo: 'Os Quartos de Ágata Azul são projetados para criar um refúgio de serenidade e comunicação. Inspirados na Ágata Azul, conhecida por suas propriedades de equilíbrio e harmonia, esses quartos são espaços onde a tranquilidade reina.',
-            srcImg: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataAzul.jpg?raw=true',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataAzul.jpg?raw=true',
             right: width <= 450 ? '50px' : '19.5vw'
         },
         {
             srcFaixa: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/faixa_torta_verde.png?raw=true',
             titulo: 'Quarto Ágata Verde',
             subtitulo: 'Os Quartos de Ágata Verde são santuários de harmonia e equilíbrio. Inspirados nas energias revigorantes e curativas da Ágata Verde, esses quartos foram projetados para oferecer um espaço que nutre sua vitalidade e bem-estar',
-            srcImg: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataVerde.jpg?raw=true',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_verde.mp4?raw=true',
             right: width <= 450 ? '9.4vw' : '18.01vw'
         },
         {
             srcFaixa: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/faixa_torta_rosa.png?raw=true',
             titulo: 'Quarto Ágata Rosa',
             subtitulo: 'Os Quartos de Ágata Rosa são verdadeiras expressões de amor e carinho. Inspirados na suave e acolhedora energia da Ágata Rosa, esses quartos são projetados para oferecer um ambiente caloroso e afetuoso.',
-            srcImg: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataRosa.jpg?raw=true',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataRosa.jpg?raw=true',
             right: width <= 450 ? '11.15vw' : '19vw'
         },
         {
             srcFaixa: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/faixa_torta_vermelha.png?raw=true',
             titulo: 'Quarto Ágata Vermelha',
             subtitulo: 'Os Quartos de Ágata Vermelha são projetados para serem um oásis de vitalidade e paixão. Inspirados na energia estimulante da Ágata Vermelha, esses quartos são um convite para um ambiente cheio de energia e calor.',
-            srcImg: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataVermelha.jpg?raw=true',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataVermelha.jpg?raw=true',
             right: width <= 450 ? '2.7vw' : '14.4vw'
         },
         {
             srcFaixa: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/faixa_torta_cinza.png?raw=true',
             titulo: 'Quarto Ágata Cinza',
             subtitulo: 'Os Quartos Ágata Cinza são um espaço cuidadosamente projetado para transmitir uma atmosfera de tranquilidade e equilíbrio. Inspirado nas qualidades da ágata cinza, estes quartos são uma expressão de serenidade e estabilidade.',
-            srcImg: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataCinza.jpg?raw=true',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataCinza.jpg?raw=true',
+            right: width <= 450 ? '3.43vw' : '18.3vw'
+        },
+        {
+            srcFaixa: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/faixa_torta_cinza.png?raw=true',
+            titulo: 'Quarto Ágata Roxa',
+            subtitulo: '',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_roxa.mp4?raw=true',
             right: width <= 450 ? '3.43vw' : '18.3vw'
         }
+        
     ]
 
     const [isOpen, setIsOpen] = useState(false);
@@ -76,11 +85,13 @@ export function Espaco() {
                         <S.FaixaAcomodacoes src={acomodacao.srcFaixa} />
                         <S.TituloAcomodacao style={{right: acomodacao.right}}>{acomodacao.titulo}</S.TituloAcomodacao>
                         <S.SubtituloAcomodacao>{acomodacao.subtitulo}</S.SubtituloAcomodacao>
-                        <S.ImgAcomodacao src={acomodacao.srcImg} onClick={() => openModal(acomodacao.srcImg)} />
+                        <S.VideoAcomodacao autoPlay loop onClick={() => openModal(acomodacao.srcVideo)} >
+                            <source src={acomodacao.srcVideo} />
+                        </S.VideoAcomodacao>
                     </S.DivAcomodacao>
-                    {isOpen && selectedImage === acomodacao.srcImg && (
+                    {isOpen && selectedImage === acomodacao.srcVideo && (
                         <ImageModal
-                            imageUrl={acomodacao.srcImg}
+                            imageUrl={acomodacao.srcVideo}
                             isOpen={isOpen}
                             closeModal={closeModal}
                             altText="Descrição da imagem"

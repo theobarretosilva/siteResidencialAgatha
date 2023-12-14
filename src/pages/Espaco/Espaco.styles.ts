@@ -119,7 +119,7 @@ export const SubtituloAcomodacao = styled.h2`
     }
 `
 
-export const ImgAcomodacao = styled.img`
+export const VideoAcomodacao = styled.video`
     width: 43vw;
     height: 50vh;
     position: absolute;
