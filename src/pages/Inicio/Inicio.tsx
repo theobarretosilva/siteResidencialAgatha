@@ -14,6 +14,7 @@ export function Inicio() {
     const goTelaContato = () => {
         navigate('/contato');
     }
+
     return(
         <>
             <S.ImgCasaInicial src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/casa_inicial_tela_inicial.jpg?raw=true' />
