@@ -48,6 +48,10 @@ export const MainBoxVantagens = styled.main`
         border-top: none;
         border-left: none;
     }
+    :nth-child(7){
+        border-top: none;
+        border-left: none;
+    }
 
     @media (max-width: 450px) {
         flex-direction: column;
@@ -66,6 +70,10 @@ export const MainBoxVantagens = styled.main`
             border-top: none;
         }
         :nth-child(6){
+            border-top: none;
+            border-left: 2px solid #FFF;
+        }
+        :nth-child(7){
             border-top: none;
             border-left: 2px solid #FFF;
         }
