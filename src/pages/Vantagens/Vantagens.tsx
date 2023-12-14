@@ -41,7 +41,7 @@ export function Vantagens() {
         },
         {
             backgroudImage: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/atendimento_fundo.jpg?raw=true',
-            iconSrc: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/1a559a11daa5cf6031ddbb843b27d9563622006e/src/assets/svg/icon_atendimento.svg',
+            iconSrc: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/3c8b668bafacb43b81b327d3ab98c6190155b15f/src/assets/svg/icon_atendimento.svg',
             text: 'Atendimento',
             secondText: 'Recebemos residentes para centro dia e residência'
         }
