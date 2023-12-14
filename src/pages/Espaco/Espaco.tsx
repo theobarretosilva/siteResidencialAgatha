@@ -81,14 +81,26 @@ export function Espaco() {
             <S.TextoSection>Nossas acomodações</S.TextoSection>
             {acomodacoesData.map((acomodacao, index) => (
                 <>
-                    <S.DivAcomodacao key={index}>
-                        <S.FaixaAcomodacoes src={acomodacao.srcFaixa} />
-                        <S.TituloAcomodacao style={{right: acomodacao.right}}>{acomodacao.titulo}</S.TituloAcomodacao>
-                        <S.SubtituloAcomodacao>{acomodacao.subtitulo}</S.SubtituloAcomodacao>
-                        <S.VideoAcomodacao controls autoPlay loop onClick={() => openModal(acomodacao.srcVideo)} >
-                            <source src={acomodacao.srcVideo} />
-                        </S.VideoAcomodacao>
-                    </S.DivAcomodacao>
+                    {width <= 450 ? (
+                        <S.FaixaAcomodacao>
+                            <S.VideoAcomodacaoMobile controls autoPlay loop onClick={() => openModal(acomodacao.srcVideo)} >
+                                <source src={acomodacao.srcVideo} />
+                            </S.VideoAcomodacaoMobile>
+                            <S.TituloAcomodacaoMobile>Quarto Ágata Vermelha</S.TituloAcomodacaoMobile>
+                            <S.SubtituloAcomodacaoMobile>
+                                Os Quartos de Ágata Vermelha são projetados para serem um oásis de vitalidade e paixão. Inspirados na energia estimulante da Ágata Vermelha, esses quartos são um convite para um ambiente cheio de energia e calor.
+                            </S.SubtituloAcomodacaoMobile>
+                        </S.FaixaAcomodacao>
+                    ) : (
+                        <S.DivAcomodacao key={index}>
+                            <S.FaixaAcomodacoes src={acomodacao.srcFaixa} />
+                            <S.TituloAcomodacao style={{right: acomodacao.right}}>{acomodacao.titulo}</S.TituloAcomodacao>
+                            <S.SubtituloAcomodacao>{acomodacao.subtitulo}</S.SubtituloAcomodacao>
+                            <S.VideoAcomodacao controls autoPlay loop onClick={() => openModal(acomodacao.srcVideo)} >
+                                <source src={acomodacao.srcVideo} />
+                            </S.VideoAcomodacao>
+                        </S.DivAcomodacao>
+                    )}
                     {isOpen && selectedImage === acomodacao.srcVideo && (
                         <ImageModal
                             imageUrl={acomodacao.srcVideo}
