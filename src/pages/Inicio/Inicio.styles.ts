@@ -177,25 +177,26 @@ export const ImgIconesMVV = styled.img`
 export const TituloBoxMVV = styled.h1`
     color: #000;
     font-family: 'Inter', sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.9vw;
     font-style: normal;
     font-weight: 500;
     margin-top: 1vh;
     margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 1.9rem;
+        font-size: 7.5vw;
     }
 `
 
 export const SubtituloBoxMVV = styled.h2`
     color: #000;
     font-family: 'Inter', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4vw;
     font-style: normal;
     font-weight: 300;
 
     @media (max-width: 450px) {
         margin-top: 0;
+        font-size: 5vw;
     }
 `
