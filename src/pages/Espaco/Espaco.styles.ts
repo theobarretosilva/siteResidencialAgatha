@@ -211,8 +211,7 @@ export const FaixaAcomodacao = styled.div`
     width: 100vw;
     position: relative;
     height: 45vh;
-    background-color: #6E3232;
-    margin-bottom: 12vh;
+    margin-bottom: 4vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,7 +220,7 @@ export const FaixaAcomodacao = styled.div`
 export const VideoAcomodacaoMobile = styled.video`
     width: 76vw;
     height: 19vh;
-    border-radius: 12px;
+    border-radius: 14px;
     margin-top: 2vh;
 `
 
@@ -231,13 +230,15 @@ export const TituloAcomodacaoMobile = styled.h1`
     font-style: normal;
     font-weight: 500;
     margin-top: 2vh;
+    margin-bottom: 1vh;
 `
 
 export const SubtituloAcomodacaoMobile = styled.p`
     color: #FFF;
-    font-size: 1.2rem;
+    font-size: 4.7vw;
     font-style: normal;
     font-weight: 200;
     text-align: center;
     margin-top: 0;
+    max-width: 99vw;
 `
