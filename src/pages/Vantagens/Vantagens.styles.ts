@@ -91,7 +91,7 @@ export const BoxVantagem = styled.section`
 
     @media (max-width: 450px) {
         width: 100%;
-        height: fit-content;
+        max-height: 26vh;
 
         :nth-child(2){
             border: none;
@@ -119,7 +119,7 @@ export const IconBoxVantagem = styled.img`
 
 export const TxtBoxVantagem = styled.h1`
     color: #FFF;
-    font-size: 1.05rem;
+    font-size: 1.25vw;
     font-style: normal;
     font-weight: 300;
     max-width: 17vw;
@@ -127,6 +127,6 @@ export const TxtBoxVantagem = styled.h1`
 
     @media (max-width: 450px) {
         max-width: 90%;
-        font-size: 1.55rem;
+        font-size: 6vw;
     }
 `
