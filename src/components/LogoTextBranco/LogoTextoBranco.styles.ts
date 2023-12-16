@@ -29,7 +29,7 @@ export const ImgLogo = styled.img`
 
 export const TituloLogo = styled.h1`
     font-family: 'Inter', sans-serif;
-    font-size: 1.42rem;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 500;
     margin: 0;
@@ -37,7 +37,7 @@ export const TituloLogo = styled.h1`
     display: none;
 
     @media (max-width: 450px) {
-        font-size: 1.2rem;
+        font-size: 5vw;
         display: grid;
     }
 `

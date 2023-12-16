@@ -36,7 +36,7 @@ export const Navegacao = styled.nav`
 export const LinkNav = styled(NavLink)`
     color: black;
     font-family: 'Inter', sans-serif;
-    font-size: 1.23rem;
+    font-size: 1.55vw;
     font-style: normal;
     font-weight: 500;
     text-decoration: none;
@@ -81,7 +81,7 @@ export const InnerIconMenu = styled.img`
 export const LinkNavMobile = styled(NavLink)`
     color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 1.3rem;
+    font-size: 6vw;
     font-style: normal;
     font-weight: 500;
     margin-bottom: 1.6vh;
