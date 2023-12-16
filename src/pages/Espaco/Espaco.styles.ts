@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const DivImgInicial = styled.div`
@@ -22,13 +21,13 @@ export const TituloDivImgInicial = styled.h1`
     color: #FFF;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
+    font-size: 4.1vw;
     font-style: normal;
     font-weight: 600;
     margin-top: 7vh;
 
     @media (max-width: 450px) {
-        font-size: 2.5rem;
+        font-size: 9vw;
         margin-top: 3vh;
     }
 `
@@ -37,7 +36,7 @@ export const TextoInicial = styled.p`
     color: #000;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.6vw;
     font-style: normal;
     font-weight: 500;
     margin-top: 6vh;
@@ -45,12 +44,13 @@ export const TextoInicial = styled.p`
 
     @media (max-width: 450px) {
         margin-top: 4vh;
+        font-size: 5vw;
     }
 `
 
 export const TextoSection = styled.h1`
     color: black;
-    font-size: 3rem;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
@@ -59,7 +59,7 @@ export const TextoSection = styled.h1`
     margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 2rem;
+        font-size: 7.5vw;
         margin-bottom: 2vh;
     }
 `
@@ -85,7 +85,7 @@ export const FaixaAcomodacoes = styled.img`
 
 export const TituloAcomodacao = styled.h1`
     color: #FFF;
-    font-size: 1.9rem;
+    font-size: 2.25vw;
     font-style: normal;
     font-weight: 500;
     position: absolute;
@@ -93,7 +93,7 @@ export const TituloAcomodacao = styled.h1`
     right: 19.2vw;
 
     @media (max-width: 450px) {
-        font-size: 1.1rem;
+        font-size: 6vw;
         right: 0vw;
         top: 10px;
         font-weight: 400;
@@ -102,7 +102,7 @@ export const TituloAcomodacao = styled.h1`
 
 export const SubtituloAcomodacao = styled.h2`
     color: #FFF;
-    font-size: 1.3rem;
+    font-size: 1.6vw;
     font-style: normal;
     font-weight: 200;
     max-width: 34vw;
@@ -112,7 +112,7 @@ export const SubtituloAcomodacao = styled.h2`
 
     @media (max-width: 450px) {
         top: 38px;
-        font-size: 0.7rem;
+        font-size: 2vw;
         max-width: 44vw;
         right: 4vw;
         font-weight: 100;
@@ -131,79 +131,6 @@ export const VideoAcomodacao = styled.video`
         height: 12vh;
         width: 40vw;
         left: 4vw;
-    }
-`
-
-export const SectionEstrutura = styled.section`
-
-`
-
-export const TituloEstrutura = styled.h1`
-    color: black;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 500;
-    text-align: start;
-    margin-bottom: 0;
-`
-
-export const DivSlider = styled.div`
-    display: flex;
-    align-items: center;
-`
-
-export const ButtonNext = styled.button`
-    border-radius: 0.625rem 0rem 0rem 0.625rem;
-    background: rgba(217, 217, 217, 0.60);
-    height: 35vh;
-    width: 3vw;
-    padding: 0;
-    z-index: 1;
-    cursor: pointer;
-    border: none;
-`
-
-export const ButtonPrevious = styled.button`
-    border-radius: 0rem 0.625rem 0.625rem 0rem;
-    background: rgba(217, 217, 217, 0.40);
-    height: 35vh;
-    width: 3vw;
-    padding: 0;
-    z-index: 1;
-    cursor: pointer;
-    border: none;
-`
-
-export const ImgDentroButton = styled.img`
-    width: 3vw;
-    height: 7vh;
-    margin: 0;
-    padding: 0;
-`
-
-export const DivImages = styled(motion.div)`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    height: 35vh;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    border-radius: 0.625rem;
-    padding: 0;
-    margin: 0;
-
-    ::-webkit-scrollbar {
-        display: none;
-    }
-`
-
-export const ImgSlider = styled.img`
-    height: 100%;
-    width: 40vw;
-
-    ::-webkit-scrollbar {
-        display: none;
     }
 `
 
