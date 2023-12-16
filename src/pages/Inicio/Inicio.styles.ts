@@ -18,7 +18,7 @@ export const TituloSectionInicial = styled.h1`
     color: #FFF;
     text-align: center;
     font-family: 'Arbutus Slab', sans-serif;
-    font-size: 2.9rem;
+    font-size: 3.2vw;
     font-style: normal;
     font-weight: 500;
     text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -26,7 +26,7 @@ export const TituloSectionInicial = styled.h1`
 
     @media (max-width: 450px) {
         margin-top: 0;
-        font-size: 1.6rem;
+        font-size: 6.5vw;
     }
 `
 
@@ -40,13 +40,13 @@ export const PSubtituloInicial = styled.p`
     color: white;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.6vw;
     font-style: normal;
     font-weight: 300;
     margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 1rem;
+        font-size: 5vw;
         margin-top: 0;
     }
 `
@@ -70,7 +70,7 @@ export const DivSectionEntreContato = styled.div`
 export const TituloSectionEntreContato = styled.h1`
     color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 1.9rem;
+    font-size: 2.1vw;
     font-style: normal;
     font-weight: 600;
     text-align: start;
@@ -79,7 +79,7 @@ export const TituloSectionEntreContato = styled.h1`
     max-width: 35vw;
 
     @media (max-width: 450px) {
-        font-size: 1.5rem;
+        font-size: 6vw;
         max-width: 90vw;
         text-align: center;
     }
@@ -88,14 +88,14 @@ export const TituloSectionEntreContato = styled.h1`
 export const SubtituloSectionEntreContato = styled.h2`
     color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 1.15rem;
+    font-size: 1.4vw;
     font-style: normal;
     font-weight: 300;
     text-align: start;
-    width: 36rem;
+    max-width: 36vw;
 
     @media (max-width: 450px) {
-        font-size: 1rem;
+        font-size: 5vw;
         max-width: 90vw;
         text-align: center;
     }
@@ -109,7 +109,7 @@ export const BtnEntreContato = styled.button`
     color: #FFF;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.4vw;
     font-style: normal;
     font-weight: 200;
     margin-top: 7vh;
@@ -130,6 +130,7 @@ export const BtnEntreContatoMobile = styled(BtnEntreContato)`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 5vw;
 
     @media (min-width: 450px) {
         display: none;
