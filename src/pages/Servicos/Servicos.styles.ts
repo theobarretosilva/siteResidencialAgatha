@@ -21,13 +21,13 @@ export const TituloDivImgInicial = styled.h1`
     color: #FFF;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 4rem;
+    font-size: 4.1vw;
     font-style: normal;
     font-weight: 600;
     margin-top: 7vh;
 
     @media (max-width: 450px) {
-        font-size: 2.5rem;
+        font-size: 9.5vw;
         margin-top: 3vh;
     }
 `
@@ -54,13 +54,13 @@ export const TextoInicial = styled.p`
     color: #000;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.6vw;
     font-style: normal;
     font-weight: 500;
     max-width: 98%;
 
     @media (max-width: 450px) {
-        font-size: 1.1rem;
+        font-size: 4.5vw;
         color: white;
     }
 `
@@ -110,7 +110,7 @@ export const DivCorDentroBox = styled.div`
 export const NumeroDentroBoxCor = styled.p`
     color: #FFF;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.75rem;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 400;
     margin-top: 1vh;
@@ -118,18 +118,19 @@ export const NumeroDentroBoxCor = styled.p`
     @media (max-width: 450px) {
         padding-top: 0.5vh;
         padding-left: 1.5vw;
+        font-size: 7vw;
     }
 `
 
 export const TituloDentroBoxCor = styled.h1`
     color: #FFF;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.7vw;
     font-style: normal;
     font-weight: 500;
 
     @media (max-width: 450px) {
-        font-size: 1.5rem;
+        font-size: 6.2vw;
         padding-left: 1.5vw;
     }
 `
@@ -137,7 +138,7 @@ export const TituloDentroBoxCor = styled.h1`
 export const PDescBox = styled.p`
     color: #000;
     font-family: 'Inter', sans-serif;
-    font-size: 1.05rem;
+    font-size: 1.3vw;
     font-style: normal;
     font-weight: 400;
     text-align: start;
@@ -145,7 +146,7 @@ export const PDescBox = styled.p`
     margin-right: 1vh;
 
     @media (max-width: 450px) {
-        font-size: 1.1rem;
+        font-size: 4.6vw;
         margin-top: 1vh;
     }
 `
