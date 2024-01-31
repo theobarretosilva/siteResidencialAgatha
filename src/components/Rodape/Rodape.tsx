@@ -6,7 +6,7 @@ export const Rodape = () => {
         window.open('https://www.instagram.com/agatha.residencial/', '_blank');
     }
     const goWhatsapp = () => {
-        window.open('https://api.whatsapp.com/send?phone=5548988064477&text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20Residencial%20%C3%81gatha!', '_blank');
+        window.open('https://api.whatsapp.com/send?phone=5548991227701&text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20Residencial%20%C3%81gatha!', '_blank');
     }
     const goFacebook = () => {
         window.open('https://www.facebook.com/residencial.agatha', '_blank');
