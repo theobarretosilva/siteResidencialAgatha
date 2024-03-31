@@ -2,6 +2,7 @@ import { useState } from 'react';
 import * as S from './Contato.styles'
 import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
+import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 
 // type formContato = {
 //     nome: string;
@@ -15,6 +16,11 @@ export function Contato() {
     const [email, setEmail] = useState("");
     const [telefone, setTelefone] = useState("");
     const [mensagem, setMensagem] = useState("");
+
+    const { isLoaded } = useJsApiLoader({
+        id: 'google-map-script',
+        googleMapsApiKey: "AIzaSyCqMzQebcNXrsKK_HtQLYLvVQT-XI1a8Ng"
+      })
 
     function sendEmail(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
@@ -54,9 +60,25 @@ export function Contato() {
         })
     }
 
+    const position = {
+        lat: -27.610789125343665, 
+        lng: -48.59604677870633 
+    }
+
     return(
         <S.DivFlex>
-            <S.ImagemAside src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/idoso_aside.jpg?raw=true' />
+            {/* <S.ImagemAside src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/idoso_aside.jpg?raw=true' /> */}
+            {isLoaded ? (
+                <GoogleMap
+                    mapContainerStyle={{width: "60vw", height: "88.5vh", marginTop: "11.5vh"}}
+                    center={position}
+                    zoom={16}
+                >
+                    
+                    <Marker position={position} />
+                    <></>
+                </GoogleMap>
+            ) : <></>}
             <S.MainForm>
                 <S.FaixaDegrade>
                     <S.TituloFaixa>Entre em contato conosco!</S.TituloFaixa>
