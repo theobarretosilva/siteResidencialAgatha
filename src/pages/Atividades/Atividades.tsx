@@ -14,7 +14,7 @@ export function Atividades() {
                 </S.TextoInicial>
                 <Separador />
                 <S.SectionAtividade>
-                    <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/43099dd4b1ecfdcb8177b9062ac303944cb2579d/src/assets/svg/point-seta.svg' />
+                    <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/dc7f03b1990483d9ceda7ab64292759d9575926f/src/assets/svg/point-seta.svg' />
                     <S.ImgAtividade src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/atividades_fisicas.png?raw=true' />
                     <S.DivDescricaoAtividade>
                         <S.TituloAtividade>Atividades Físicas</S.TituloAtividade>
@@ -25,7 +25,7 @@ export function Atividades() {
                 </S.SectionAtividade>
                 <S.SeparadorLinha />
                 <S.SectionAtividade>
-                    <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/43099dd4b1ecfdcb8177b9062ac303944cb2579d/src/assets/svg/point-seta.svg' />
+                    <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/dc7f03b1990483d9ceda7ab64292759d9575926f/src/assets/svg/point-seta.svg' />
                     <S.ImgAtividade src='https://images.unsplash.com/flagged/photo-1570551502611-c590dc45f644?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
                     <S.DivDescricaoAtividade>
                         <S.TituloAtividade>Atividades Cognitivas</S.TituloAtividade>
@@ -36,7 +36,7 @@ export function Atividades() {
                 </S.SectionAtividade>
                 <S.SeparadorLinha />
                 <S.SectionAtividade>
-                    <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/43099dd4b1ecfdcb8177b9062ac303944cb2579d/src/assets/svg/point-seta.svg' />
+                    <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/dc7f03b1990483d9ceda7ab64292759d9575926f/src/assets/svg/point-seta.svg' />
                     <S.ImgAtividade src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_arteterapia.png?raw=true' />
                     <S.DivDescricaoAtividade>
                         <S.TituloAtividade>Arteterapia</S.TituloAtividade>
@@ -47,7 +47,7 @@ export function Atividades() {
                 </S.SectionAtividade>
                 <S.SeparadorLinha />
                 <S.SectionAtividade style={{marginBottom: '5vh'}}>
-                    <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/43099dd4b1ecfdcb8177b9062ac303944cb2579d/src/assets/svg/point-seta.svg' />
+                    <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/dc7f03b1990483d9ceda7ab64292759d9575926f/src/assets/svg/point-seta.svg' />
                     <S.ImgAtividade src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/terapia_ocupacional.png?raw=true' />
                     <S.DivDescricaoAtividade>
                         <S.TituloAtividade>Terapia Ocupacional</S.TituloAtividade>
