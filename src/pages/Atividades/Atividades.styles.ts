@@ -63,6 +63,7 @@ export const ImgAtividade = styled.img`
     border-radius: 0.62rem;
     margin: 0;
     height: 46vh;
+    object-fit: cover;
 
     @media (max-width: 450px) {
         width: 100%;
@@ -82,7 +83,7 @@ export const DivDescricaoAtividade = styled.div`
 
 export const TituloAtividade = styled.h1`
     color: black;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.9rem;
     font-weight: 600;
     text-align: start;
@@ -96,7 +97,7 @@ export const TituloAtividade = styled.h1`
 
 export const DescricaoAtividade = styled.p`
     color: black;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.4rem;
     font-weight: 300;
     text-align: start;

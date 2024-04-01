@@ -1,6 +1,7 @@
 import { DivMargem } from '../../components/DivMargem/DivMargem'
 import { Separador } from '../../components/Separador/Separador'
 import * as S from './Atividades.styles'
+import '../../assets/img/arteterapia.jpg'
 
 export function Atividades() {
     return(
@@ -37,7 +38,7 @@ export function Atividades() {
                 <S.SeparadorLinha />
                 <S.SectionAtividade>
                     <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/dc7f03b1990483d9ceda7ab64292759d9575926f/src/assets/svg/point-seta.svg' />
-                    <S.ImgAtividade src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_arteterapia.png?raw=true' />
+                    <S.ImgAtividade src='../../src/assets/img/arteterapia.jpg' />
                     <S.DivDescricaoAtividade>
                         <S.TituloAtividade>Arteterapia</S.TituloAtividade>
                         <S.DescricaoAtividade>
