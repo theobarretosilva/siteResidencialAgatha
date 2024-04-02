@@ -72,7 +72,7 @@ export function Contato() {
             {/* <S.ImagemAside src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/idoso_aside.jpg?raw=true' /> */}
             {isLoaded ? (
                 <GoogleMap
-                    mapContainerStyle={width > 450 ? {width: "60vw", height: "88.5vh", marginTop: "11.5vh"} : {width: "100vw", height: "30vh", marginTop: "0"}}
+                    mapContainerStyle={width > 450 ? {width: "60vw", height: "88.5vh", marginTop: "11.5vh"} : {width: "100vw", height: "50vh", marginTop: 0}}
                     center={position}
                     zoom={16}
                 >
