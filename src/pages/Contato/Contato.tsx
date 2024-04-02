@@ -65,12 +65,14 @@ export function Contato() {
         lng: -48.59604677870633 
     }
 
+    const { innerWidth: width } = window;
+
     return(
         <S.DivFlex>
             {/* <S.ImagemAside src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/idoso_aside.jpg?raw=true' /> */}
             {isLoaded ? (
                 <GoogleMap
-                    mapContainerStyle={{width: "60vw", height: "88.5vh", marginTop: "11.5vh"}}
+                    mapContainerStyle={width > 450 ? {width: "60vw", height: "88.5vh", marginTop: "11.5vh"} : {width: "100vw", marginTop: "0"}}
                     center={position}
                     zoom={16}
                 >
