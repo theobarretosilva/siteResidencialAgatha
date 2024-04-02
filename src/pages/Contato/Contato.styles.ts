@@ -58,7 +58,7 @@ export const TituloFaixa = styled.h1`
 
     @media (max-width: 450px) {
         font-weight: 500;
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 `
 
@@ -73,7 +73,7 @@ export const SubtituloFaixa = styled.h2`
 
     @media (max-width: 450px) {
         max-width: 95%;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 `
 
