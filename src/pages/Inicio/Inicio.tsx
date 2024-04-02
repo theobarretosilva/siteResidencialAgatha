@@ -42,7 +42,7 @@ export function Inicio() {
             <DivMargem>
                 <section>
                     <S.TituloSectionInicial className='animate__animated animate__backInLeft'>
-                        Com os nossos especialistas, você tem o cuidado que
+                        Com a nossa equipe você tem o cuidado que
                         <AutoMorphingText />
                     </S.TituloSectionInicial>
                     <S.PSubtituloInicial>

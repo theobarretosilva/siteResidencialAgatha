@@ -16,7 +16,7 @@ export function Atividades() {
                 <Separador />
                 <S.SectionAtividade>
                     <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/dc7f03b1990483d9ceda7ab64292759d9575926f/src/assets/svg/point-seta.svg' />
-                    <S.ImgAtividade src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/atividades_fisicas.png?raw=true' />
+                    <S.ImgAtividade src='../../src/assets/img/atividades_fisicas.jpg' />
                     <S.DivDescricaoAtividade>
                         <S.TituloAtividade>Atividades Físicas</S.TituloAtividade>
                         <S.DescricaoAtividade>
@@ -27,7 +27,7 @@ export function Atividades() {
                 <S.SeparadorLinha />
                 <S.SectionAtividade>
                     <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/dc7f03b1990483d9ceda7ab64292759d9575926f/src/assets/svg/point-seta.svg' />
-                    <S.ImgAtividade src='https://images.unsplash.com/flagged/photo-1570551502611-c590dc45f644?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
+                    <S.ImgAtividade src='../../src/assets/img/atividades_cognitivas.jpg' />
                     <S.DivDescricaoAtividade>
                         <S.TituloAtividade>Atividades Cognitivas</S.TituloAtividade>
                         <S.DescricaoAtividade>

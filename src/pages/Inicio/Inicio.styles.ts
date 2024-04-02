@@ -40,7 +40,7 @@ export const PSubtituloInicial = styled.p`
     color: white;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     font-style: normal;
     font-weight: 300;
     margin-bottom: 0;
@@ -102,14 +102,14 @@ export const SubtituloSectionEntreContato = styled.h2`
 `
 
 export const BtnEntreContato = styled.button`
-    width: 19vw;
-    height: 7vh;
+    width: 18vw;
+    height: 6vh;
     background-color: black;
     border-radius: 0.9375rem;
     color: #FFF;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     font-style: normal;
     font-weight: 200;
     margin-top: 7vh;
