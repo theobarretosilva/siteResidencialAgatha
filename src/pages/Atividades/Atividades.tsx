@@ -38,7 +38,7 @@ export function Atividades() {
                 <S.SeparadorLinha />
                 <S.SectionAtividade>
                     <S.PointSeparador src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/dc7f03b1990483d9ceda7ab64292759d9575926f/src/assets/svg/point-seta.svg' />
-                    <S.ImgAtividade src='../../src/assets/img/arteterapia.jpg' />
+                    <S.ImgAtividade src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/arteterapia.jpg?raw=true' />
                     <S.DivDescricaoAtividade>
                         <S.TituloAtividade>Arteterapia</S.TituloAtividade>
                         <S.DescricaoAtividade>
