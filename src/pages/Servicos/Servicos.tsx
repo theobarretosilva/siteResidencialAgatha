@@ -14,7 +14,7 @@ export function Servicos() {
             cor: '#20AA68',
             numero: '02',
             titulo: 'Atividades recreativas e sociais',
-            descricao: 'Promovemos uma variedade de atividades recreativas e sociais para manter sua mente e corpo ativos e envolvidos. De exercícios a passeios culturais, há sempre algo emocionante acontecendo em nosso residencial.'
+            descricao: 'Promovemos uma variedade de atividades recreativas e sociais para manter sua mente e corpo ativos e envolvidos. De exercícios à jogos em grupo, há sempre algo emocionante acontecendo em nosso residencial.'
         },
         {
             cor: '#009C82',
