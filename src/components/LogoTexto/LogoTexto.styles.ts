@@ -8,8 +8,8 @@ export const DivLogo = styled.div`
 `
 
 export const ImgLogo = styled.img`
-    height: 10vh;
-    width: 5vw;
+    width: 6vw;
+    height: 8vh;
 
     @media (max-width: 450px) {
         width: 14vw;
@@ -17,20 +17,18 @@ export const ImgLogo = styled.img`
     }
 `
 
-// export const DivTituloLogo = styled.div`
-//     display: flex;
-//     flex-direction: row;
-//     gap: 0.4rem;
-// `
-
 export const TituloLogo = styled.h1`
-    font-family: 'Inter', sans-serif;
-    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     margin: 0;
 
     @media (max-width: 450px) {
         font-size: 5vw;
     }
+`
+
+export const ImgTxtAgatha = styled.img`
+    width: 8.5vw;
 `

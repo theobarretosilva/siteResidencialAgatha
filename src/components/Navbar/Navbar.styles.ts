@@ -3,17 +3,17 @@ import { NavLink } from "react-router-dom"
 
 export const Header = styled.header`
     width: 100vw;
-    height: 11.5vh;
-    background: rgba(255, 255, 255, 0.77);
-    backdrop-filter: blur(5px);
-    padding-left: 4.5vw;
+    height: 14vh;
+    background-color: #F8F4DE;
     position: fixed;
     top: 0;
     z-index: 1;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 21vw;
+    justify-content: space-around;
+    gap: 14vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
     @media (max-width: 450px) {
         padding-left: 4vw;
@@ -36,13 +36,14 @@ export const Navegacao = styled.nav`
 export const LinkNav = styled(NavLink)`
     color: black;
     font-family: 'Inter', sans-serif;
-    font-size: 1.55vw;
+    font-size: 1.4vw;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
 
     &.active{
         text-decoration: underline;
+        color: #825810;
     }
 `
 

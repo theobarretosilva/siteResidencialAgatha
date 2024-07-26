@@ -15,8 +15,10 @@ export const Navbar = () => {
 
     return(
         <S.Header>
-            <LogoTexto />
-            <S.ImgIconMenu onClick={toggleMode} src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/7c76764445c72523c6b4eb6a170e55d59d26bead/src/assets/svg/icon_menu.svg' />
+            <div>
+                <LogoTexto />
+                <S.ImgIconMenu onClick={toggleMode} src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/7c76764445c72523c6b4eb6a170e55d59d26bead/src/assets/svg/icon_menu.svg' />
+            </div>
             <div className={active ? "menu menuOpen" : "menu menuClose" }>
                 <S.DivInicialMenu>
                     <LogoTextoBranco />

@@ -38,11 +38,11 @@ export function Inicio() {
 
     return(
         <>
-            <S.ImgCasaInicial src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/casa_inicial_tela_inicial.jpg?raw=true' />
+            <S.ImgCasaInicial src='../../src/assets/img/casa_dourado_tela_inicial.png' />
             <DivMargem>
                 <section>
                     <S.TituloSectionInicial className='animate__animated animate__backInLeft'>
-                        Com a nossa equipe você tem o cuidado que
+                        Com a nossa equipe você tem todo o cuidado que
                         <AutoMorphingText />
                     </S.TituloSectionInicial>
                     <S.PSubtituloInicial>

@@ -2,12 +2,10 @@ import styled from "styled-components";
 
 export const ImgCasaInicial = styled.img`
     width: 99.67vw;
-    height: 60vh;
+    height: 99vh;
     z-index: 0;
     top: 0;
     object-fit: cover;
-
-    -webkit-mask-image: linear-gradient(to top, transparent 1%, black 35%);
 
     @media (max-width: 450px) {
         height: 30vh;
@@ -15,12 +13,12 @@ export const ImgCasaInicial = styled.img`
 `
 
 export const TituloSectionInicial = styled.h1`
-    color: #FFF;
+    color: #F8F4DE;
     text-align: center;
-    font-family: 'Arbutus Slab', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 3.2vw;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 3vh;
 

@@ -3,9 +3,9 @@ import './AutoMorphingText.scss'
 export const AutoMorphingText = () => {
     return(
         <div className="morphing">
-            <div className="word">merece</div>
-            <div className="word">deseja</div>
-            <div className="word">anseia</div>
+            <div className="word">Merece</div>
+            <div className="word">Deseja</div>
+            <div className="word">Anseia</div>
         </div>
     )
 }
