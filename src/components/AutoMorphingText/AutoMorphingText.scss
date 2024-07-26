@@ -3,11 +3,11 @@ $wordCount: 7;
 
 .morphing {
   position: relative;
-  font-size: 4vw;
+  font-size: 3.2vw;
   font-weight: 800;
   color: #F8F4DE;
   margin-top: 5vh;
-  margin-bottom: 16vh;
+  margin-bottom: 10.5vh;
 
   @media (max-width: 450px) {
     font-size: 11vw;
@@ -19,7 +19,7 @@ $wordCount: 7;
 .word {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 6.45%;
   transform: translate(-50%, -50%);
   animation: word $speed infinite ease-in-out;
 

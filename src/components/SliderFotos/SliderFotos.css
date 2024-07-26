@@ -1,6 +1,6 @@
 .swiper {
-    width: 38vw;
-    height: 43vh;
+    width: 35vw;
+    height: 45vh;
     z-index: 0;
 
     @media (max-width: 450px) {

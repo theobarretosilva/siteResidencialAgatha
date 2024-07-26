@@ -7,7 +7,7 @@ export const Header = styled.header`
     background-color: #F8F4DE;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 10;
     display: flex;
     flex-direction: row;
     align-items: center;

@@ -40,16 +40,24 @@ export function Inicio() {
         <>
             <S.ImgCasaInicial src='../../src/assets/img/casa_dourado_tela_inicial.png' />
             <DivMargem>
-                <section>
-                    <S.TituloSectionInicial className='animate__animated animate__backInLeft'>
-                        Com a nossa equipe você tem todo o cuidado que
+                <section style={{marginTop: '20vh', zIndex: '5'}}>
+                    <S.TituloSectionInicial>
+                        Com a nossa equipe 
+                        <br />
+                        você tem todo o
+                        <br />
+                        cuidado que
                         <AutoMorphingText />
                     </S.TituloSectionInicial>
+                    <S.LinhaStyled>‎</S.LinhaStyled>
                     <S.PSubtituloInicial>
-                        No nosso Residencial, você encontrará mais do que cuidados de saúde excepcionais - encontrará uma família comprometida em enriquecer sua vida e tornar cada dia significativo. Sua jornada conosco será guiada pelos melhores especialistas, proporcionando-lhe a tranquilidade de saber que está recebendo a atenção e o cuidado que merece.
+                        No nosso Residencial Geriátrico, você encontrará mais do que cuidados de saúde excepcionais - encontrará uma família comprometida em enriquecer sua vida e tornar cada dia significativo.
                     </S.PSubtituloInicial>
+                    <S.DivSaibaMais>
+                        <S.TxtSaibaMais>Saiba Mais</S.TxtSaibaMais>
+                        <S.ImgSetaBaixo src='../../src/assets/svg/seta_baixo.svg' />
+                    </S.DivSaibaMais>
                 </section>
-                <Separador />
                 <S.SectionEntreContato>
                     <S.DivSectionEntreContato>
                         <S.TituloSectionEntreContato>
@@ -65,7 +73,6 @@ export function Inicio() {
                     <SliderFotos />
                     <S.BtnEntreContatoMobile onClick={goTelaContato}>Entre em contato conosco!</S.BtnEntreContatoMobile>
                 </S.SectionEntreContato>
-                <Separador style={{rotate:'180deg'}} />
                 <S.SectionMVV>
                     {dataMVV.map((mvv, index) => (
                         <S.BoxMVV key={index}>

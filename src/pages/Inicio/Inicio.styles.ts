@@ -5,6 +5,7 @@ export const ImgCasaInicial = styled.img`
     height: 99vh;
     z-index: 0;
     top: 0;
+    position: absolute;
     object-fit: cover;
 
     @media (max-width: 450px) {
@@ -14,9 +15,9 @@ export const ImgCasaInicial = styled.img`
 
 export const TituloSectionInicial = styled.h1`
     color: #F8F4DE;
-    text-align: center;
+    text-align: start;
     font-family: 'Inter', sans-serif;
-    font-size: 3.2vw;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 600;
     text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -28,20 +29,24 @@ export const TituloSectionInicial = styled.h1`
     }
 `
 
-export const PTituloSectionInicial = styled.p`
-    color: #E1CA58;
-    margin-top: 0.5rem;
-    text-decoration: underline;
+export const LinhaStyled = styled.div`
+    width: 17.3vw;
+    height: 1.5px;
+    background-color: white;
+    position: absolute;
+    left: 0;
 `
 
 export const PSubtituloInicial = styled.p`
     color: white;
-    text-align: center;
+    text-align: start;
     font-family: 'Inter', sans-serif;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 0;
+    max-width: 36vw;
+    margin-top: 13vh;
 
     @media (max-width: 450px) {
         font-size: 5vw;
@@ -49,10 +54,27 @@ export const PSubtituloInicial = styled.p`
     }
 `
 
+export const DivSaibaMais = styled.div`
+    margin-top: 11vh;
+`
+
+export const TxtSaibaMais = styled.p`
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.19vw;
+    color: white;
+    margin-bottom: 2.5vh;
+`
+
+export const ImgSetaBaixo = styled.img`
+    height: 1.8vh;
+`
+
 export const SectionEntreContato = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 25vh;
 
     @media (max-width: 450px) {
         flex-wrap: wrap;
@@ -66,15 +88,15 @@ export const DivSectionEntreContato = styled.div`
 `
 
 export const TituloSectionEntreContato = styled.h1`
-    color: #FFF;
+    color: #383838;
     font-family: 'Inter', sans-serif;
-    font-size: 2.1vw;
+    font-size: 2.3vw;
     font-style: normal;
     font-weight: 600;
     text-align: start;
-    margin-bottom: 0;
+    margin-bottom: 5vh;
     margin-top: 0;
-    max-width: 35vw;
+    max-width: 30vw;
 
     @media (max-width: 450px) {
         font-size: 6vw;
@@ -84,9 +106,9 @@ export const TituloSectionEntreContato = styled.h1`
 `
 
 export const SubtituloSectionEntreContato = styled.h2`
-    color: #FFF;
+    color: #383838;
     font-family: 'Inter', sans-serif;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 300;
     text-align: start;
@@ -100,17 +122,17 @@ export const SubtituloSectionEntreContato = styled.h2`
 `
 
 export const BtnEntreContato = styled.button`
-    width: 18vw;
-    height: 6vh;
-    background-color: black;
-    border-radius: 0.9375rem;
-    color: #FFF;
+    width: 20vw;
+    height: 7vh;
+    background-color: #825810;
+    border-radius: 0 1.5rem 0 1.5rem;
+    color: #F8F4DE;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 1.3vw;
     font-style: normal;
-    font-weight: 200;
-    margin-top: 7vh;
+    font-weight: 600;
+    margin-top: 0;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: none;
