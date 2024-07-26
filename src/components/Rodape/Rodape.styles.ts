@@ -3,13 +3,12 @@ import styled from "styled-components";
 
 export const Footer = styled.footer`
     width: auto;
-    background-color: #FFF;
+    background-color: #F8F4DE;
     padding-left: 4.5vw;
     padding-right: 4.5vw;
-    padding-top: 2rem;
+    padding-top: 18vh;
     bottom: 0;
     
-    -webkit-mask: linear-gradient(to bottom, transparent 1%, black 8%);
 `
 
 export const DivInicial = styled.div`

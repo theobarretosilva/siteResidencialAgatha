@@ -58,6 +58,7 @@ export function Inicio() {
                         <S.ImgSetaBaixo src='../../src/assets/svg/seta_baixo.svg' />
                     </S.DivSaibaMais>
                 </section>
+                <S.ImgElipseFundo style={{left: '0'}} src='../../src/assets/svg/elipse_fundo.svg' />
                 <S.SectionEntreContato>
                     <S.DivSectionEntreContato>
                         <S.TituloSectionEntreContato>
@@ -73,6 +74,7 @@ export function Inicio() {
                     <SliderFotos />
                     <S.BtnEntreContatoMobile onClick={goTelaContato}>Entre em contato conosco!</S.BtnEntreContatoMobile>
                 </S.SectionEntreContato>
+                <S.ImgElipseFundo style={{rotate: '180deg', marginTop: '250vh', right: '0'}} src='../../src/assets/svg/elipse_fundo.svg' />
                 <S.SectionMVV>
                     {dataMVV.map((mvv, index) => (
                         <S.BoxMVV key={index}>

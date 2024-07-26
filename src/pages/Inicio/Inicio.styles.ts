@@ -70,11 +70,18 @@ export const ImgSetaBaixo = styled.img`
     height: 1.8vh;
 `
 
+export const ImgElipseFundo = styled.img`
+    width: 15vw;
+    margin-top: 80vh;
+    position: absolute;
+`
+
 export const SectionEntreContato = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 25vh;
+    z-index: 5;
 
     @media (max-width: 450px) {
         flex-wrap: wrap;
@@ -122,8 +129,8 @@ export const SubtituloSectionEntreContato = styled.h2`
 `
 
 export const BtnEntreContato = styled.button`
-    width: 20vw;
-    height: 7vh;
+    width: 21vw;
+    height: 7.5vh;
     background-color: #825810;
     border-radius: 0 1.5rem 0 1.5rem;
     color: #F8F4DE;
@@ -160,8 +167,11 @@ export const BtnEntreContatoMobile = styled(BtnEntreContato)`
 export const SectionMVV = styled.section`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5vw;
     margin-bottom: 2rem;
+    margin-top: 18vh;
+    z-index: 5;
 
     @media (max-width: 450px) {
         flex-direction: column;
@@ -170,13 +180,14 @@ export const SectionMVV = styled.section`
 `
 
 export const BoxMVV = styled.article`
-    width: 27vw;
+    width: 20vw;
     height: 38vh;
-    border-radius: 0.625rem;
-    background-color: #F1F1F1;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1.25rem;
+    background-color: #383838;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    text-align: start;
 
     @media (max-width: 450px) {
         width: 89vw;
@@ -185,9 +196,10 @@ export const BoxMVV = styled.article`
 `
 
 export const ImgIconesMVV = styled.img`
-    width: 8vw;
+    width: 4.6vw;
     height: 10vh;
     margin-top: 2vh;
+    fill: #F8F4DE;
 
     @media (max-width: 450px) {
         width: 16vw;
@@ -196,13 +208,15 @@ export const ImgIconesMVV = styled.img`
 `
 
 export const TituloBoxMVV = styled.h1`
-    color: #000;
+    color: #F8F4DE;
     font-family: 'Inter', sans-serif;
-    font-size: 1.9vw;
+    font-size: 1.8vw;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 1vh;
     margin-bottom: 0;
+    text-align: start;
+    max-width: 15vw;
 
     @media (max-width: 450px) {
         font-size: 7.5vw;
@@ -210,11 +224,12 @@ export const TituloBoxMVV = styled.h1`
 `
 
 export const SubtituloBoxMVV = styled.h2`
-    color: #000;
+    color: #F8F4DE;
     font-family: 'Inter', sans-serif;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     font-style: normal;
     font-weight: 300;
+    text-align: start;
 
     @media (max-width: 450px) {
         margin-top: 0;
