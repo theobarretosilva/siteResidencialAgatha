@@ -80,6 +80,7 @@ export const SectionEntreContato = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 8vw;
     margin-top: 25vh;
     z-index: 5;
 
@@ -196,7 +197,7 @@ export const BoxMVV = styled.article`
 `
 
 export const ImgIconesMVV = styled.img`
-    width: 4.6vw;
+    width: 4vw;
     height: 10vh;
     margin-top: 2vh;
     fill: #F8F4DE;

@@ -11,19 +11,19 @@ import { useNavigate } from 'react-router-dom';
 export function Inicio() {
     const dataMVV = [
         {
-            icon: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/missao_icone.svg',
+            icon: '../../src/assets/svg/simbolo_missao.svg',
             alt: 'Icone do símbolo missão',
             titulo: 'Missão',
             descricao: 'Promover o bem-estar e a qualidade de vida dos idosos, oferecendo cuidados de alta qualidade e um ambiente acolhedor que respeita a individualidade.'
         },
         {
-            icon: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/visao_icone.svg',
+            icon: '../../src/assets/svg/simbolo_visao.svg',
             alt: 'Icone do símbolo visão',
             titulo: 'Visão',
             descricao: 'Ser um modelo de excelência em cuidados geriátricos, onde o envelhecimento é vivido com dignidade e alegria.'
         },
         {
-            icon: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/e1fdfd6312ad0e69e6e8dea1bad428d41bd6fa61/src/assets/svg/valores_icone.svg',
+            icon: '../../src/assets/svg/simbolo_valores.svg',
             alt: 'Icone do símbolo valores',
             titulo: 'Valores',
             descricao: 'Respeito, compaixão, qualidade, integridade, colaboração'

@@ -7,8 +7,7 @@ export const Footer = styled.footer`
     padding-left: 4.5vw;
     padding-right: 4.5vw;
     padding-top: 18vh;
-    bottom: 0;
-    
+    bottom: 0;   
 `
 
 export const DivInicial = styled.div`
