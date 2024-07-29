@@ -2,14 +2,13 @@ import styled from "styled-components";
 
 export const DivImgInicial = styled.div`
     width: 100%;
-    height: 40vh;
+    height: 70vh;
     background-image: url('https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_pagina_espaco.png?raw=true');
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     object-fit: cover;
-    margin-top: 11.5vh;
+    margin-top: 14vh;
 
     @media (max-width: 450px) {
         height: 25vh;
@@ -18,18 +17,27 @@ export const DivImgInicial = styled.div`
 `
 
 export const TituloDivImgInicial = styled.h1`
-    color: #FFF;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    color: #F8F4DE;
+    text-align: start;
+    font-family: 'Inter', sans-serif;
     font-size: 4.1vw;
     font-style: normal;
     font-weight: 600;
     margin-top: 7vh;
+    width: 32vw;
 
     @media (max-width: 450px) {
         font-size: 9vw;
         margin-top: 3vh;
     }
+`
+
+export const LinhaStyled = styled.div`
+    width: 17.3vw;
+    height: 1.5px;
+    background-color: white;
+    position: absolute;
+    left: 0;
 `
 
 export const TextoInicial = styled.p`

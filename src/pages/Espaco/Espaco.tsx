@@ -76,13 +76,12 @@ export function Espaco() {
     return(
         <>
             <S.DivImgInicial>
-                <S.TituloDivImgInicial>Nossa Estrutura Cuidadosamente Planejada</S.TituloDivImgInicial>
+                <S.TituloDivImgInicial>Nossa estrutura cuidadosamente planejada</S.TituloDivImgInicial>
+                <S.LinhaStyled>‎</S.LinhaStyled>
             </S.DivImgInicial>
             <DivMargem>
-                <S.TextoInicial>
-                    Nossos espaços foram cuidadosamente projetadas para proporcionar conforto e tranquilidade. Cada espaço é pensado para atender às necessidades individuais dos nossos residentes, oferecendo um ambiente acolhedor e seguro.
-                </S.TextoInicial>
-                <Separador />
+                <S.TituloDivImgInicial>Nossa estrutura cuidadosamente planejada</S.TituloDivImgInicial>
+                <S.LinhaStyled>‎</S.LinhaStyled>
             </DivMargem>
             <S.TextoSection>Nossas acomodações</S.TextoSection>
             {acomodacoesData.map((acomodacao, index) => (
