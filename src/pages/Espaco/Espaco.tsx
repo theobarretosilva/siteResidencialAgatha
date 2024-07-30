@@ -75,15 +75,21 @@ export function Espaco() {
 
     return(
         <>
-            <S.DivImgInicial>
-                <S.TituloDivImgInicial>Nossa estrutura cuidadosamente planejada</S.TituloDivImgInicial>
-                <S.LinhaStyled>‎</S.LinhaStyled>
-            </S.DivImgInicial>
+            <S.ImgCasaInicial src='../../src/assets/img/foto_pagina_espaco.png' />
             <DivMargem>
-                <S.TituloDivImgInicial>Nossa estrutura cuidadosamente planejada</S.TituloDivImgInicial>
-                <S.LinhaStyled>‎</S.LinhaStyled>
+                <S.SectionStyled>
+                    <S.TituloDivImgInicial>Nossa estrutura cuidadosamente planejada</S.TituloDivImgInicial>
+                    <S.LinhaStyled>‎</S.LinhaStyled>
+                    <S.PSubtituloInicial>
+                        Nossos espaços foram cuidadosamente projetadas para proporcionar conforto e tranquilidade. Cada espaço é pensado para atender às necessidades individuais dos nossos residentes, oferecendo um ambiente acolhedor e seguro.
+                    </S.PSubtituloInicial>
+                </S.SectionStyled>
+                <S.TextoSection>Nossas acomodações</S.TextoSection>
+                <S.ImgSetaBaixo src='../../src/assets/svg/seta_baixo_preta.svg' />
+                <S.DivAcomodacao2>
+                    
+                </S.DivAcomodacao2>
             </DivMargem>
-            <S.TextoSection>Nossas acomodações</S.TextoSection>
             {acomodacoesData.map((acomodacao, index) => (
                 <>
                     {width <= 450 ? (

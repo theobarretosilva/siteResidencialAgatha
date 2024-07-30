@@ -10,7 +10,6 @@ export const SliderFotos = () => {
     const dataFotos = [
         'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/frente_casa.jpg?raw=true',
         'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/entradaCasa/entradaCasa3.jpg?raw=true',
-        'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/recepcao.jpg?raw=true',
         'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/entradaCasa/entradaCasa2.jpg?raw=true',
         'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/entradaCasa/entradaCasa1.jpg?raw=true'
     ];

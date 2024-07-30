@@ -1,30 +1,33 @@
 import styled from "styled-components";
 
-export const DivImgInicial = styled.div`
-    width: 100%;
-    height: 70vh;
-    background-image: url('https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_pagina_espaco.png?raw=true');
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+export const ImgCasaInicial = styled.img`
+    width: 99.67vw;
+    height: 64.45vh;
+    z-index: 0;
+    top: 14vh;
+    position: absolute;
     object-fit: cover;
-    margin-top: 14vh;
 
     @media (max-width: 450px) {
-        height: 25vh;
-        margin-top: 9vh;
+        height: 30vh;
     }
+`
+
+export const SectionStyled = styled.section`
+    margin-top: 18vh;
+    z-index: 5;
 `
 
 export const TituloDivImgInicial = styled.h1`
     color: #F8F4DE;
     text-align: start;
     font-family: 'Inter', sans-serif;
-    font-size: 4.1vw;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 600;
     margin-top: 7vh;
     width: 32vw;
+    margin-bottom: 0;
 
     @media (max-width: 450px) {
         font-size: 9vw;
@@ -33,37 +36,39 @@ export const TituloDivImgInicial = styled.h1`
 `
 
 export const LinhaStyled = styled.div`
-    width: 17.3vw;
+    width: 20vw;
     height: 1.5px;
     background-color: white;
     position: absolute;
     left: 0;
+    top: 51vh;
 `
 
-export const TextoInicial = styled.p`
-    color: #000;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.6vw;
+export const PSubtituloInicial = styled.p`
+    color: white;
+    text-align: start;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3vw;
     font-style: normal;
-    font-weight: 500;
-    margin-top: 6vh;
+    font-weight: 400;
     margin-bottom: 0;
+    max-width: 39vw;
+    margin-top: 4.5vh;
 
     @media (max-width: 450px) {
-        margin-top: 4vh;
         font-size: 5vw;
+        margin-top: 0;
     }
 `
 
 export const TextoSection = styled.h1`
     color: black;
-    font-size: 3vw;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     text-align: center;
-    margin-top: 0;
+    margin-top: 16vh;
     margin-bottom: 0;
 
     @media (max-width: 450px) {
@@ -72,10 +77,21 @@ export const TextoSection = styled.h1`
     }
 `
 
+export const ImgSetaBaixo = styled.img`
+    height: 1.8vh;
+    margin-top: 1.5vh;
+`
+
+export const DivAcomodacao2 = styled.div`
+    display: flex;
+    flex-direction: row;
+    
+`
+
 export const DivAcomodacao = styled.div`
     display: inline-block;
     position: relative;
-    margin-top: 5vh;
+    margin-top: 10vh;
 
     @media (max-width: 450px) {
         margin-top: 1vh;
