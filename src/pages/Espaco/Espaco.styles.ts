@@ -85,7 +85,43 @@ export const ImgSetaBaixo = styled.img`
 export const DivAcomodacao2 = styled.div`
     display: flex;
     flex-direction: row;
-    
+    margin-top: 10vh;
+`
+
+export const ImgQuarto = styled.img`
+    width: 40vw;
+    height: 62vh;
+    border-radius: 12px;
+`
+
+export const DivDescricaoQuarto = styled.div`
+    margin-left: 6.18vw;
+`
+
+export const TxtNomeQuarto = styled.h1`
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #383838;
+    text-align: start;
+    margin-top: 0;
+`
+
+export const TxtDescriQuarto = styled.h2`
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.15rem;
+    color: #383838;
+    text-align: start;
+    max-width: 28vw;
+`
+
+export const LinhaCorQuarto = styled.div`
+    width: 12vw;
+    height: 9vh;
+    border-radius: 0px 0px 0px 25px;
+    position: absolute;
+    right: 0;
 `
 
 export const DivAcomodacao = styled.div`
