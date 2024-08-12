@@ -72,9 +72,9 @@ export function Servicos() {
                         ))}
                         
                     </S.SectionBoxs>
+                    <S.ImgElipseFundo style={{right: '0', rotate: '180deg', marginTop: '50vh'}} src='../../src/assets/svg/elipse_clara_fundo.svg' />
                 </DivMargem>
             </S.FundoCor>
-            
         </>
     )
 }

@@ -82,6 +82,7 @@ export const SectionBoxs = styled.section`
     max-width: 100vw;
     margin-bottom: 2vh;
     margin-top: 30vh;
+    z-index: 5;
 
     @media (max-width: 450px) {
         flex-direction: column;
