@@ -73,6 +73,7 @@ export const SectionBoxs = styled.section`
     width: 100%;
     max-width: 100vw;
     margin-bottom: 2vh;
+    background-color: #A17222;
 
     @media (max-width: 450px) {
         flex-direction: column;
@@ -80,12 +81,15 @@ export const SectionBoxs = styled.section`
 `
 
 export const DivBox = styled.div`
-    background-color: white;
-    border-radius: 0.625rem;
+    background-color: #F8F4DE;
+    border-radius: 1.25rem;
     width: 26vw;
-    height: 48vh;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 43vh;
+    box-shadow: 0px 4px 4px 0px #00000040;
     margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     @media (max-width: 450px) {
         width: 100%;
@@ -93,27 +97,13 @@ export const DivBox = styled.div`
     }
 `
 
-export const DivCorDentroBox = styled.div`
-    border-radius: 0.3125rem;
-    margin-top: 1vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
-    height: 23vh;
-    text-align: start;
-    padding-left: 0.4vw;
-
-    @media (max-width: 450px) {
-        height: 18vh;
-    }
-`
-
 export const NumeroDentroBoxCor = styled.p`
-    color: #FFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2vw;
-    font-style: normal;
+    color: #A17222;
+    font-family: 'Stint Ultra Condensed', sans-serif;
+    font-size: 4.3rem;
     font-weight: 400;
-    margin-top: 1vh;
+    margin-top: 2vh;
+    margin-bottom: 0;
 
     @media (max-width: 450px) {
         padding-top: 0.5vh;
@@ -123,11 +113,13 @@ export const NumeroDentroBoxCor = styled.p`
 `
 
 export const TituloDentroBoxCor = styled.h1`
-    color: #FFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.7vw;
-    font-style: normal;
-    font-weight: 500;
+    color: #A17222;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 1vh;
+    max-width: 19.3vw;
 
     @media (max-width: 450px) {
         font-size: 6.2vw;
@@ -136,14 +128,14 @@ export const TituloDentroBoxCor = styled.h1`
 `
 
 export const PDescBox = styled.p`
-    color: #000;
+    color: #383838;
     font-family: 'Inter', sans-serif;
-    font-size: 1.3vw;
-    font-style: normal;
-    font-weight: 400;
-    text-align: start;
+    font-size: 0.95rem;
+    font-weight: 300;
+    text-align: center;
     margin-left: 1vh;
     margin-right: 1vh;
+    max-width: 22vw;
 
     @media (max-width: 450px) {
         font-size: 4.6vw;
