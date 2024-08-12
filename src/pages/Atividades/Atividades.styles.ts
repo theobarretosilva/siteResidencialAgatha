@@ -1,68 +1,91 @@
 import styled from "styled-components";
 
-export const DivImgInicial = styled.div`
-    width: 100%;
-    height: 40vh;
-    background-image: url('https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_pagina_atividades.png?raw=true');
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+export const ImgInicial = styled.img`
+    width: 99.67vw;
+    height: 64.45vh;
+    z-index: 0;
+    top: 14vh;
+    position: absolute;
     object-fit: cover;
-    margin-top: 11.5vh;
 
     @media (max-width: 450px) {
-        height: 25vh;
-        margin-top: 9vh;
+        height: 30vh;
     }
 `
 
+export const SectionStyled = styled.section`
+    margin-top: 18vh;
+    z-index: 5;
+`
+
 export const TituloDivImgInicial = styled.h1`
-    color: #FFF;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
+    color: #F8F4DE;
+    text-align: start;
+    font-family: 'Inter', sans-serif;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 600;
     margin-top: 7vh;
+    width: 23vw;
+    margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 2.5rem;
+        font-size: 9vw;
         margin-top: 3vh;
     }
 `
 
-export const TextoInicial = styled.p`
-    color: #000;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem;
+export const LinhaStyled = styled.div`
+    width: 23.5vw;
+    height: 1.5px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 41vh;
+`
+
+export const PSubtituloInicial = styled.p`
+    color: white;
+    text-align: start;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3vw;
     font-style: normal;
-    font-weight: 500;
-    margin-top: 6vh;
+    font-weight: 300;
     margin-bottom: 0;
+    max-width: 38vw;
+    margin-top: 4.5vh;
 
     @media (max-width: 450px) {
-        font-size: 1.2rem;
-        margin-top: 4vh;
+        font-size: 5vw;
+        margin-top: 0;
     }
 `
 
-// export const SectionAtividade = styled.section`
-//     border-radius: 1.25rem;
-//     background: #FFF;
-//     width: 97%;
-//     height: 44vh;
-//     display: flex;
-//     flex-direction: row;
-//     padding: 3vh 1.5vw 3vh 1.5vw;
-// `
+export const DivSectionAtividades = styled.div`
+    margin-top: 10vh;
+`
+
+export const ImgElipseFundo = styled.img`
+    width: 15vw;
+    margin-top: 5vh;
+    position: absolute;
+`
+
+export const SectionAtividade = styled.section`
+    display: flex;
+    flex-direction: row;
+    margin-top: 20vh;
+
+    @media (max-width: 450px) {
+        flex-direction: column;
+    }
+`
 
 export const ImgAtividade = styled.img`
-    width: 38vw;
+    width: 44vw;
+    height: 62vh;
     border-radius: 0.62rem;
     margin: 0;
-    height: 46vh;
     object-fit: cover;
 
     @media (max-width: 450px) {
@@ -74,7 +97,8 @@ export const ImgAtividade = styled.img`
 `
 
 export const DivDescricaoAtividade = styled.div`
-    margin-left: 10vw;
+    margin-left: 5vw;
+    margin-top: 0;
 
     @media (max-width: 450px) {
         margin-left: 0;
@@ -82,11 +106,13 @@ export const DivDescricaoAtividade = styled.div`
 `
 
 export const TituloAtividade = styled.h1`
-    color: black;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.9rem;
+    color: #383838;
+    font-family: "Inter", sans-serif;
+    font-size: 3.5rem;
     font-weight: 600;
     text-align: start;
+    margin-top: 0;
+    margin-bottom: 0;
 
     @media (max-width: 450px) {
         text-align: center;
@@ -96,8 +122,8 @@ export const TituloAtividade = styled.h1`
 `
 
 export const DescricaoAtividade = styled.p`
-    color: black;
-    font-family: "Montserrat", sans-serif;
+    color: #383838;
+    font-family: "Inter", sans-serif;
     font-size: 1.4rem;
     font-weight: 300;
     text-align: start;
@@ -117,16 +143,6 @@ export const SectionCor = styled.section`
     background-color: #c4dcff;
     width: 100%;
     display: flex;
-`
-
-export const SectionAtividade = styled.section`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    @media (max-width: 450px) {
-        flex-direction: column;
-    }
 `
 
 export const PointSeparador = styled.img`
