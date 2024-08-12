@@ -50,7 +50,7 @@ export const PSubtituloInicial = styled.p`
     font-family: 'Inter', sans-serif;
     font-size: 1.3vw;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 0;
     max-width: 39vw;
     margin-top: 4.5vh;
@@ -103,8 +103,8 @@ export const TxtNomeQuarto = styled.h1`
     font-weight: 600;
     font-size: 3rem;
     color: #383838;
-    text-align: start;
     margin-top: 0;
+    width: fit-content;
 `
 
 export const TxtDescriQuarto = styled.h2`
@@ -117,11 +117,9 @@ export const TxtDescriQuarto = styled.h2`
 `
 
 export const LinhaCorQuarto = styled.div`
-    width: 12vw;
+    width: 10vw;
     height: 9vh;
-    border-radius: 0px 0px 0px 25px;
     position: absolute;
-    right: 0;
 `
 
 export const DivAcomodacao = styled.div`

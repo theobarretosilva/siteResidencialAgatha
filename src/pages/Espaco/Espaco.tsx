@@ -15,7 +15,9 @@ export function Espaco() {
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_azul.mp4?raw=true',
             right: width <= 450 ? '12%' : '19.5vw',
             corFaixa: '#002557',
-            side: 'right'
+            side: 'right',
+            photoMarginLeft: '0',
+            divDescricaoMarginLeft: ''
         },
         {
             titulo: 'Suíte Ágata Verde',
@@ -23,7 +25,9 @@ export function Espaco() {
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_verde.mp4?raw=true',
             right: width <= 450 ? '8.9%' : '18.01vw',
             corFaixa: '#00bf63',
-            side: 'left'
+            side: 'left',
+            photoMarginLeft: '6.2vw',
+            divDescricaoMarginLeft: '7vw'
         },
         {
             titulo: 'Quarto Ágata Rosa',
@@ -31,7 +35,9 @@ export function Espaco() {
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_rosa.mp4?raw=true',
             right: width <= 450 ? '11%' : '19vw',
             corFaixa: '#ff66c4',
-            side: 'right'
+            side: 'right',
+            photoMarginLeft: '0',
+            divDescricaoMarginLeft: ''
         },
         {
             titulo: 'Quarto Ágata Vermelha',
@@ -39,7 +45,9 @@ export function Espaco() {
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_vermelha.mp4?raw=true',
             right: width <= 450 ? '2%' : '14.4vw',
             corFaixa: '#c80000',
-            side: 'left'
+            side: 'left',
+            photoMarginLeft: '6.2vw',
+            divDescricaoMarginLeft: '4.8vw'
         },
         {
             titulo: 'Quarto Ágata Cinza',
@@ -47,7 +55,9 @@ export function Espaco() {
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_cinza.mp4?raw=true',
             right: width <= 450 ? '9%' : '18.3vw',
             corFaixa: '#545454',
-            side: 'right'
+            side: 'right',
+            photoMarginLeft: '0',
+            divDescricaoMarginLeft: ''
         },
         {
             titulo: 'Suíte Ágata Roxa',
@@ -55,7 +65,9 @@ export function Espaco() {
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_roxa.mp4?raw=true',
             right: width <= 450 ? '11%' : '19.1vw',
             corFaixa: '#cb6ce6',
-            side: 'left'
+            side: 'left',
+            photoMarginLeft: '6.2vw',
+            divDescricaoMarginLeft: '7vw'
         },
         {
             titulo: 'Suíte Ágata Marrom',
@@ -63,7 +75,9 @@ export function Espaco() {
             srcVideo: '',
             right: width <= 450 ? '11%' : '19.1vw',
             corFaixa: '#a17222',
-            side: 'right'
+            side: 'right',
+            photoMarginLeft: '0',
+            divDescricaoMarginLeft: ''
         },
         {
             titulo: 'Quarto Ágata Laranja',
@@ -71,7 +85,9 @@ export function Espaco() {
             srcVideo: '',
             right: width <= 450 ? '11%' : '19.1vw',
             corFaixa: '#ff914d',
-            side: 'left'
+            side: 'left',
+            photoMarginLeft: '6.2vw',
+            divDescricaoMarginLeft: '7vw'
         },
         {
             titulo: 'Quarto Ágata Amarela',
@@ -79,7 +95,9 @@ export function Espaco() {
             srcVideo: '',
             right: width <= 450 ? '11%' : '19.1vw',
             corFaixa: '#dbb100',
-            side: 'right'
+            side: 'right',
+            photoMarginLeft: '0',
+            divDescricaoMarginLeft: ''
         }
         
     ]
@@ -109,9 +127,6 @@ export function Espaco() {
                 </S.SectionStyled>
                 <S.TextoSection>Nossas acomodações</S.TextoSection>
                 <S.ImgSetaBaixo src='../../src/assets/svg/seta_baixo_preta.svg' />
-                <S.DivAcomodacao2>
-                    
-                </S.DivAcomodacao2>
             </DivMargem>
             {acomodacoesData.map((acomodacao, index) => (
                 <>
@@ -126,18 +141,28 @@ export function Espaco() {
                     ) : (
                         <DivMargem>
                             <S.DivAcomodacao2 
-                                style={acomodacao.side == 'right' ? {flexDirection: 'row'} : {flexDirection: 'row-reverse'}} 
+                                style={acomodacao.side == 'right' ? {
+                                    flexDirection: 'row'
+                                } : {
+                                    flexDirection: 'row-reverse',
+                                    justifyContent: 'start'
+
+                                }} 
                                 key={index}
                             >
                                 <S.ImgQuarto
-                                    style={acomodacao.side == 'right' ? {flexDirection: 'row'} : {flexDirection: 'row-reverse'}}
+                                    style={acomodacao.side == 'right' ? {flexDirection: 'row'} : {flexDirection: 'row-reverse', marginLeft: `${acomodacao.photoMarginLeft}`}}
                                     src='../../src/assets/img/frente_casa.jpg'
                                 />
-                                <S.DivDescricaoQuarto>
-                                    <S.TxtNomeQuarto>{acomodacao.titulo}</S.TxtNomeQuarto>
+                                <S.DivDescricaoQuarto style={acomodacao.side == 'right' ? {marginLeft: '7.35vw'} : {marginLeft: `${acomodacao.divDescricaoMarginLeft}`}}>
+                                    <S.TxtNomeQuarto style={acomodacao.side == 'right' ? {textAlign: 'start'} : {textAlign: 'end'}}>{acomodacao.titulo}</S.TxtNomeQuarto>
                                     <S.TxtDescriQuarto>{acomodacao.subtitulo}</S.TxtDescriQuarto>
                                 </S.DivDescricaoQuarto>
-                                <S.LinhaCorQuarto style={{backgroundColor: `${acomodacao.corFaixa}`}}></S.LinhaCorQuarto>
+                                <S.LinhaCorQuarto style={acomodacao.side == 'right' ? {
+                                    right: '0', backgroundColor: `${acomodacao.corFaixa}`, borderRadius: '0px 0px 0px 25px'
+                                } : {
+                                    left: '0', backgroundColor: `${acomodacao.corFaixa}`, borderRadius: '0px 0px 25px 0px'
+                                }}></S.LinhaCorQuarto>
                             </S.DivAcomodacao2>
                         </DivMargem>
                         

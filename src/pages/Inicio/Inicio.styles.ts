@@ -43,7 +43,7 @@ export const PSubtituloInicial = styled.p`
     font-family: 'Inter', sans-serif;
     font-size: 1.3vw;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 0;
     max-width: 36vw;
     margin-top: 13vh;

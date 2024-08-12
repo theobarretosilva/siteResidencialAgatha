@@ -49,26 +49,32 @@ export function Servicos() {
 
     return(
         <>
-            <S.DivImgInicial>
-                <S.TituloDivImgInicial>Nossos Serviços, Sua Tranquilidade</S.TituloDivImgInicial>
-            </S.DivImgInicial>
+            <S.ImgCasaInicial src='../../src/assets/img/foto_pagina_servicos.png' />
             <DivMargem>
-                <S.DivTextoInicial>
-                    <S.TextoInicial>
+                <S.SectionStyled>
+                    <S.TituloDivImgInicial>Nossos serviços, sua tranquilidade</S.TituloDivImgInicial>
+                    <S.LinhaStyled>‎</S.LinhaStyled>
+                    <S.PSubtituloInicial>
                         No nosso residencial, abraçamos com uma abordagem holística para o cuidado dos idosos. Nossa missão é proporcionar um ambiente acolhedor e amoroso para idosos semi-dependentes ou dependentes, bem como aqueles que enfrentam desafios de saúde crônicos, como a doença de Alzheimer, derrame, doença de Parkinson e outras condições relacionadas.
-                    </S.TextoInicial>
-                </S.DivTextoInicial>
-                <S.SectionBoxs>
-                    {servicosData.map((servico, index) => (
-                        <S.DivBox key={index}>
-                            <S.NumeroDentroBoxCor>{servico.numero}</S.NumeroDentroBoxCor>
-                            <S.TituloDentroBoxCor style={{maxWidth: `${servico.tituloMaxWidth}`}}>{servico.titulo}</S.TituloDentroBoxCor>
-                            <S.PDescBox style={{marginTop: `${servico.descricaoMarginTop}`}}>{servico.descricao}</S.PDescBox>
-                       </S.DivBox> 
-                    ))}
-                    
-                </S.SectionBoxs>
+                    </S.PSubtituloInicial>
+                </S.SectionStyled>
             </DivMargem>
+            <S.ImgElipseFundo style={{left: '0'}} src='../../src/assets/svg/elipse_clara_fundo.svg' />
+            <S.FundoCor>
+                <DivMargem>
+                    <S.SectionBoxs>
+                        {servicosData.map((servico, index) => (
+                            <S.DivBox key={index}>
+                                <S.NumeroDentroBoxCor>{servico.numero}</S.NumeroDentroBoxCor>
+                                <S.TituloDentroBoxCor style={{maxWidth: `${servico.tituloMaxWidth}`}}>{servico.titulo}</S.TituloDentroBoxCor>
+                                <S.PDescBox style={{marginTop: `${servico.descricaoMarginTop}`}}>{servico.descricao}</S.PDescBox>
+                        </S.DivBox> 
+                        ))}
+                        
+                    </S.SectionBoxs>
+                </DivMargem>
+            </S.FundoCor>
+            
         </>
     )
 }

@@ -1,6 +1,5 @@
 import * as S from './Inicio.styles'
 import { DivMargem } from '../../components/DivMargem/DivMargem'
-import { Separador } from '../../components/Separador/Separador'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { SliderFotos } from '../../components/SliderFotos/SliderFotos';

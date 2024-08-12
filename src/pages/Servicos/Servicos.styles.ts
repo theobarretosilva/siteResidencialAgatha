@@ -1,68 +1,76 @@
 import styled from "styled-components";
 
-export const DivImgInicial = styled.div`
-    width: 100%;
-    height: 40vh;
-    background-image: url('https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/img_pagina_servicos.png?raw=true');
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+export const ImgCasaInicial = styled.img`
+    width: 99.67vw;
+    height: 64.45vh;
+    z-index: 0;
+    top: 14vh;
+    position: absolute;
     object-fit: cover;
-    margin-top: 11.5vh;
 
     @media (max-width: 450px) {
-        height: 25vh;
-        margin-top: 9vh;
+        height: 30vh;
     }
 `
 
+export const SectionStyled = styled.section`
+    margin-top: 18vh;
+    z-index: 5;
+`
+
 export const TituloDivImgInicial = styled.h1`
-    color: #FFF;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4.1vw;
+    color: #F8F4DE;
+    text-align: start;
+    font-family: 'Inter', sans-serif;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 600;
     margin-top: 7vh;
+    width: 30vw;
+    margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 9.5vw;
+        font-size: 9vw;
         margin-top: 3vh;
     }
 `
 
-export const DivTextoInicial = styled.div`
-    width: 100%;
-    height: 23vh;
-    border-radius: 1.25rem;
-    background-color: rgba(192, 192, 192, 0.50);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 7vh;
-    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+export const LinhaStyled = styled.div`
+    width: 31vw;
+    height: 1.5px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 42vh;
+`
+
+export const PSubtituloInicial = styled.p`
+    color: white;
+    text-align: start;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 0;
+    max-width: 40vw;
+    margin-top: 4.5vh;
 
     @media (max-width: 450px) {
-        margin-top: 4vh;
-        height: 32vh;
+        font-size: 5vw;
+        margin-top: 0;
     }
 `
 
-export const TextoInicial = styled.p`
-    color: #000;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.6vw;
-    font-style: normal;
-    font-weight: 500;
-    max-width: 98%;
+export const FundoCor = styled.div`
+    width: 100%;
+    height: auto;
+    background-color: #A17222;
+`
 
-    @media (max-width: 450px) {
-        font-size: 4.5vw;
-        color: white;
-    }
+export const ImgElipseFundo = styled.img`
+    width: 15vw;
+    margin-top: 13vh;
+    position: absolute;
 `
 
 export const SectionBoxs = styled.section`
@@ -73,7 +81,7 @@ export const SectionBoxs = styled.section`
     width: 100%;
     max-width: 100vw;
     margin-bottom: 2vh;
-    background-color: #A17222;
+    margin-top: 30vh;
 
     @media (max-width: 450px) {
         flex-direction: column;
