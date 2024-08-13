@@ -69,51 +69,57 @@ export function Contato() {
 
     return(
         <S.DivFlex>
-            {/* <S.ImagemAside src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/idoso_aside.jpg?raw=true' /> */}
-            {isLoaded ? (
-                <GoogleMap
-                    mapContainerStyle={width > 450 ? {width: "60vw", height: "88.5vh", marginTop: "11.5vh"} : {width: "100vw", height: "50vh", marginTop: 0}}
-                    center={position}
-                    zoom={16}
-                >
-                    
-                    <Marker position={position} />
-                    <></>
-                </GoogleMap>
-            ) : <></>}
-            <S.MainForm>
-                <S.FaixaDegrade>
-                    <S.TituloFaixa>Entre em contato conosco!</S.TituloFaixa>
-                    <S.SubtituloFaixa>Estamos prontos para ouvir você e ajudar no que for necessário.</S.SubtituloFaixa>
-                </S.FaixaDegrade>
-                <S.Form onSubmit={sendEmail}>
+            <S.DivMaps>
+                <S.TituloFaixa>Entre em contato conosco!</S.TituloFaixa>
+                <S.SubtituloFaixa>Estamos prontos para ouvir você e ajudar no que for necessário.</S.SubtituloFaixa>
+                {isLoaded ? (
+                    <GoogleMap
+                        mapContainerStyle={width > 450 ? {width: "42vw", height: "60vh", marginTop: "2vh"} : {width: "100vw", height: "50vh", marginTop: 0}}
+                        center={position}
+                        zoom={16}
+                    >
+                        
+                        <Marker position={position} />
+                        <></>
+                    </GoogleMap>
+                ) : <></>}
+            </S.DivMaps>
+            <S.Form onSubmit={sendEmail}>
+                <div>
+                    <S.NameInput>Nome completo</S.NameInput>
                     <S.Input
                         onChange={(e) => setNome(e.target.value)}
                         value={nome}
-                        placeholder='Nome completo'
                         type='text'
                     />
+                </div>
+                <div>
+                    <S.NameInput>E-mail</S.NameInput>
                     <S.Input 
                         onChange={(e) => setEmail(e.target.value)}
                         value={email}
-                        placeholder='E-mail'
                         type='email'
                     />
+                </div>
+                <div>
+                    <S.NameInput>Telefone para contato</S.NameInput>
                     <S.InputMaskStyled
                         onChange={(e) => setTelefone(e.target.value)}
                         value={telefone}
                         mask="(99) 99999-9999"
-                        placeholder='Telefone para contato'
                         type='tel'
                     />
+                </div>
+                <div>
+                    <S.NameInput>Conte-nos o que você procura</S.NameInput>
                     <S.TextArea
                         onChange={(e) => setMensagem(e.target.value)}
                         value={mensagem}
-                        placeholder='Conte-nos o que você procura'
                     />
-                    <S.BtnEnviar>Enviar</S.BtnEnviar>
-                </S.Form>
-            </S.MainForm>
+                </div>
+                
+                <S.BtnEnviar>Enviar</S.BtnEnviar>
+            </S.Form>
         </S.DivFlex>
     )
 }

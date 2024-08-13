@@ -3,17 +3,27 @@ import InputMask from "react-input-mask";
 
 export const DivFlex = styled.div`
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2vw;
+    align-items: center;
+    background-color: #A17222;
+    height: 86vh;
+    margin-top: 14vh;
 
     @media (max-width: 450px) {
         flex-direction: column-reverse;
     }
 `
 
+export const DivMaps = styled.div`
+    margin-top: 0;
+`
+
 export const ImagemAside = styled.img`
     width: 60vw;
     height: 88.5vh;
-    margin-top: 11.5vh;
+    margin-top: 5vh;
     object-fit: cover;
 
     @media (max-width: 450px) {
@@ -21,40 +31,14 @@ export const ImagemAside = styled.img`
     }
 `
 
-export const MainForm = styled.main`
-    width: 40vw;
-    height: 88.5vh;
-    margin-top: 11.5vh;
-
-    @media (max-width: 450px) {
-        width: 100%;
-    }
-`
-
-export const FaixaDegrade = styled.div`
-    width: 40vw;
-    height: 22vh;
-    background: linear-gradient(180deg, #383838 0%, rgba(56, 56, 56, 0.50) 100%);
-    margin-top: 3vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    @media (max-width: 450px) {
-        width: 100%;
-        height: 18vh;
-        margin-top: 0;
-    }
-`
-
 export const TituloFaixa = styled.h1`
     color: #FFF;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 600;
-    text-align: center;
+    font-size: 2.9rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: start;
     margin-bottom: 0;
+    margin-top: 0;
 
     @media (max-width: 450px) {
         font-weight: 500;
@@ -64,11 +48,11 @@ export const TituloFaixa = styled.h1`
 
 export const SubtituloFaixa = styled.h2`
     color: #FFF;
-    font-size: 1.3rem;
-    font-style: normal;
-    font-weight: 200;
-    max-width: 30vw;
-    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    max-width: 33vw;
+    text-align: start;
     margin-top: 1vh;
 
     @media (max-width: 450px) {
@@ -82,16 +66,33 @@ export const Form = styled.form`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3.6vh;
-    gap: 2vh;
+    gap: 0;
+    width: 33vw;
+    height: 78vh;
+    background-color: rgba(248, 244, 222, 1);
+    border-radius: 1rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    @media (max-width: 450px) {
+        width: 100%;
+    }
+`
+
+export const NameInput = styled.p`
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: rgba(56, 56, 56, 1);
+    margin-bottom: 1vh;
+    margin-top: 2vh;
 `
 
 export const InputMaskStyled = styled(InputMask)`
-    width: 30vw;
+    width: 29vw;
     height: 5.2vh;
-    border-radius: 0.625rem;
-    background: #D9D9D9;
-    border: none;
+    border-radius: 0.3rem;
+    background: rgba(248, 244, 222, 1);
+    border: 1px solid rgba(173, 167, 167, 1);
     padding-left: 0.8vw;
     color: #000;
     font-size: 1rem;
@@ -110,11 +111,11 @@ export const InputMaskStyled = styled(InputMask)`
 `
 
 export const Input = styled.input`
-    width: 30vw;
+    width: 29vw;
     height: 5.2vh;
-    border-radius: 0.625rem;
-    background: #D9D9D9;
-    border: none;
+    border-radius: 0.3rem;
+    background: rgba(248, 244, 222, 1);
+    border: 1px solid rgba(173, 167, 167, 1);
     padding-left: 0.8vw;
     color: #000;
     font-size: 1rem;
@@ -133,11 +134,11 @@ export const Input = styled.input`
 `
 
 export const TextArea = styled.textarea`
-    width: 30vw;
+    width: 29vw;
     height: 25vh;
-    border-radius: 0.625rem;
-    background: #D9D9D9;
-    border: none;
+    border-radius: 0.3rem;
+    background: rgba(248, 244, 222, 1);
+    border: 1px solid rgba(173, 167, 167, 1);
     padding-left: 0.8vw;
     padding-top: 1vh;
     color: black;
@@ -156,17 +157,19 @@ export const TextArea = styled.textarea`
 `
 
 export const BtnEnviar = styled.button`
-    width: 31vw;
+    width: 30vw;
     height: 5.5vh;
-    border-radius: 0.625rem;
-    background: #000;
+    border-radius: 0.3rem;
+    background: rgba(161, 114, 34, 1);
     color: #FFF;
     text-align: center;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
     border: none;
     cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 1vh;
 
     @media (max-width: 450px) {
         width: 90%;

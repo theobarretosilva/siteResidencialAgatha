@@ -157,7 +157,7 @@ export const ImgVantagem = styled.img`
     border-top-left-radius: 0.6rem;
     border-top-right-radius: 0.6rem;
     width: 20.3vw;
-    height: 18vh;
+    height: 17.5vh;
     object-fit: cover;
 `
 
@@ -172,6 +172,8 @@ export const BoxVantagem = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: rgba(248, 244, 222, 0.6);
+    backdrop-filter: blur(3px);
 
     @media (max-width: 450px) {
         width: 100%;
