@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ImgCasaInicial = styled.img`
-    width: 99.67vw;
+    width: 100%;
     height: 64.45vh;
     z-index: 0;
     top: 14vh;
@@ -62,13 +62,13 @@ export const PSubtituloInicial = styled.p`
 `
 
 export const TextoSection = styled.h1`
-    color: rgba(248, 244, 222, 1);
+    color: rgba(56, 56, 56, 1);
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
     text-align: center;
-    margin-top: 4vh;
+    margin-top: 16vh;
     margin-bottom: 0;
 
     @media (max-width: 450px) {
@@ -79,9 +79,26 @@ export const TextoSection = styled.h1`
 
 export const DivSliders = styled.div`
     background-color: rgba(161, 114, 34, 1);
-    width: 100vw;
+    width: 99.2vw;
     padding-top: 1vh;
+    padding-bottom: 3vh;
     margin-top: 10vh;
+`
+
+export const TextoSectionAcomodacoes = styled.h1`
+    color: rgba(248, 244, 222, 1);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 0;
+
+    @media (max-width: 450px) {
+        font-size: 7.5vw;
+        margin-bottom: 2vh;
+    }
 `
 
 export const ImgSetaBaixo = styled.img`

@@ -186,7 +186,7 @@ export function Espaco() {
                 </>
             ))}
             <S.DivSliders>
-                <S.TextoSection>Nossas acomodações</S.TextoSection>
+                <S.TextoSectionAcomodacoes>Nossas acomodações</S.TextoSectionAcomodacoes>
                 <SliderFotosEstrutura />
             </S.DivSliders>   
         </>

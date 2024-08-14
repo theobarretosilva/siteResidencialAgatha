@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ImgCasaInicial = styled.img`
-    width: 99.67vw;
+    width: 99.29vw;
     height: 64.45vh;
     z-index: 0;
     top: 14vh;
