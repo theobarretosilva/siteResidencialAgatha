@@ -15,7 +15,7 @@ export const SliderFotosEstrutura = () => {
                 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/salaDeEstar/salaDeEstar1.jpg?raw=true',
                 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/salaDeEstar/salaDeEstar2.jpg?raw=true',
                 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/salaDeEstar/salaDeEstar3.jpg?raw=true',
-                'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/salaDeEstar/salaDeEstar4.jpg?raw=true'
+                'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/salaDeEstar/salaDeEstar4.jpg?raw=true',
             ],
         },
         {

@@ -66,7 +66,7 @@ export function Espaco() {
             right: width <= 450 ? '11%' : '19.1vw',
             corFaixa: '#cb6ce6',
             side: 'left',
-            photoMarginLeft: '6.2vw',
+            photoMarginLeft: '11.2vw',
             divDescricaoMarginLeft: '7vw'
         },
         {
@@ -86,7 +86,7 @@ export function Espaco() {
             right: width <= 450 ? '11%' : '19.1vw',
             corFaixa: '#ff914d',
             side: 'left',
-            photoMarginLeft: '6.2vw',
+            photoMarginLeft: '7.25vw',
             divDescricaoMarginLeft: '7vw'
         },
         {
@@ -185,10 +185,10 @@ export function Espaco() {
                     )}
                 </>
             ))}
-            <DivMargem>
-                <S.TextoSection>Nossa estrutura</S.TextoSection>
+            <S.DivSliders>
+                <S.TextoSection>Nossas acomodações</S.TextoSection>
                 <SliderFotosEstrutura />
-            </DivMargem>
+            </S.DivSliders>   
         </>
     )
 }

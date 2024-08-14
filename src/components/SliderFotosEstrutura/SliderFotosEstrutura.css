@@ -4,7 +4,7 @@
     z-index: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3vh;
+    margin-bottom: 6vh;
 
     @media (max-width: 450px) {
         margin-bottom: 2vh;
@@ -15,7 +15,7 @@
 
 .swiper-slide img {
     display: block;
-    width: 100%;
+    width: 95%;
     height: 100%;
     object-fit: cover;
 
@@ -25,12 +25,13 @@
 }
 
 .titulo{
-    color: black;
-    font-size: 1.7rem;
-    font-style: normal;
+    color: rgba(248, 244, 222, 1);
+    font-size: 1.8rem;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     text-align: start;
     margin-bottom: 1vh;
+    margin-left: 5.5vw;
 
     @media (max-width: 450px) {
         font-size: 1.4rem;

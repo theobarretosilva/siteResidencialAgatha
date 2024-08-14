@@ -62,19 +62,26 @@ export const PSubtituloInicial = styled.p`
 `
 
 export const TextoSection = styled.h1`
-    color: black;
+    color: rgba(248, 244, 222, 1);
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
     text-align: center;
-    margin-top: 16vh;
+    margin-top: 4vh;
     margin-bottom: 0;
 
     @media (max-width: 450px) {
         font-size: 7.5vw;
         margin-bottom: 2vh;
     }
+`
+
+export const DivSliders = styled.div`
+    background-color: rgba(161, 114, 34, 1);
+    width: 100vw;
+    padding-top: 1vh;
+    margin-top: 10vh;
 `
 
 export const ImgSetaBaixo = styled.img`
