@@ -9,7 +9,17 @@ export const ImgCasaInicial = styled.img`
     object-fit: cover;
 
     @media (max-width: 450px) {
-        height: 30vh;
+        height: 50vh;
+        object-fit: contain;
+    }
+`
+
+export const SectionStyled = styled.section`
+    margin-top: 20vh;
+    z-index: 5;
+
+    @media (max-width: 450px) {
+        margin-top: 12vh;
     }
 `
 
@@ -18,14 +28,14 @@ export const TituloSectionInicial = styled.h1`
     text-align: start;
     font-family: 'Inter', sans-serif;
     font-size: 3vw;
-    font-style: normal;
     font-weight: 600;
     text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 3vh;
 
     @media (max-width: 450px) {
         margin-top: 0;
-        font-size: 6.5vw;
+        font-size: 1.3rem;
+
     }
 `
 
@@ -35,6 +45,10 @@ export const LinhaStyled = styled.div`
     background-color: white;
     position: absolute;
     left: 0;
+
+    @media (max-width: 450px) {
+        width: 33.5vw;
+    }
 `
 
 export const PSubtituloInicial = styled.p`
@@ -49,13 +63,18 @@ export const PSubtituloInicial = styled.p`
     margin-top: 13vh;
 
     @media (max-width: 450px) {
-        font-size: 5vw;
-        margin-top: 0;
+        font-size: 0.8rem;
+        margin-top: 7vh;
+        max-width: 90vw;
     }
 `
 
 export const DivSaibaMais = styled.div`
     margin-top: 11vh;
+
+    @media (max-width: 450px) {
+        display: none;
+    }
 `
 
 export const TxtSaibaMais = styled.p`
@@ -86,6 +105,7 @@ export const SectionEntreContato = styled.section`
 
     @media (max-width: 450px) {
         flex-wrap: wrap;
+        margin-top: 8vh;
     }
 `
 
@@ -110,6 +130,7 @@ export const TituloSectionEntreContato = styled.h1`
         font-size: 6vw;
         max-width: 90vw;
         text-align: center;
+        margin-bottom: 0;
     }
 `
 
@@ -123,7 +144,7 @@ export const SubtituloSectionEntreContato = styled.h2`
     max-width: 36vw;
 
     @media (max-width: 450px) {
-        font-size: 5vw;
+        font-size: 1rem;
         max-width: 90vw;
         text-align: center;
     }
@@ -152,7 +173,7 @@ export const BtnEntreContato = styled.button`
 
 export const BtnEntreContatoMobile = styled(BtnEntreContato)`
     width: 90vw;
-    height: 5vh;
+    height: 6vh;
     margin-top: 2vh;
     display: flex;
     flex-direction: column;
@@ -193,6 +214,7 @@ export const BoxMVV = styled.article`
     @media (max-width: 450px) {
         width: 89vw;
         height: 31vh;
+        text-align: center;
     }
 `
 
@@ -221,6 +243,7 @@ export const TituloBoxMVV = styled.h1`
 
     @media (max-width: 450px) {
         font-size: 7.5vw;
+        text-align: center;
     }
 `
 
@@ -235,5 +258,6 @@ export const SubtituloBoxMVV = styled.h2`
     @media (max-width: 450px) {
         margin-top: 0;
         font-size: 5vw;
+        text-align: center;
     }
 `

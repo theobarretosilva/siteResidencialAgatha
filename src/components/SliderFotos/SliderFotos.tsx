@@ -15,7 +15,7 @@ export const SliderFotos = () => {
     ];
 
     const { innerWidth: width } = window;
-    const styleMobile = {width: '80vw', height: '18vh', zIndex: '0'};
+    const styleMobile = {width: '80vw', height: '30vh', zIndex: '0'};
     const styleDesktop = {width: '33vw', height: '44vh', zIndex: '0'};
 
     const [isOpen, setIsOpen] = useState(false);

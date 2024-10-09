@@ -6,6 +6,7 @@ import { SliderFotos } from '../../components/SliderFotos/SliderFotos';
 import 'animate.css';
 import { AutoMorphingText } from '../../components/AutoMorphingText/AutoMorphingText';
 import { useNavigate } from 'react-router-dom';
+const { innerWidth: width } = window;
 
 export function Inicio() {
     const dataMVV = [
@@ -39,15 +40,21 @@ export function Inicio() {
         <>
             <S.ImgCasaInicial src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/casa_dourado_tela_inicial.png?raw=true' />
             <DivMargem>
-                <section style={{marginTop: '20vh', zIndex: '5'}}>
-                    <S.TituloSectionInicial>
-                        Com a nossa equipe 
-                        <br />
-                        você tem todo o
-                        <br />
-                        cuidado que
-                        <AutoMorphingText />
-                    </S.TituloSectionInicial>
+                <S.SectionStyled>
+                    {width > 450 ? 
+                        <S.TituloSectionInicial>
+                            Com a nossa equipe 
+                            <br />
+                            você tem todo o
+                            <br />
+                            cuidado que
+                            <AutoMorphingText />
+                        </S.TituloSectionInicial> : 
+                        <S.TituloSectionInicial>
+                            Com a nossa equipe você tem todo o cuidado que
+                            <AutoMorphingText />
+                        </S.TituloSectionInicial>
+                    }
                     <S.LinhaStyled>‎</S.LinhaStyled>
                     <S.PSubtituloInicial>
                         No nosso Residencial Geriátrico, você encontrará mais do que cuidados de saúde excepcionais - encontrará uma família comprometida em enriquecer sua vida e tornar cada dia significativo.
@@ -56,7 +63,7 @@ export function Inicio() {
                         <S.TxtSaibaMais>Saiba Mais</S.TxtSaibaMais>
                         <S.ImgSetaBaixo src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/d6dac166f92396f20bd2e16044f76c3abedf9f5b/src/assets/svg/seta_baixo.svg' />
                     </S.DivSaibaMais>
-                </section>
+                </S.SectionStyled>
                 <S.ImgElipseFundo style={{left: '0'}} src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/d6dac166f92396f20bd2e16044f76c3abedf9f5b/src/assets/svg/elipse_fundo.svg' />
                 <S.SectionEntreContato>
                     <S.DivSectionEntreContato>
