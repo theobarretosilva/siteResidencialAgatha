@@ -10,19 +10,19 @@ import { useNavigate } from 'react-router-dom';
 export function Inicio() {
     const dataMVV = [
         {
-            icon: '../../src/assets/svg/simbolo_missao.svg',
+            icon: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/d6dac166f92396f20bd2e16044f76c3abedf9f5b/src/assets/svg/simbolo_missao.svg',
             alt: 'Icone do símbolo missão',
             titulo: 'Missão',
             descricao: 'Promover o bem-estar e a qualidade de vida dos idosos, oferecendo cuidados de alta qualidade e um ambiente acolhedor que respeita a individualidade.'
         },
         {
-            icon: '../../src/assets/svg/simbolo_visao.svg',
+            icon: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/d6dac166f92396f20bd2e16044f76c3abedf9f5b/src/assets/svg/simbolo_visao.svg',
             alt: 'Icone do símbolo visão',
             titulo: 'Visão',
             descricao: 'Ser um modelo de excelência em cuidados geriátricos, onde o envelhecimento é vivido com dignidade e alegria.'
         },
         {
-            icon: '../../src/assets/svg/simbolo_valores.svg',
+            icon: 'https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/d6dac166f92396f20bd2e16044f76c3abedf9f5b/src/assets/svg/simbolo_valores.svg',
             alt: 'Icone do símbolo valores',
             titulo: 'Valores',
             descricao: 'Respeito, compaixão, qualidade, integridade, colaboração'
@@ -54,10 +54,10 @@ export function Inicio() {
                     </S.PSubtituloInicial>
                     <S.DivSaibaMais>
                         <S.TxtSaibaMais>Saiba Mais</S.TxtSaibaMais>
-                        <S.ImgSetaBaixo src='../../src/assets/svg/seta_baixo.svg' />
+                        <S.ImgSetaBaixo src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/d6dac166f92396f20bd2e16044f76c3abedf9f5b/src/assets/svg/seta_baixo.svg' />
                     </S.DivSaibaMais>
                 </section>
-                <S.ImgElipseFundo style={{left: '0'}} src='../../src/assets/svg/elipse_fundo.svg' />
+                <S.ImgElipseFundo style={{left: '0'}} src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/d6dac166f92396f20bd2e16044f76c3abedf9f5b/src/assets/svg/elipse_fundo.svg' />
                 <S.SectionEntreContato>
                     <S.DivSectionEntreContato>
                         <S.TituloSectionEntreContato>
@@ -73,7 +73,7 @@ export function Inicio() {
                     <SliderFotos />
                     <S.BtnEntreContatoMobile onClick={goTelaContato}>Entre em contato conosco!</S.BtnEntreContatoMobile>
                 </S.SectionEntreContato>
-                <S.ImgElipseFundo style={{rotate: '180deg', marginTop: '250vh', right: '0'}} src='../../src/assets/svg/elipse_fundo.svg' />
+                <S.ImgElipseFundo style={{rotate: '180deg', marginTop: '250vh', right: '0'}} src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/d6dac166f92396f20bd2e16044f76c3abedf9f5b/src/assets/svg/elipse_fundo.svg' />
                 <S.SectionMVV>
                     {dataMVV.map((mvv, index) => (
                         <S.BoxMVV key={index}>

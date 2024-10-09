@@ -49,7 +49,7 @@ export function Servicos() {
 
     return(
         <>
-            <S.ImgCasaInicial src='../../src/assets/img/foto_pagina_servicos.png' />
+            <S.ImgCasaInicial src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/foto_pagina_servicos.png?raw=true' />
             <DivMargem>
                 <S.SectionStyled>
                     <S.TituloDivImgInicial>Nossos serviços, sua tranquilidade</S.TituloDivImgInicial>
@@ -59,7 +59,7 @@ export function Servicos() {
                     </S.PSubtituloInicial>
                 </S.SectionStyled>
             </DivMargem>
-            <S.ImgElipseFundo style={{left: '0'}} src='../../src/assets/svg/elipse_clara_fundo.svg' />
+            <S.ImgElipseFundo style={{left: '0'}} src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/d6dac166f92396f20bd2e16044f76c3abedf9f5b/src/assets/svg/elipse_clara_fundo.svg' />
             <S.FundoCor>
                 <DivMargem>
                     <S.SectionBoxs>
@@ -72,7 +72,7 @@ export function Servicos() {
                         ))}
                         
                     </S.SectionBoxs>
-                    <S.ImgElipseFundo style={{right: '0', rotate: '180deg', marginTop: '50vh'}} src='../../src/assets/svg/elipse_clara_fundo.svg' />
+                    <S.ImgElipseFundo style={{right: '0', rotate: '180deg', marginTop: '50vh'}} src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/d6dac166f92396f20bd2e16044f76c3abedf9f5b/src/assets/svg/elipse_clara_fundo.svg' />
                 </DivMargem>
             </S.FundoCor>
         </>

@@ -116,7 +116,7 @@ export function Espaco() {
 
     return(
         <>
-            <S.ImgCasaInicial src='../../src/assets/img/foto_pagina_espaco.png' />
+            <S.ImgCasaInicial src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/foto_pagina_espaco.png?raw=true' />
             <DivMargem>
                 <S.SectionStyled>
                     <S.TituloDivImgInicial>Nossa estrutura cuidadosamente planejada</S.TituloDivImgInicial>
@@ -126,7 +126,7 @@ export function Espaco() {
                     </S.PSubtituloInicial>
                 </S.SectionStyled>
                 <S.TextoSection>Nossas acomodações</S.TextoSection>
-                <S.ImgSetaBaixo src='../../src/assets/svg/seta_baixo_preta.svg' />
+                <S.ImgSetaBaixo src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/d6dac166f92396f20bd2e16044f76c3abedf9f5b/src/assets/svg/seta_baixo_preta.svg' />
             </DivMargem>
             {acomodacoesData.map((acomodacao, index) => (
                 <>
@@ -152,7 +152,7 @@ export function Espaco() {
                             >
                                 <S.ImgQuarto
                                     style={acomodacao.side == 'right' ? {flexDirection: 'row'} : {flexDirection: 'row-reverse', marginLeft: `${acomodacao.photoMarginLeft}`}}
-                                    src='../../src/assets/img/frente_casa.jpg'
+                                    src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/frente_casa.jpg?raw=true'
                                 />
                                 <S.DivDescricaoQuarto style={acomodacao.side == 'right' ? {marginLeft: '7.35vw'} : {marginLeft: `${acomodacao.divDescricaoMarginLeft}`}}>
                                     <S.TxtNomeQuarto style={acomodacao.side == 'right' ? {textAlign: 'start'} : {textAlign: 'end'}}>{acomodacao.titulo}</S.TxtNomeQuarto>

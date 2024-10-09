@@ -29,7 +29,7 @@ export function Atividades() {
 
     return(
         <>
-            <S.ImgInicial src='../../src/assets/img/foto_pagina_atividades.png' />
+            <S.ImgInicial src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/foto_pagina_atividades.png?raw=true' />
             <DivMargem>
                 <S.SectionStyled>
                     <S.TituloDivImgInicial>Atividades para o bem-estar</S.TituloDivImgInicial>
@@ -38,7 +38,7 @@ export function Atividades() {
                         No nosso residencial, reconhecemos a importância de manter uma vida ativa e enriquecedora, independentemente da idade. É por isso que oferecemos uma ampla variedade de atividades cuidadosamente planejadas para promover o bem-estar físico, mental e emocional de nossos residentes.
                     </S.PSubtituloInicial>
                 </S.SectionStyled>
-                <S.ImgElipseFundo style={{left: '0'}} src='../../src/assets/svg/elipse_fundo.svg' />
+                <S.ImgElipseFundo style={{left: '0'}} src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/d6dac166f92396f20bd2e16044f76c3abedf9f5b/src/assets/svg/elipse_fundo.svg' />
                 <S.DivSectionAtividades>
                     {atividadesData.map((atividade, index) => (
                         <S.SectionAtividade key={index}>
