@@ -2,7 +2,6 @@ import { LogoTexto } from '../LogoTexto/LogoTexto'
 import * as S from './Navbar.styles'
 import { useState } from 'react'
 import './Navbar.css'
-import { LogoTextoBranco } from '../LogoTextBranco/LogoTextoBranco'
 
 export const Navbar = () => {
     const [active, setMode] = useState(false);
