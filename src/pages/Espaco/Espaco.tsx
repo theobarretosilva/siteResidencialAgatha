@@ -72,7 +72,7 @@ export function Espaco() {
         {
             titulo: 'Suíte Ágata Marrom',
             subtitulo: '',
-            srcVideo: '',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/suiteAgataMarrom.png?raw=true',
             right: width <= 450 ? '11%' : '19.1vw',
             corFaixa: '#a17222',
             side: 'right',
@@ -82,7 +82,7 @@ export function Espaco() {
         {
             titulo: 'Quarto Ágata Laranja',
             subtitulo: '',
-            srcVideo: '',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataLaranja.png?raw=true',
             right: width <= 450 ? '11%' : '19.1vw',
             corFaixa: '#ff914d',
             side: 'left',
@@ -92,7 +92,7 @@ export function Espaco() {
         {
             titulo: 'Quarto Ágata Amarela',
             subtitulo: '',
-            srcVideo: '',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataAmarela.png?raw=true',
             right: width <= 450 ? '11%' : '19.1vw',
             corFaixa: '#dbb100',
             side: 'right',
