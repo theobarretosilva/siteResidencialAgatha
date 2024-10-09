@@ -92,61 +92,6 @@ export const MainBoxVantagens = styled.main`
     }
 `
 
-// export const MainBoxVantagens = styled.main`
-//     display: flex;
-//     flex-direction: row;
-//     flex-wrap: wrap;
-//     align-content: center;
-//     justify-content: center;
-//     margin-top: 10vh;
-//     margin-bottom: 5vh;
-
-//     :nth-child(2){
-//         border-left: none;
-//     }
-//     :nth-child(3){
-//         border-right: none;
-//         border-left: none;
-//     }
-//     :nth-child(5){
-//         border-top: none;
-//     }
-//     :nth-child(6){
-//         border-top: none;
-//         border-left: none;
-//     }
-//     :nth-child(7){
-//         border-top: none;
-//         border-left: none;
-//     }
-
-//     @media (max-width: 450px) {
-//         flex-direction: column;
-
-//         :nth-child(2){
-//             border-top: none;
-//             border-bottom: none;
-//             border-left: 2px solid #FFF;
-//         }
-//         :nth-child(3){
-//             border-bottom: none;
-//             border-left: 2px solid #FFF;
-//             border-right: 2px solid #FFF;
-//         }
-//         :nth-child(5){
-//             border-top: none;
-//         }
-//         :nth-child(6){
-//             border-top: none;
-//             border-left: 2px solid #FFF;
-//         }
-//         :nth-child(7){
-//             border-top: none;
-//             border-left: 2px solid #FFF;
-//         }
-//     }
-// `
-
 export const DivVantagem = styled.div`
     display: flex;
     flex-direction: column;

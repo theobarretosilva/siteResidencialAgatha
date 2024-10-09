@@ -7,7 +7,11 @@ export const Footer = styled.footer`
     padding-left: 4.5vw;
     padding-right: 4.5vw;
     padding-top: 10vh;
-    bottom: 0;   
+    bottom: 0;
+
+    @media (max-width: 450px) {
+        padding-top: 3vh;
+    }
 `
 
 export const DivInicial = styled.div`

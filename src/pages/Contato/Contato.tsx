@@ -74,7 +74,7 @@ export function Contato() {
                 <S.SubtituloFaixa>Estamos prontos para ouvir você e ajudar no que for necessário.</S.SubtituloFaixa>
                 {isLoaded ? (
                     <GoogleMap
-                        mapContainerStyle={width > 450 ? {width: "42vw", height: "60vh", marginTop: "2vh"} : {width: "100vw", height: "50vh", marginTop: 0}}
+                        mapContainerStyle={width > 450 ? {width: "42vw", height: "60vh", marginTop: "2vh"} : {display: 'none'}}
                         center={position}
                         zoom={16}
                     >
@@ -85,23 +85,23 @@ export function Contato() {
                 ) : <></>}
             </S.DivMaps>
             <S.Form onSubmit={sendEmail}>
-                <div>
+                <S.DivForm>
                     <S.NameInput>Nome completo</S.NameInput>
                     <S.Input
                         onChange={(e) => setNome(e.target.value)}
                         value={nome}
                         type='text'
                     />
-                </div>
-                <div>
+                </S.DivForm>
+                <S.DivForm>
                     <S.NameInput>E-mail</S.NameInput>
                     <S.Input 
                         onChange={(e) => setEmail(e.target.value)}
                         value={email}
                         type='email'
                     />
-                </div>
-                <div>
+                </S.DivForm>
+                <S.DivForm>
                     <S.NameInput>Telefone para contato</S.NameInput>
                     <S.InputMaskStyled
                         onChange={(e) => setTelefone(e.target.value)}
@@ -109,14 +109,14 @@ export function Contato() {
                         mask="(99) 99999-9999"
                         type='tel'
                     />
-                </div>
-                <div>
+                </S.DivForm>
+                <S.DivForm>
                     <S.NameInput>Conte-nos o que você procura</S.NameInput>
                     <S.TextArea
                         onChange={(e) => setMensagem(e.target.value)}
                         value={mensagem}
                     />
-                </div>
+                </S.DivForm>
                 
                 <S.BtnEnviar>Enviar</S.BtnEnviar>
             </S.Form>

@@ -13,7 +13,8 @@ export const ImgLogo = styled.img`
 
     @media (max-width: 450px) {
         width: 14vw;
-        height: 10vh;
+        height: 7vh;
+        object-fit: cover;
     }
 `
 
@@ -31,4 +32,8 @@ export const TituloLogo = styled.h1`
 
 export const ImgTxtAgatha = styled.img`
     width: 8.5vw;
+
+    @media (max-width: 450px) {
+        width: 25vw;
+    }
 `

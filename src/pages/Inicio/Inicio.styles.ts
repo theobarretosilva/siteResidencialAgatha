@@ -169,7 +169,7 @@ export const SectionMVV = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 5vw;
+    gap: 9vw;
     margin-bottom: 2rem;
     margin-top: 18vh;
     z-index: 5;

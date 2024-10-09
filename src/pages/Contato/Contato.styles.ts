@@ -12,22 +12,19 @@ export const DivFlex = styled.div`
     margin-top: 14vh;
 
     @media (max-width: 450px) {
-        flex-direction: column-reverse;
+        flex-direction: column;
+        margin-top: 11vh;
+        height: 89vh;
+        gap: 0;
+        justify-content: center;
     }
 `
 
 export const DivMaps = styled.div`
     margin-top: 0;
-`
-
-export const ImagemAside = styled.img`
-    width: 60vw;
-    height: 88.5vh;
-    margin-top: 5vh;
-    object-fit: cover;
 
     @media (max-width: 450px) {
-        display: none;
+        margin-top: 0vh;
     }
 `
 
@@ -43,6 +40,8 @@ export const TituloFaixa = styled.h1`
     @media (max-width: 450px) {
         font-weight: 500;
         font-size: 1.7rem;
+        text-align: center;
+        margin-top: 1vh;
     }
 `
 
@@ -57,7 +56,9 @@ export const SubtituloFaixa = styled.h2`
 
     @media (max-width: 450px) {
         max-width: 95%;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        font-weight: 300;
+        text-align: center;
     }
 `
 
@@ -69,12 +70,13 @@ export const Form = styled.form`
     gap: 0;
     width: 33vw;
     height: 78vh;
-    background-color: rgba(248, 244, 222, 1);
+    background-color: #F8F4DE;
     border-radius: 1rem;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
     @media (max-width: 450px) {
-        width: 100%;
+        width: 92%;
+        height: 63vh;
     }
 `
 
@@ -85,6 +87,10 @@ export const NameInput = styled.p`
     color: rgba(56, 56, 56, 1);
     margin-bottom: 1vh;
     margin-top: 2vh;
+
+    @media (max-width: 450px) {
+        font-size: 1.1rem;
+    }
 `
 
 export const InputMaskStyled = styled(InputMask)`
@@ -104,9 +110,8 @@ export const InputMaskStyled = styled(InputMask)`
     }
 
     @media (max-width: 450px) {
-        width: 90%;
+        width: 98%;
         height: 5vh;
-        padding-left: 2vw;
     }
 `
 
@@ -127,9 +132,8 @@ export const Input = styled.input`
     }
 
     @media (max-width: 450px) {
-        width: 90%;
+        width: 98%;
         height: 5vh;
-        padding-left: 2vw;
     }
 `
 
@@ -150,9 +154,8 @@ export const TextArea = styled.textarea`
     resize: none;
 
     @media (max-width: 450px) {
-        width: 90%;
-        height: 25vh;
-        padding-left: 2vw;
+        width: 98%;
+        height: 12vh;
     }
 `
 
@@ -175,5 +178,11 @@ export const BtnEnviar = styled.button`
         width: 90%;
         height: 5vh;
         font-size: 1.3rem;
+    }
+`
+
+export const DivForm = styled.div`
+    @media (max-width: 450px) {
+        width: 90%;
     }
 `

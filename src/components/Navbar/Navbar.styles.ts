@@ -16,8 +16,7 @@ export const Header = styled.header`
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
     @media (max-width: 450px) {
-        padding-left: 4vw;
-        height: 9vh;
+        height: 11vh;
         gap: 15vw;
         width: 100vw;
     }
@@ -63,6 +62,7 @@ export const DivInicialMenu = styled.div`
     gap: 17vw;
     padding-left: 4vw;
     margin-bottom: 1vh;
+    background-color: #F8F4DE;
 
     @media (min-width: 450px) {
         display: none;
@@ -80,7 +80,7 @@ export const InnerIconMenu = styled.img`
 `
 
 export const LinkNavMobile = styled(NavLink)`
-    color: #FFF;
+    color: black;
     font-family: 'Inter', sans-serif;
     font-size: 6vw;
     font-style: normal;
@@ -96,4 +96,9 @@ export const LinkNavMobile = styled(NavLink)`
     @media (min-width: 450px) {
         display: none;
     }
+`
+
+export const DivMenuMobile = styled.div`
+    display: flex;
+    gap: 10vw;
 `

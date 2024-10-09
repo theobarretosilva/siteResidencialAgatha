@@ -63,7 +63,7 @@ export const Rodape = () => {
             </S.DivInicial>
             <S.Linha />
             <S.DivCopyright>
-                <S.PCopyright>© 2023 Residencial geriátrico Ágatha</S.PCopyright>
+                <S.PCopyright>© 2024 Residencial Geriátrico Ágatha</S.PCopyright>
             </S.DivCopyright>
         </S.Footer>
     )

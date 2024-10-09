@@ -15,14 +15,14 @@ export const Navbar = () => {
 
     return(
         <S.Header>
-            <div>
+            <S.DivMenuMobile>
                 <LogoTexto />
                 <S.ImgIconMenu onClick={toggleMode} src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/7c76764445c72523c6b4eb6a170e55d59d26bead/src/assets/svg/icon_menu.svg' />
-            </div>
+            </S.DivMenuMobile>
             <div className={active ? "menu menuOpen" : "menu menuClose" }>
                 <S.DivInicialMenu>
-                    <LogoTextoBranco />
-                    <S.InnerIconMenu onClick={toggleMode} src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/95bd29bb86dde2f79b85911da61d58cb6bd8e26f/src/assets/svg/icon_menu_branco.svg' />
+                    <LogoTexto />
+                    <S.InnerIconMenu onClick={toggleMode} src='https://raw.githubusercontent.com/theobarretosilva/siteResidencialAgatha/7c76764445c72523c6b4eb6a170e55d59d26bead/src/assets/svg/icon_menu.svg' />
                 </S.DivInicialMenu>
                 <S.LinkNavMobile onClick={toggleMode} to={'inicio'}>Início</S.LinkNavMobile>
                 <S.LinkNavMobile onClick={toggleMode} to={'espaco'}>Espaço</S.LinkNavMobile>
