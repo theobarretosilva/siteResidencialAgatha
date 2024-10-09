@@ -37,7 +37,7 @@ export function Inicio() {
 
     return(
         <>
-            <S.ImgCasaInicial src='../../src/assets/img/casa_dourado_tela_inicial.png' />
+            <S.ImgCasaInicial src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/casa_dourado_tela_inicial.png?raw=true' />
             <DivMargem>
                 <section style={{marginTop: '20vh', zIndex: '5'}}>
                     <S.TituloSectionInicial>
