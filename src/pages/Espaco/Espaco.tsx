@@ -12,7 +12,7 @@ export function Espaco() {
         {
             titulo: 'Quarto Ágata Azul',
             subtitulo: 'Os Quartos de Ágata Azul são projetados para criar um refúgio de serenidade e comunicação. Inspirados na Ágata Azul, conhecida por suas propriedades de equilíbrio e harmonia, esses quartos são espaços onde a tranquilidade reina.',
-            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_azul.mp4?raw=true',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataAzul.jpg?raw=true',
             right: width <= 450 ? '12%' : '19.5vw',
             corFaixa: '#002557',
             side: 'right',
@@ -22,7 +22,7 @@ export function Espaco() {
         {
             titulo: 'Suíte Ágata Verde',
             subtitulo: 'Os Quartos de Ágata Verde são santuários de harmonia e equilíbrio. Inspirados nas energias revigorantes e curativas da Ágata Verde, esses quartos foram projetados para oferecer um espaço que nutre sua vitalidade e bem-estar',
-            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_verde.mp4?raw=true',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataVerde.jpg?raw=true',
             right: width <= 450 ? '8.9%' : '18.01vw',
             corFaixa: '#00bf63',
             side: 'left',
@@ -32,7 +32,7 @@ export function Espaco() {
         {
             titulo: 'Quarto Ágata Rosa',
             subtitulo: 'Os Quartos de Ágata Rosa são verdadeiras expressões de amor e carinho. Inspirados na suave e acolhedora energia da Ágata Rosa, esses quartos são projetados para oferecer um ambiente caloroso e afetuoso.',
-            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_rosa.mp4?raw=true',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataRosa.jpg?raw=true',
             right: width <= 450 ? '11%' : '19vw',
             corFaixa: '#ff66c4',
             side: 'right',
@@ -42,7 +42,7 @@ export function Espaco() {
         {
             titulo: 'Quarto Ágata Vermelha',
             subtitulo: 'Os Quartos de Ágata Vermelha são projetados para serem um oásis de vitalidade e paixão. Inspirados na energia estimulante da Ágata Vermelha, esses quartos são um convite para um ambiente cheio de energia e calor.',
-            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_vermelha.mp4?raw=true',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataVermelha.jpg?raw=true',
             right: width <= 450 ? '2%' : '14.4vw',
             corFaixa: '#c80000',
             side: 'left',
@@ -52,7 +52,7 @@ export function Espaco() {
         {
             titulo: 'Quarto Ágata Cinza',
             subtitulo: 'Os Quartos Ágata Cinza são um espaço cuidadosamente projetado para transmitir uma atmosfera de tranquilidade e equilíbrio. Inspirado nas qualidades da ágata cinza, estes quartos são uma expressão de serenidade e estabilidade.',
-            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_cinza.mp4?raw=true',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataCinza.jpg?raw=true',
             right: width <= 450 ? '9%' : '18.3vw',
             corFaixa: '#545454',
             side: 'right',
@@ -152,7 +152,7 @@ export function Espaco() {
                             >
                                 <S.ImgQuarto
                                     style={acomodacao.side == 'right' ? {flexDirection: 'row'} : {flexDirection: 'row-reverse', marginLeft: `${acomodacao.photoMarginLeft}`}}
-                                    src='https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/frente_casa.jpg?raw=true'
+                                    src={acomodacao.srcVideo}
                                 />
                                 <S.DivDescricaoQuarto style={acomodacao.side == 'right' ? {marginLeft: '7.35vw'} : {marginLeft: `${acomodacao.divDescricaoMarginLeft}`}}>
                                     <S.TxtNomeQuarto style={acomodacao.side == 'right' ? {textAlign: 'start'} : {textAlign: 'end'}}>{acomodacao.titulo}</S.TxtNomeQuarto>

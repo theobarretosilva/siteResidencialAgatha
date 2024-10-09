@@ -116,6 +116,7 @@ export const ImgQuarto = styled.img`
     width: 40vw;
     height: 62vh;
     border-radius: 12px;
+    object-fit: cover;
 `
 
 export const DivDescricaoQuarto = styled.div`
