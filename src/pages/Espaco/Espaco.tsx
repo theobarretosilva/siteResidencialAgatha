@@ -2,8 +2,8 @@
 import { DivMargem } from '../../components/DivMargem/DivMargem'
 import * as S from './Espaco.styles'
 import { SliderFotosEstrutura } from '../../components/SliderFotosEstrutura/SliderFotosEstrutura';
-import ImageModal from '../../components/ImageModal/ImageModal';
-import { useState } from 'react';
+// import ImageModal from '../../components/ImageModal/ImageModal';
+// import { useState } from 'react';
 
 export function Espaco() {
     const { innerWidth: width } = window;
@@ -102,7 +102,7 @@ export function Espaco() {
         
     ]
 
-    const [isOpen, setIsOpen] = useState(false);
+    // const [isOpen, setIsOpen] = useState(false);
     // const [selectedImage, setSelectedImage] = useState('');
 
     // const openModal = (imageUrl: string) => {
@@ -110,9 +110,9 @@ export function Espaco() {
     //     setIsOpen(true);
     // };
 
-    const closeModal = () => {
-        setIsOpen(false);
-    };
+    // const closeModal = () => {
+    //     setIsOpen(false);
+    // };
 
     return(
         <>
@@ -176,14 +176,14 @@ export function Espaco() {
                         //     </S.VideoAcomodacao>
                         // </S.DivAcomodacao>
                     )}
-                    {isOpen && selectedImage === acomodacao.srcVideo && (
+                    {/* {isOpen && selectedImage === acomodacao.srcVideo && (
                         <ImageModal
                             imageUrl={acomodacao.srcVideo}
                             isOpen={isOpen}
                             closeModal={closeModal}
                             altText="Descrição da imagem"
                         />
-                    )}
+                    )} */}
                 </>
             ))}
             <S.DivSliders>
