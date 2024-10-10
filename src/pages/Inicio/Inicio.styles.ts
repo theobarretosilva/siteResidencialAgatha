@@ -198,6 +198,7 @@ export const SectionMVV = styled.section`
     @media (max-width: 450px) {
         flex-direction: column;
         gap: 3vh;
+        margin-top: 15vh;
     }
 `
 

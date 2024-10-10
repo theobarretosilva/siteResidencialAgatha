@@ -9,13 +9,19 @@ export const ImgCasaInicial = styled.img`
     object-fit: cover;
 
     @media (max-width: 450px) {
-        height: 30vh;
+        height: 27vh;
+        object-fit: cover;
+        top: 11vh;
     }
 `
 
 export const SectionStyled = styled.section`
-    margin-top: 18vh;
+    margin-top: 20vh;
     z-index: 5;
+
+    @media (max-width: 450px) {
+        margin-top: 12vh;
+    }
 `
 
 export const TituloDivImgInicial = styled.h1`
@@ -30,8 +36,9 @@ export const TituloDivImgInicial = styled.h1`
     margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 9vw;
-        margin-top: 3vh;
+        margin-top: 0;
+        font-size: 1.3rem;
+        width: 70vw;
     }
 `
 
@@ -42,6 +49,11 @@ export const LinhaStyled = styled.div`
     position: absolute;
     left: 0;
     top: 51vh;
+
+    @media (max-width: 450px) {
+        width: 32vw;
+        top: 23.5vh;
+    }
 `
 
 export const PSubtituloInicial = styled.p`
@@ -56,8 +68,9 @@ export const PSubtituloInicial = styled.p`
     margin-top: 4.5vh;
 
     @media (max-width: 450px) {
-        font-size: 5vw;
-        margin-top: 0;
+        font-size: 0.8rem;
+        margin-top: 2vh;
+        max-width: 90vw;
     }
 `
 
@@ -72,8 +85,9 @@ export const TextoSection = styled.h1`
     margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 7.5vw;
+        font-size: 1.6rem;
         margin-bottom: 2vh;
+        margin-top: 3vh;
     }
 `
 
@@ -104,6 +118,11 @@ export const TextoSectionAcomodacoes = styled.h1`
 export const ImgSetaBaixo = styled.img`
     height: 1.8vh;
     margin-top: 1.5vh;
+
+    @media (max-width: 450px) {
+        margin-top: 0;
+        margin-bottom: 4vh;
+    }
 `
 
 export const DivAcomodacao2 = styled.div`
@@ -117,6 +136,14 @@ export const ImgQuarto = styled.img`
     height: 62vh;
     border-radius: 12px;
     object-fit: cover;
+`
+
+export const ImgQuartoMobile = styled.img`
+    width: 70vw;
+    height: 20vh;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-top: 2vh;
 `
 
 export const DivDescricaoQuarto = styled.div`
@@ -236,7 +263,7 @@ export const VideoAcomodacaoMobile = styled.video`
 
 export const TituloAcomodacaoMobile = styled.h1`
     color: #FFF;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 500;
     margin-top: 2vh;
@@ -245,9 +272,9 @@ export const TituloAcomodacaoMobile = styled.h1`
 
 export const SubtituloAcomodacaoMobile = styled.p`
     color: #FFF;
-    font-size: 4.7vw;
+    font-size: 0.95rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 100;
     text-align: center;
     margin-top: 0;
     max-width: 99vw;
