@@ -9,13 +9,19 @@ export const ImgInicial = styled.img`
     object-fit: cover;
 
     @media (max-width: 450px) {
-        height: 30vh;
+        height: 27vh;
+        object-fit: cover;
+        top: 11vh;
     }
 `
 
 export const SectionStyled = styled.section`
     margin-top: 18vh;
     z-index: 5;
+
+    @media (max-width: 450px) {
+        margin-top: 12vh;
+    }
 `
 
 export const TituloDivImgInicial = styled.h1`
@@ -30,8 +36,9 @@ export const TituloDivImgInicial = styled.h1`
     margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 9vw;
-        margin-top: 3vh;
+        margin-top: 0;
+        font-size: 1.3rem;
+        width: 55vw;
     }
 `
 
@@ -42,6 +49,11 @@ export const LinhaStyled = styled.div`
     position: absolute;
     left: 0;
     top: 41vh;
+
+    @media (max-width: 450px) {
+        width: 33.5vw;
+        top: 19.5vh;
+    }
 `
 
 export const PSubtituloInicial = styled.p`
@@ -56,13 +68,18 @@ export const PSubtituloInicial = styled.p`
     margin-top: 4.5vh;
 
     @media (max-width: 450px) {
-        font-size: 5vw;
-        margin-top: 0;
+        font-size: 0.8rem;
+        margin-top: 3vh;
+        max-width: 90vw;
     }
 `
 
 export const DivSectionAtividades = styled.div`
     margin-top: 10vh;
+
+    @media (max-width: 450px) {
+        margin-top: 0;
+    }
 `
 
 export const ImgElipseFundo = styled.img`
@@ -78,6 +95,7 @@ export const SectionAtividade = styled.section`
 
     @media (max-width: 450px) {
         flex-direction: column;
+        margin-top: 8vh;
     }
 `
 
@@ -118,6 +136,7 @@ export const TituloAtividade = styled.h1`
         text-align: center;
         margin-bottom: 0;
         margin-top: 1.5vh;
+        font-size: 1.9rem;
     }
 `
 
@@ -132,7 +151,7 @@ export const DescricaoAtividade = styled.p`
     @media (max-width: 450px) {
         text-align: center;
         max-width: 100%;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         margin-top: 1vh;
     }
 `
