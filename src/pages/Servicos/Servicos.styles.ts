@@ -9,13 +9,19 @@ export const ImgCasaInicial = styled.img`
     object-fit: cover;
 
     @media (max-width: 450px) {
-        height: 30vh;
+        height: 27vh;
+        object-fit: cover;
+        top: 11vh;
     }
 `
 
 export const SectionStyled = styled.section`
     margin-top: 18vh;
     z-index: 5;
+
+    @media (max-width: 450px) {
+        margin-top: 12vh;
+    }
 `
 
 export const TituloDivImgInicial = styled.h1`
@@ -30,8 +36,9 @@ export const TituloDivImgInicial = styled.h1`
     margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 9vw;
-        margin-top: 3vh;
+        margin-top: 0;
+        font-size: 1.3rem;
+        width: 70vw;
     }
 `
 
@@ -42,6 +49,11 @@ export const LinhaStyled = styled.div`
     position: absolute;
     left: 0;
     top: 42vh;
+
+    @media (max-width: 450px) {
+        width: 41vw;
+        top: 19.8vh;
+    }
 `
 
 export const PSubtituloInicial = styled.p`
@@ -56,8 +68,9 @@ export const PSubtituloInicial = styled.p`
     margin-top: 4.5vh;
 
     @media (max-width: 450px) {
-        font-size: 5vw;
-        margin-top: 0;
+        font-size: 0.8rem;
+        margin-top: 5vh;
+        max-width: 90vw;
     }
 `
 
@@ -86,6 +99,7 @@ export const SectionBoxs = styled.section`
 
     @media (max-width: 450px) {
         flex-direction: column;
+        margin-top: 10vh;
     }
 `
 
@@ -117,7 +131,7 @@ export const NumeroDentroBoxCor = styled.p`
     @media (max-width: 450px) {
         padding-top: 0.5vh;
         padding-left: 1.5vw;
-        font-size: 7vw;
+        font-size: 3rem;
     }
 `
 
@@ -131,8 +145,9 @@ export const TituloDentroBoxCor = styled.h1`
     max-width: 19.3vw;
 
     @media (max-width: 450px) {
-        font-size: 6.2vw;
-        padding-left: 1.5vw;
+        font-size: 1.5rem;
+        max-width: unset;
+        width: 90vw;
     }
 `
 
@@ -147,7 +162,8 @@ export const PDescBox = styled.p`
     max-width: 22vw;
 
     @media (max-width: 450px) {
-        font-size: 4.6vw;
+        font-size: 1rem;
         margin-top: 1vh;
+        max-width: unset;
     }
 `
