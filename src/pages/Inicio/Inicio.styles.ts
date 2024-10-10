@@ -215,6 +215,9 @@ export const BoxMVV = styled.article`
         width: 89vw;
         height: 31vh;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 `
 
@@ -225,8 +228,8 @@ export const ImgIconesMVV = styled.img`
     fill: #F8F4DE;
 
     @media (max-width: 450px) {
-        width: 16vw;
-        height: 8vh;
+        width: 18vw;
+        height: 9vh;
     }
 `
 
@@ -242,8 +245,9 @@ export const TituloBoxMVV = styled.h1`
     max-width: 15vw;
 
     @media (max-width: 450px) {
-        font-size: 7.5vw;
+        font-size: 1.6rem;
         text-align: center;
+        max-width: 88vw;
     }
 `
 
@@ -257,7 +261,7 @@ export const SubtituloBoxMVV = styled.h2`
 
     @media (max-width: 450px) {
         margin-top: 0;
-        font-size: 5vw;
+        font-size: 1.093rem;
         text-align: center;
     }
 `
