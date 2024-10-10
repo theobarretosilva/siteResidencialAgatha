@@ -9,13 +9,19 @@ export const ImgInicial = styled.img`
     object-fit: cover;
 
     @media (max-width: 450px) {
-        height: 30vh;
+        height: 27vh;
+        object-fit: cover;
+        top: 11vh;
     }
 `
 
 export const SectionStyled = styled.section`
     margin-top: 27.1vh;
     z-index: 5;
+
+    @media (max-width: 450px) {
+        margin-top: 12vh;
+    }
 `
 
 export const TituloDivImgInicial = styled.h1`
@@ -30,8 +36,9 @@ export const TituloDivImgInicial = styled.h1`
     margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 9vw;
         margin-top: 3vh;
+        font-size: 1.3rem;
+        width: 80vw;
     }
 `
 
@@ -46,27 +53,18 @@ export const TextoSection = styled.h1`
     margin-bottom: 0;
 
     @media (max-width: 450px) {
-        font-size: 7.5vw;
+        font-size: 1.8rem;
         margin-bottom: 2vh;
+        margin-top: 7vh;
     }
 `
 
 export const ImgSetaBaixo = styled.img`
     height: 1.8vh;
     margin-top: 1.5vh;
-`
-
-export const PDentroFaixa = styled.p`
-    color: #FFF;
-    text-align: center;
-    font-size: 2.1rem;
-    font-style: normal;
-    font-weight: 400;
-    max-width: 87vw;
-    font-family: 'Montserrat', sans-serif;
 
     @media (max-width: 450px) {
-        font-size: 1.6rem;
+        margin-top: 0;
     }
 `
 
@@ -104,6 +102,11 @@ export const ImgVantagem = styled.img`
     width: 20.3vw;
     height: 17.5vh;
     object-fit: cover;
+
+    @media (max-width: 450px) {
+        width: 90vw;
+        height: 17.5vh;
+    }
 `
 
 export const BoxVantagem = styled.section`
@@ -121,26 +124,8 @@ export const BoxVantagem = styled.section`
     backdrop-filter: blur(3px);
 
     @media (max-width: 450px) {
-        width: 100%;
+        width: 89.57vw;
         max-height: 26vh;
-    }
-`
-
-export const ImgDentroBoxVantagem = styled.img`
-    width: 18vw;
-    height: 26vh;
-    opacity: 16%;
-`
-
-export const IconBoxVantagem = styled.img`
-    width: 5vw;
-    height: 10vh;
-    margin-top: 2vh;
-    align-self: center;
-
-    @media (max-width: 450px) {
-        width: 30vw;
-        height: 10vh;
     }
 `
 
@@ -155,6 +140,6 @@ export const TxtBoxVantagem = styled.h1`
 
     @media (max-width: 450px) {
         max-width: 90%;
-        font-size: 6vw;
+        font-size: 1.3rem;
     }
 `

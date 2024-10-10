@@ -33,7 +33,7 @@ export function Vantagens() {
         },
         {
             backgroundImage: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/vantagens/app_ronda.jpg?raw=true',
-            secondText: 'Texto sobre app de rondas noturnas'
+            secondText: 'Implementamos um aplicativo de ronda noturna para garantir a segurança dos residentes à noite.'
         }
     ];
 
