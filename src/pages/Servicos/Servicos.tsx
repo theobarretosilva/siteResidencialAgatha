@@ -74,7 +74,7 @@ export function Servicos() {
                         {servicosData.map((servico, index) => (
                             <S.DivBox key={index}>
                                 <S.NumeroDentroBoxCor>{servico.numero}</S.NumeroDentroBoxCor>
-                                <S.TituloDentroBoxCor style={width <= 450 ? {maxWidth: `${servico.tituloMaxWidth}`} : {maxWidth: `${servico.tituloMaxWidthMobile}`}}>{servico.titulo}</S.TituloDentroBoxCor>
+                                <S.TituloDentroBoxCor style={width <= 450 ? {maxWidth: `${servico.tituloMaxWidth}`} : {width: `${servico.tituloMaxWidthMobile}`}}>{servico.titulo}</S.TituloDentroBoxCor>
                                 <S.PDescBox style={{marginTop: `${servico.descricaoMarginTop}`}}>{servico.descricao}</S.PDescBox>
                         </S.DivBox> 
                         ))}
