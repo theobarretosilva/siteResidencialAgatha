@@ -146,7 +146,7 @@ export const TituloDentroBoxCor = styled.h1`
 
     @media (max-width: 450px) {
         font-size: 1.5rem;
-        max-width: unset;
+        max-width: 90%;
         width: 90vw;
     }
 `

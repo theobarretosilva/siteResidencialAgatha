@@ -44,7 +44,7 @@ export const SliderFotos = () => {
                 style={width < 450 ? styleMobile : styleDesktop}
             >
                 {dataFotos.map((foto, index) => (
-                    <SwiperSlide key={index} onClick={() => openModal(foto)}>
+                    <SwiperSlide key={index} onClick={() => openModal(foto)} className="swiper-slide">
                         <img src={foto} />
                     </SwiperSlide>
                 ))} 

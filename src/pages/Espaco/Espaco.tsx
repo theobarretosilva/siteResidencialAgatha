@@ -74,7 +74,7 @@ export function Espaco() {
             subtitulo: 'A Suíte Ágata Marrom é um refúgio de estabilidade e conforto, onde a força e a serenidade da ágata marrom são celebradas. Este espaço acolhedor promove a sensação de segurança e conexão com a terra.',
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/suiteAgataMarrom.png?raw=true',
             right: width <= 450 ? '11%' : '19.1vw',
-            corFaixa: '#c69642',
+            corFaixa: '#ffb726',
             side: 'right',
             photoMarginLeft: '0',
             divDescricaoMarginLeft: ''

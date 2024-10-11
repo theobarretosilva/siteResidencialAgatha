@@ -87,7 +87,7 @@ export const TextoSection = styled.h1`
     @media (max-width: 450px) {
         font-size: 1.6rem;
         margin-bottom: 2vh;
-        margin-top: 3vh;
+        margin-top: 4%;
     }
 `
 
@@ -121,7 +121,7 @@ export const ImgSetaBaixo = styled.img`
 
     @media (max-width: 450px) {
         margin-top: 0;
-        margin-bottom: 4vh;
+        margin-bottom: 7%;
     }
 `
 

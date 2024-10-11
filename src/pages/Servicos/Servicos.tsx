@@ -11,7 +11,7 @@ export function Servicos() {
             descricao: 'Oferecemos cuidados de enfermagem personalizados, adaptados às suas necessidades individuais. Nossa equipe de enfermagem é altamente treinada e dedicada a garantir que você receba os cuidados de saúde de que precisa.',
             tituloMaxWidth: '19.5vw',
             descricaoMarginTop: '',
-            tituloMaxWidthMobile: '80vw'
+            tituloMaxWidthMobile: '90%'
         },
         {
             numero: '02',
