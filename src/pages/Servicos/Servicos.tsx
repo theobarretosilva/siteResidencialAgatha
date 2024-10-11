@@ -19,7 +19,7 @@ export function Servicos() {
             descricao: 'Promovemos uma variedade de atividades recreativas e sociais para manter sua mente e corpo ativos e envolvidos. De exercícios à jogos em grupo, há sempre algo emocionante acontecendo em nosso residencial.',
             tituloMaxWidth: '16vw',
             descricaoMarginTop: '',
-            tituloMaxWidthMobile: '80vw'
+            tituloMaxWidthMobile: '90%'
         },
         {
             numero: '03',
