@@ -11,7 +11,7 @@ export function Servicos() {
             descricao: 'Oferecemos cuidados de enfermagem personalizados, adaptados às suas necessidades individuais. Nossa equipe de enfermagem é altamente treinada e dedicada a garantir que você receba os cuidados de saúde de que precisa.',
             tituloMaxWidth: '19.5vw',
             descricaoMarginTop: '',
-            tituloMaxWidthMobile: '90%'
+            tituloMaxWidthMobile: '80vw'
         },
         {
             numero: '02',
@@ -19,7 +19,7 @@ export function Servicos() {
             descricao: 'Promovemos uma variedade de atividades recreativas e sociais para manter sua mente e corpo ativos e envolvidos. De exercícios à jogos em grupo, há sempre algo emocionante acontecendo em nosso residencial.',
             tituloMaxWidth: '16vw',
             descricaoMarginTop: '',
-            tituloMaxWidthMobile: '90%'
+            tituloMaxWidthMobile: '80vw'
         },
         {
             numero: '03',
