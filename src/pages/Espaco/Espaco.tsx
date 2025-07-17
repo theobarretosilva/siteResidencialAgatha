@@ -14,7 +14,7 @@ export function Espaco() {
             subtitulo: 'Os Quartos de Ágata Azul são projetados para criar um refúgio de serenidade e comunicação. Inspirados na Ágata Azul, conhecida por suas propriedades de equilíbrio e harmonia, esses quartos são espaços onde a tranquilidade reina.',
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataAzul.jpg?raw=true',
             right: width <= 450 ? '12%' : '19.5vw',
-            corFaixa: '#0075A7',
+            corFaixa: '#002557',
             side: 'right',
             photoMarginLeft: '0',
             divDescricaoMarginLeft: ''
@@ -24,7 +24,7 @@ export function Espaco() {
             subtitulo: 'Os Quartos de Ágata Verde são santuários de harmonia e equilíbrio. Inspirados nas energias revigorantes e curativas da Ágata Verde, esses quartos foram projetados para oferecer um espaço que nutre sua vitalidade e bem-estar',
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataVerde.jpg?raw=true',
             right: width <= 450 ? '8.9%' : '18.01vw',
-            corFaixa: '#366059',
+            corFaixa: '#00bf63',
             side: 'left',
             photoMarginLeft: '6.2vw',
             divDescricaoMarginLeft: '7vw'
@@ -34,7 +34,7 @@ export function Espaco() {
             subtitulo: 'Os Quartos de Ágata Rosa são verdadeiras expressões de amor e carinho. Inspirados na suave e acolhedora energia da Ágata Rosa, esses quartos são projetados para oferecer um ambiente caloroso e afetuoso.',
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataRosa.jpg?raw=true',
             right: width <= 450 ? '11%' : '19vw',
-            corFaixa: '#AF4F80',
+            corFaixa: '#ff66c4',
             side: 'right',
             photoMarginLeft: '0',
             divDescricaoMarginLeft: ''
@@ -44,7 +44,7 @@ export function Espaco() {
             subtitulo: 'Os Quartos de Ágata Vermelha são projetados para serem um oásis de vitalidade e paixão. Inspirados na energia estimulante da Ágata Vermelha, esses quartos são um convite para um ambiente cheio de energia e calor.',
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataVermelha.jpg?raw=true',
             right: width <= 450 ? '2%' : '14.4vw',
-            corFaixa: '#B2362E',
+            corFaixa: '#c80000',
             side: 'left',
             photoMarginLeft: '6.2vw',
             divDescricaoMarginLeft: '4.8vw'
@@ -54,7 +54,7 @@ export function Espaco() {
             subtitulo: 'Os Quartos Ágata Cinza são um espaço cuidadosamente projetado para transmitir uma atmosfera de tranquilidade e equilíbrio. Inspirado nas qualidades da ágata cinza, estes quartos são uma expressão de serenidade e estabilidade.',
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataCinza.jpg?raw=true',
             right: width <= 450 ? '9%' : '18.3vw',
-            corFaixa: '#626262',
+            corFaixa: '#545454',
             side: 'right',
             photoMarginLeft: '0',
             divDescricaoMarginLeft: ''
@@ -64,7 +64,7 @@ export function Espaco() {
             subtitulo: 'Os Quartos Ágata Roxa são um santuário de tranquilidade, onde a energia suave e reconfortante da ágata roxa é celebrada. Este espaço convida à introspecção, à contemplação e à conexão espiritual.',
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_roxa.mp4?raw=true',
             right: width <= 450 ? '11%' : '19.1vw',
-            corFaixa: '#754D7C',
+            corFaixa: '#cb6ce6',
             side: 'left',
             photoMarginLeft: '11.2vw',
             divDescricaoMarginLeft: '7vw'
@@ -74,7 +74,7 @@ export function Espaco() {
             subtitulo: 'A Suíte Ágata Marrom é um refúgio de estabilidade e conforto, onde a força e a serenidade da ágata marrom são celebradas. Este espaço acolhedor promove a sensação de segurança e conexão com a terra.',
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/suiteAgataMarrom.png?raw=true',
             right: width <= 450 ? '11%' : '19.1vw',
-            corFaixa: '#ffb726',
+            corFaixa: '#a17222',
             side: 'right',
             photoMarginLeft: '0',
             divDescricaoMarginLeft: ''
@@ -84,7 +84,7 @@ export function Espaco() {
             subtitulo: 'O Quarto Ágata Laranja é vibrante e cheio de energia revitalizante. Inspirado nas propriedades da ágata laranja, este ambiente estimula a criatividade, a alegria e a vitalidade, proporcionando uma atmosfera que inspira otimismo e bem-estar.',
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataLaranja.png?raw=true',
             right: width <= 450 ? '11%' : '19.1vw',
-            corFaixa: '#ffa369',
+            corFaixa: '#ff914d',
             side: 'left',
             photoMarginLeft: '7.25vw',
             divDescricaoMarginLeft: '7vw'
@@ -94,11 +94,31 @@ export function Espaco() {
             subtitulo: 'O Quarto Ágata Amarela é banhado pela luz da positividade e clareza mental. A ágata amarela, com sua energia luminosa, promove a confiança e a harmonia, criando um ambiente perfeito para relaxar e rejuvenescer.',
             srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataAmarela.png?raw=true',
             right: width <= 450 ? '11%' : '19.1vw',
-            corFaixa: '#b89d30',
+            corFaixa: '#dbb100',
             side: 'right',
             photoMarginLeft: '0',
             divDescricaoMarginLeft: ''
         }
+        // {
+        //     titulo: 'Suíte Ágata Preta',
+        //     subtitulo: 'A Suíte Ágata Preta é um espaço de proteção e estabilidade. Inspirada na força da ágata preta, essa suíte oferece um ambiente acolhedor e seguro, ideal para promover o equilíbrio emocional e a sensação de amparo.',
+        //     srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataAmarela.png?raw=true',
+        //     right: width <= 450 ? '11%' : '19.1vw',
+        //     corFaixa: '#000000',
+        //     side: 'left',
+        //     photoMarginLeft: '7.25vw',
+        //     divDescricaoMarginLeft: '7vw'
+        // },
+        // {
+        //     titulo: 'Suíte Ágata Lilás',
+        //     subtitulo: 'A Suíte Ágata Lilás é envolta em serenidade e leveza espiritual. Com a energia suave da ágata lilás, este ambiente favorece a paz interior, o bem-estar e a conexão com sentimentos elevados de tranquilidade e cura.',
+        //     srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataAmarela.png?raw=true',
+        //     right: width <= 450 ? '11%' : '19.1vw',
+        //     corFaixa: '#bb54d8',
+        //     side: 'right',
+        //     photoMarginLeft: '0',
+        //     divDescricaoMarginLeft: ''
+        // },
         
     ]
 
