@@ -62,7 +62,7 @@ export function Espaco() {
         {
             titulo: 'Suíte Ágata Roxa',
             subtitulo: 'Os Quartos Ágata Roxa são um santuário de tranquilidade, onde a energia suave e reconfortante da ágata roxa é celebrada. Este espaço convida à introspecção, à contemplação e à conexão espiritual.',
-            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/video/quarto_agata_roxa.mp4?raw=true',
+            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/suiteAgataRoxa.jpg?raw=true',
             right: width <= 450 ? '11%' : '19.1vw',
             corFaixa: '#cb6ce6',
             side: 'left',
@@ -88,17 +88,17 @@ export function Espaco() {
             side: 'left',
             photoMarginLeft: '7.25vw',
             divDescricaoMarginLeft: '7vw'
-        },
-        {
-            titulo: 'Quarto Ágata Amarela',
-            subtitulo: 'O Quarto Ágata Amarela é banhado pela luz da positividade e clareza mental. A ágata amarela, com sua energia luminosa, promove a confiança e a harmonia, criando um ambiente perfeito para relaxar e rejuvenescer.',
-            srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataAmarela.png?raw=true',
-            right: width <= 450 ? '11%' : '19.1vw',
-            corFaixa: '#dbb100',
-            side: 'right',
-            photoMarginLeft: '0',
-            divDescricaoMarginLeft: ''
         }
+        // {
+        //     titulo: 'Quarto Ágata Amarela',
+        //     subtitulo: 'O Quarto Ágata Amarela é banhado pela luz da positividade e clareza mental. A ágata amarela, com sua energia luminosa, promove a confiança e a harmonia, criando um ambiente perfeito para relaxar e rejuvenescer.',
+        //     srcVideo: 'https://github.com/theobarretosilva/siteResidencialAgatha/blob/main/src/assets/img/quartoAgataAmarela.png?raw=true',
+        //     right: width <= 450 ? '11%' : '19.1vw',
+        //     corFaixa: '#dbb100',
+        //     side: 'right',
+        //     photoMarginLeft: '0',
+        //     divDescricaoMarginLeft: ''
+        // }
         // {
         //     titulo: 'Suíte Ágata Preta',
         //     subtitulo: 'A Suíte Ágata Preta é um espaço de proteção e estabilidade. Inspirada na força da ágata preta, essa suíte oferece um ambiente acolhedor e seguro, ideal para promover o equilíbrio emocional e a sensação de amparo.',
